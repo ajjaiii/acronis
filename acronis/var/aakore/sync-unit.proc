@@ -1,0 +1,6 @@
+name: sync-unit
+location: http://localhost:1337
+pid: 9160
+disabled: false
+state: 2
+startTime: 2020-03-28T08:34:03.821517399Z

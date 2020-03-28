@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- aakore service -->
+<security_environment>
+  <user>aakore</user>
+  <common_group>acronis</common_group>
+</security_environment>

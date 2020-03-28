@@ -1,0 +1,28 @@
+UpdaterMode: "Updater"
+UpdateIndexes:
+    - "http://127.0.0.1:9772/api/atp-agent/v1/update_config"
+    - "https://dl.acronis.com/u/vapm/update-index.json"
+    - "https://dl.acronis.com/u/am/ngmp/update-index.json"
+ConnectionTimeout: 60 # maximum time in seconds that connection phase takes
+DownloadTimeout: 3600 # maximum time in seconds that download phase takes
+UpdateServerRetryInterval: 1 #how often updater check indexes. minutes.
+CacheSize: 1048576000
+CacheTTL: 50
+
+DhtBootstrap: "" # List of DHT <IP:PORT> addresses to manually bootstrap BitTorrent peers: "<host-1>:<port-1>,<host-2>:<port-2>,..."
+DhtListen: 0.0.0.0:6888 # BitTorrent protocol, DHT interface and port to listen to (applieble both for Updater and UpdaterAgent modes)
+UpdaterAgentListen: 0.0.0.0:18018 # Internal REST API, uses for communication beetwin Updater and UpdaterAgent
+UpdaterListen: 127.0.0.1:18019 # Local REST API, uses for communication beetwin Updater and AtpAgent
+
+aakore:
+    http: 127.0.0.1:9999 # Aakore REST API address
+
+Logger:
+    rotation_size: 10485760
+    global_log_level: trace
+    ModuleLogLevels:
+        agent: warning
+        logger: warning
+    LogOutputConfig:
+        - type: "file"
+          format: "txt"

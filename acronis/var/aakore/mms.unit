@@ -1,0 +1,6 @@
+name: mms
+routes:
+  - /api/mms
+location: http://127.0.0.1:43234
+
+port: 43234

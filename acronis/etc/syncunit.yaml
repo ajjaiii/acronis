@@ -1,0 +1,29 @@
+unitName: sync-unit
+address: 127.0.0.1
+port: 1337
+baseUrl: /api/sync_unit
+databaseFile: syncunit.db
+pullInterval: 4h
+pushInterval: 5s
+reportInterval: 1m
+grpmClient:
+  maxRetryCount: 10
+  backoffInterval: 1s
+log:
+  type: file
+  level: info
+  maxSize: 10
+  maxBackups: 3
+  maxAge: 7
+  logBody: false
+  format: json
+  compress: true
+policyMapping:
+  policy.security.patch_management: /api/atp-agent/v1
+  policy.security.vulnerability_assessment: /api/atp-agent/v1
+  policy.security.url_filtering: /api/atp-agent/v1
+  policy.security.antimalware_protection: /api/atp-agent/v1
+  policy.security.windows_defender: /api/atp-agent/v1
+  policy.security.microsoft_security_essentials: /api/atp-agent/v1
+  policy.security.data_protection_map: /api/atp-agent/v1
+  policy.security.active_protection: /api/active-protection/v2

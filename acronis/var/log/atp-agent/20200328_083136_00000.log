@@ -1,0 +1,593 @@
+Host name:          wp
+OS version:         Linux 3.10.0-1062.18.1.el7.x86_64 (#1 SMP Tue Mar 17 23:49:17 UTC 2020)
+Architecture:       x86_64
+User name:          root
+Version:            0.0.1.1051
+Executable path:    "/opt/acronis/bin/adp-agent"
+Current dir:        "/opt/acronis/var/atp-agent"
+Command line:       "/opt/acronis/bin/adp-agent -e "
+
+28.03.2020 08:31:36.247238 [0x00001f8b] [0x00007f50a7c278c0] [debug] [agent] : operator()() started.
+28.03.2020 08:31:36.247378 [0x00001f8b] [0x00007f50a7c278c0] [info] [agent] : operator()()[52] RegModules()
+28.03.2020 08:31:36.247394 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : CreateEventMachine() started.
+28.03.2020 08:31:36.247526 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : CreateEventMachine() finished. Elapsed 129 microseconds.
+28.03.2020 08:31:36.247547 [0x00001f8b] [0x00007f50a7c278c0] [debug] [AakoreProxy] : CreateAakoreProxy() started.
+28.03.2020 08:31:36.247557 [0x00001f8b] [0x00007f50a7c278c0] [debug] [AakoreProxy] : CreateAakoreProxy() finished. Elapsed 10 microseconds.
+28.03.2020 08:31:36.247568 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : CreateHTTPController() started.
+28.03.2020 08:31:36.247576 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : CreateHTTPController() finished. Elapsed 8 microseconds.
+28.03.2020 08:31:36.247587 [0x00001f8b] [0x00007f50a7c278c0] [debug] [SettingsManager] : CreateSettingsManager() started.
+28.03.2020 08:31:36.247614 [0x00001f8b] [0x00007f50a7c278c0] [debug] [SettingsManager] : CreateSettingsManager() finished. Elapsed 26 microseconds.
+28.03.2020 08:31:36.247624 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventStorage] : CreateEventStorage() started.
+28.03.2020 08:31:36.247633 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventStorage] : CreateEventStorage() finished. Elapsed 6 microseconds.
+28.03.2020 08:31:36.247644 [0x00001f8b] [0x00007f50a7c278c0] [debug] [SchedlueServiceProxy] : CreateScheduleProxy() started.
+28.03.2020 08:31:36.247652 [0x00001f8b] [0x00007f50a7c278c0] [debug] [SchedlueServiceProxy] : CreateScheduleProxy() finished. Elapsed 7 microseconds.
+28.03.2020 08:31:36.247661 [0x00001f8b] [0x00007f50a7c278c0] [debug] [Connectivity] : CreateConnectivity() started.
+28.03.2020 08:31:36.247669 [0x00001f8b] [0x00007f50a7c278c0] [debug] [Connectivity] : CreateConnectivity() finished. Elapsed 8 microseconds.
+28.03.2020 08:31:36.247679 [0x00001f8b] [0x00007f50a7c278c0] [debug] [AlertManager] : CreateAlertManager() started.
+28.03.2020 08:31:36.247687 [0x00001f8b] [0x00007f50a7c278c0] [debug] [AlertManager] : CreateAlertManager() finished. Elapsed 7 microseconds.
+28.03.2020 08:31:36.247698 [0x00001f8b] [0x00007f50a7c278c0] [debug] [Policy Manager] : CreatePolicyManager() started.
+28.03.2020 08:31:36.247705 [0x00001f8b] [0x00007f50a7c278c0] [debug] [Policy Manager] : CreatePolicyManager() finished. Elapsed 8 microseconds.
+28.03.2020 08:31:36.247714 [0x00001f8b] [0x00007f50a7c278c0] [debug] [TaskManager] : CreateTaskManager() started.
+28.03.2020 08:31:36.247723 [0x00001f8b] [0x00007f50a7c278c0] [debug] [TaskManager] : CreateTaskManager() finished. Elapsed 8 microseconds.
+28.03.2020 08:31:36.247733 [0x00001f8b] [0x00007f50a7c278c0] [debug] [MMSProxy] : CreateMMSProxy() started.
+28.03.2020 08:31:36.247741 [0x00001f8b] [0x00007f50a7c278c0] [debug] [MMSProxy] : CreateMMSProxy() finished. Elapsed 6 microseconds.
+28.03.2020 08:31:36.247752 [0x00001f8b] [0x00007f50a7c278c0] [debug] [VaultManager] : CreateVaultManager() started.
+28.03.2020 08:31:36.247760 [0x00001f8b] [0x00007f50a7c278c0] [debug] [VaultManager] : CreateVaultManager() finished. Elapsed 8 microseconds.
+28.03.2020 08:31:36.247768 [0x00001f8b] [0x00007f50a7c278c0] [debug] [Orchestrator] : CreateOrchestrator() started.
+28.03.2020 08:31:36.247775 [0x00001f8b] [0x00007f50a7c278c0] [debug] [Orchestrator] : CreateOrchestrator() finished. Elapsed 7 microseconds.
+28.03.2020 08:31:36.247787 [0x00001f8b] [0x00007f50a7c278c0] [debug] [AVManager] : CreateAVManager() started.
+28.03.2020 08:31:36.247798 [0x00001f8b] [0x00007f50a7c278c0] [debug] [AVManager] : CreateAVManager() finished. Elapsed 8 microseconds.
+28.03.2020 08:31:36.247811 [0x00001f8b] [0x00007f50a7c278c0] [debug] [QuarantineManager] : CreateQuarantineManager() started.
+28.03.2020 08:31:36.247819 [0x00001f8b] [0x00007f50a7c278c0] [debug] [QuarantineManager] : CreateQuarantineManager() finished. Elapsed 8 microseconds.
+28.03.2020 08:31:36.247831 [0x00001f8b] [0x00007f50a7c278c0] [debug] [ResourceStatistics] : CreateResourceStatistics() started.
+28.03.2020 08:31:36.247838 [0x00001f8b] [0x00007f50a7c278c0] [debug] [ResourceStatistics] : CreateResourceStatistics() finished. Elapsed 7 microseconds.
+28.03.2020 08:31:36.247851 [0x00001f8b] [0x00007f50a7c278c0] [debug] [LinuxVA] : CreateLinuxVA() started.
+28.03.2020 08:31:36.247889 [0x00001f8b] [0x00007f50a7c278c0] [debug] [LinuxVA] : LinuxVA() started.
+28.03.2020 08:31:36.247896 [0x00001f8b] [0x00007f50a7c278c0] [debug] [LinuxVA] : LinuxVA() finished. Elapsed 6 microseconds.
+28.03.2020 08:31:36.247902 [0x00001f8b] [0x00007f50a7c278c0] [debug] [LinuxVA] : CreateLinuxVA() finished. Elapsed 51 microseconds.
+28.03.2020 08:31:36.247909 [0x00001f8b] [0x00007f50a7c278c0] [info] [agent] : operator()()[57] InitializeAllModules()
+28.03.2020 08:31:36.247930 [0x00001f8b] [0x00007f50a7c278c0] [debug] [AakoreProxy] : Initialize() started.
+28.03.2020 08:31:37.036911 [0x00001f8b] [0x00007f50a7c278c0] [trace] [AakoreProxy] : GetAuthorizationToken()[171] Token updated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdHAtYWdlbnQiLCJleHAiOjE1ODU0NzA2OTYsImp0aSI6Ijg5OWRhYTM5LTcwY2UtMTFlYS1hOTNmLTQyMDEzODJmMjIyYyIsImlhdCI6MTU4NTM4NDI5NywiaXNzIjoiYWFrb3JlIiwic3ViIjoiYXRwLWFnZW50Iiwic2NvcGUiOlt7InRpZCI6IjIwMTUxNjAiLCJycyI6InRlbmFudC1pZCIsInJvbGUiOiJsb2NhbF91bml0In0seyJ0aWQiOiIyMDE1MTYwIiwicm4iOiJ0YXNrX21hbmFnZXIiLCJycCI6IkFUUF8qIiwicm9sZSI6ImNvbnN1bWVyIn0seyJ0aWQiOiIyMDE1MTYwIiwicm4iOiJ0YXNrX21hbmFnZXIiLCJycCI6IkFUUF8qIiwicm9sZSI6Imlzc3VlciJ9LHsidGlkIjoiMjAxNTE2MCIsInJuIjoidGFza19tYW5hZ2VyIiwicnAiOiJ4I0FUUF8qIiwicm9sZSI6ImNvbnN1bWVyIn0seyJ0aWQiOiIyMDE1MTYwIiwicm4iOiJ0YXNrX21hbmFnZXIiLCJyb2xlIjoidmlld2VyIn0seyJ0aWQiOiIyMDE1MTYwIiwicm4iOiJhZ2VudF9tYW5hZ2VyIiwicm9sZSI6Imhvc3RfdXBsb2FkZXIifSx7InRpZCI6IjIwMTUxNjAiLCJybiI6ImFnZW50X21hbmFnZXIiLCJyb2xlIjoib3VfdXBsb2FkZXIifSx7InRpZCI6IjIwMTUxNjAiLCJybiI6ImFnZW50X21hbmFnZXIiLCJyb2xlIjoiYWdlbnRfdW5pdF9tZXRhZGF0YV91cGRhdGVyIn0seyJ0aWQiOiIyMDE1MTYwIiwicm4iOiJtb25pdG9yaW5nIiwicm9sZSI6InByb3ZpZGVyIn0seyJ0aWQiOiIyMDE1MTYwIiwicm4iOiJzY2FuX3NlcnZpY2UiLCJyb2xlIjoiYWdlbnQifSx7InRpZCI6IjIwMTUxNjAiLCJybiI6InN0b3JhZ2UiLCJyb2xlIjoicmVhZHdyaXRlIn0seyJ0aWQiOiIyMDE1MTYwIiwicm4iOiJwb2xpY3lfbWFuYWdlciIsInJvbGUiOiJhZG1pbiJ9LHsidGlkIjoiMjAxNTE2MCIsInJuIjoidmF1bHRfbWFuYWdlciIsInJvbGUiOiJhZG1pbiJ9LHsidGlkIjoiMjAxNTE2MCIsInJzIjoidGVuYW50LWlkIiwicm9sZSI6InRlbmFudF92aWV3ZXIifSx7InRpZCI6IjIwMTUxNjAiLCJybiI6ImNyZWRlbnRpYWxzX3N0b3JlIiwicm9sZSI6ImNvbnN1bWVyIn0seyJ0aWQiOiIyMDE1MTYwIiwicm4iOiJyZXNvdXJjZV9tYW5hZ2VyIiwicm9sZSI6ImFkbWluIn1dLCJ2ZXIiOjEwfQ.DqycU--WrlGibqWhxIDBAqgtt823evCkY-fuNgTeKE65ewp_Gj6L-iaY9Vj70_ePMSKy3uahPdd24jWG6ihCwP4nrFR9S63mHoaO2tpY9o9TMaR_X48_76azWqYc0bHc_fr6iaStlkDRdgF2cZ-v67BlQoMnyYz91Mqt6HLt8RtCo-P-l7cIu89xo1VcVkBfGxOiw6zPEASVwIOF5tXS4c03lzYA-GhbsEDhwB4mTOlObKvod9ENaiEJdjtjrshj79cM4K-O3mXwbChomEj0IG7DwUlG9p0VyZ_zSVll6DGcNytMNGl-hXm7zZOFodLvNPwte2iW9Ck4rpdR_tY7mg
+28.03.2020 08:31:37.036955 [0x00001f8b] [0x00007f50a7c278c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/id
+28.03.2020 08:31:37.037952 [0x00001f8b] [0x00007f50a7c278c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/id : 200
+28.03.2020 08:31:37.037983 [0x00001f8b] [0x00007f50a7c278c0] [debug] [AakoreProxy] : IdentifyAgent()[494] HTTP/1.1 200 OK
+Content-Length: 153
+Content-Type: application/json
+Date: Sat, 28 Mar 2020 08:31:37 GMT
+
+{"id":"b0c44c46-f077-40fe-b149-6e18df899fbe","resourceId":"92d8d91c-6309-42ff-b889-0183103350bc","oauth2ClientId":"b0c44c46-f077-40fe-b149-6e18df899fbe"}
+28.03.2020 08:31:37.038011 [0x00001f8b] [0x00007f50a7c278c0] [info] [AakoreProxy] : IdentifyAgent()[513] AgentId: b0c44c46-f077-40fe-b149-6e18df899fbe
+28.03.2020 08:31:37.038057 [0x00001f8b] [0x00007f50a7c278c0] [debug] [AakoreProxy] : SendRequest()[364] PUT /api/agent/v1/units/atp-agent
+{"location":"http://127.0.0.1:9772"}
+28.03.2020 08:31:37.046059 [0x00001f8b] [0x00007f50a7c278c0] [debug] [AakoreProxy] : SendRequest()[437] PUT /api/agent/v1/units/atp-agent : 200
+28.03.2020 08:31:37.046100 [0x00001f8b] [0x00007f50a7c278c0] [debug] [AakoreProxy] : NotifyAakore()[596] HTTP/1.1 200 OK
+Date: Sat, 28 Mar 2020 08:31:37 GMT
+Content-Length: 0
+
+
+28.03.2020 08:31:37.046114 [0x00001f8b] [0x00007f50a7c278c0] [debug] [AakoreProxy] : Initialize() finished. Elapsed 798183 microseconds.
+28.03.2020 08:31:37.046128 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : Initialize() started.
+28.03.2020 08:31:37.046314 [0x00001f8b] [0x00007f50a7c278c0] [info] [HTTPController] : Initialize()[76] Listening TCP at 127.0.0.1:9772
+28.03.2020 08:31:37.046324 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : Initialize() finished. Elapsed 196 microseconds.
+28.03.2020 08:31:37.046332 [0x00001f8b] [0x00007f50a7c278c0] [debug] [SettingsManager] : Initialize() started.
+28.03.2020 08:31:37.046342 [0x00001f8b] [0x00007f50a7c278c0] [debug] [SettingsManager] : RegisterRest() started.
+28.03.2020 08:31:37.046358 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler() started.
+28.03.2020 08:31:37.046363 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler()[103] operation: 2, command: /configuration
+28.03.2020 08:31:37.046583 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler() finished. Elapsed 223 microseconds.
+28.03.2020 08:31:37.046596 [0x00001f8b] [0x00007f50a7c278c0] [debug] [SettingsManager] : RegisterRest() finished. Elapsed 254 microseconds.
+28.03.2020 08:31:37.046623 [0x00001f8b] [0x00007f50a7c278c0] [debug] [SettingsManager] : Initialize() finished. Elapsed 290 microseconds.
+28.03.2020 08:31:37.046633 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventStorage] : Initialize() started.
+28.03.2020 08:31:37.047057 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventStorage] : Initialize()[99] 
+TABLE Events
+[
+    sourceType  INTEGER
+    srcId  TEXT
+    eventType  INTEGER
+    eventTime  DATETIME
+    eventId  TEXTTimestamp DATETIME
+    payload  BLOB
+]
+28.03.2020 08:31:37.047134 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventStorage] : Initialize() finished. Elapsed 501 microseconds.
+28.03.2020 08:31:37.047147 [0x00001f8b] [0x00007f50a7c278c0] [debug] [SchedlueServiceProxy] : Initialize() started.
+28.03.2020 08:31:37.047531 [0x00001f8b] [0x00007f50a7c278c0] [debug] [ScheduleProxy] : ScheduleProxyStorage()[26] 
+TABLE ScheduledTasks
+[
+    CmdHash  INTEGER
+    ScheduleId  TEXT
+]
+28.03.2020 08:31:37.047564 [0x00001f8b] [0x00007f50a7c278c0] [debug] [SchedlueServiceProxy] : Initialize() finished. Elapsed 416 microseconds.
+28.03.2020 08:31:37.047577 [0x00001f8b] [0x00007f50a7c278c0] [debug] [Policy Manager] : Initialize() started.
+28.03.2020 08:31:37.047800 [0x00001f8b] [0x00007f50a7c278c0] [debug] [PolciyStorage] : PolicyStorage()[22] 
+TABLE Policies
+[
+    SectionType  INTEGER
+    SectionHash  TEXT
+    Id  TEXT
+    Policy  BLOB
+]
+28.03.2020 08:31:37.047831 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler() started.
+28.03.2020 08:31:37.047837 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler()[103] operation: 2, command: /deployment
+28.03.2020 08:31:37.048017 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler() finished. Elapsed 186 microseconds.
+28.03.2020 08:31:37.048028 [0x00001f8b] [0x00007f50a7c278c0] [debug] [Policy Manager] : Initialize() finished. Elapsed 450 microseconds.
+28.03.2020 08:31:37.048037 [0x00001f8b] [0x00007f50a7c278c0] [debug] [TaskManager] : Initialize() started.
+28.03.2020 08:31:37.048108 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : Subscribe()[67] TaskManager subscribes to SrcType 2, EventType 3, subscribeId: 1, hashCell: 131075
+28.03.2020 08:31:37.048119 [0x00001f8b] [0x00007f50a7c278c0] [debug] [TaskManager] : Initialize() finished. Elapsed 81 microseconds.
+28.03.2020 08:31:37.048132 [0x00001f8b] [0x00007f50a7c278c0] [debug] [MMSProxy] : Initialize() started.
+28.03.2020 08:31:37.048154 [0x00001f8b] [0x00007f50a7c278c0] [trace] [TaskManager] : RegisterTaskHandler() started.
+28.03.2020 08:31:37.048161 [0x00001f8b] [0x00007f50a7c278c0] [debug] [TaskManager] : RegisterTaskHandler()[417] queue: ATP_SmartPlanRunBackup, qos:10, schema: tasks\run_backup_arguments.fbs
+28.03.2020 08:31:37.048181 [0x00001f8b] [0x00007f50a7c278c0] [trace] [TaskManager] : RegisterTaskHandler() finished. Elapsed 27 microseconds.
+28.03.2020 08:31:37.048188 [0x00001f8b] [0x00007f50a7c278c0] [debug] [MMSProxy] : Initialize() finished. Elapsed 56 microseconds.
+28.03.2020 08:31:37.048198 [0x00001f8b] [0x00007f50a7c278c0] [debug] [Orchestrator] : Initialize() started.
+28.03.2020 08:31:37.048206 [0x00001f8b] [0x00007f50a7c278c0] [trace] [TaskManager] : RegisterTaskHandler() started.
+28.03.2020 08:31:37.048210 [0x00001f8b] [0x00007f50a7c278c0] [debug] [TaskManager] : RegisterTaskHandler()[417] queue: ATP_SmartPlan, qos:1, schema: tasks\orchestrator_arguments.fbs
+28.03.2020 08:31:37.048220 [0x00001f8b] [0x00007f50a7c278c0] [trace] [TaskManager] : RegisterTaskHandler() finished. Elapsed 14 microseconds.
+28.03.2020 08:31:37.048226 [0x00001f8b] [0x00007f50a7c278c0] [debug] [Orchestrator] : Initialize() finished. Elapsed 27 microseconds.
+28.03.2020 08:31:37.048233 [0x00001f8b] [0x00007f50a7c278c0] [trace] [CpsRestProxy] : Initialize() started.
+28.03.2020 08:31:37.048244 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : Subscribe()[67] CpsRestProxy subscribes to SrcType 0, EventType 2, subscribeId: 2, hashCell: 2
+28.03.2020 08:31:37.048255 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : Subscribe()[67] CpsRestProxy subscribes to SrcType 3, EventType 6, subscribeId: 3, hashCell: 196614
+28.03.2020 08:31:37.048263 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : Subscribe()[67] CpsRestProxy subscribes to SrcType 3, EventType 53, subscribeId: 4, hashCell: 196661
+28.03.2020 08:31:37.048272 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : Subscribe()[67] CpsRestProxy subscribes to SrcType 3, EventType 56, subscribeId: 5, hashCell: 196664
+28.03.2020 08:31:37.048279 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : Subscribe()[67] CpsRestProxy subscribes to SrcType 15, EventType 58, subscribeId: 6, hashCell: 983098
+28.03.2020 08:31:37.048287 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler() started.
+28.03.2020 08:31:37.048292 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler()[103] operation: 0, command: /cps/{event}
+28.03.2020 08:31:37.048565 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler() finished. Elapsed 277 microseconds.
+28.03.2020 08:31:37.048577 [0x00001f8b] [0x00007f50a7c278c0] [trace] [CpsRestProxy] : Initialize() finished. Elapsed 344 microseconds.
+28.03.2020 08:31:37.048586 [0x00001f8b] [0x00007f50a7c278c0] [debug] [AVManager] : Initialize() started.
+28.03.2020 08:31:37.048604 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : Subscribe()[67] AVManager subscribes to SrcType 4, EventType 0, subscribeId: 7, hashCell: 262144
+28.03.2020 08:31:37.048613 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : Subscribe()[67] AVManager subscribes to SrcType 1, EventType 2, subscribeId: 8, hashCell: 65538
+28.03.2020 08:31:37.048623 [0x00001f8b] [0x00007f50a7c278c0] [trace] [TaskManager] : RegisterTaskHandler() started.
+28.03.2020 08:31:37.048629 [0x00001f8b] [0x00007f50a7c278c0] [debug] [TaskManager] : RegisterTaskHandler()[417] queue: ATP_NGMalwareProtection_NextGenerationMalwareProtectionPolicy, qos:1, schema: 
+28.03.2020 08:31:37.048636 [0x00001f8b] [0x00007f50a7c278c0] [trace] [TaskManager] : RegisterTaskHandler() finished. Elapsed 13 microseconds.
+28.03.2020 08:31:37.048643 [0x00001f8b] [0x00007f50a7c278c0] [trace] [TaskManager] : RegisterTaskHandler() started.
+28.03.2020 08:31:37.048649 [0x00001f8b] [0x00007f50a7c278c0] [debug] [TaskManager] : RegisterTaskHandler()[417] queue: ATP_SmartPlanAVScan, qos:1, schema: tasks\av_scan_arguments.fbs
+28.03.2020 08:31:37.048661 [0x00001f8b] [0x00007f50a7c278c0] [trace] [TaskManager] : RegisterTaskHandler() finished. Elapsed 18 microseconds.
+28.03.2020 08:31:37.048678 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler() started.
+28.03.2020 08:31:37.048684 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler()[103] operation: 0, command: /av/update
+28.03.2020 08:31:37.048854 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler() finished. Elapsed 175 microseconds.
+28.03.2020 08:31:37.048862 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler() started.
+28.03.2020 08:31:37.048867 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler()[103] operation: 0, command: /avc_connected
+28.03.2020 08:31:37.049037 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler() finished. Elapsed 174 microseconds.
+28.03.2020 08:31:37.049045 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler() started.
+28.03.2020 08:31:37.049050 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler()[103] operation: 0, command: /urlf_connected
+28.03.2020 08:31:37.049219 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler() finished. Elapsed 172 microseconds.
+28.03.2020 08:31:37.049227 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler() started.
+28.03.2020 08:31:37.049232 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler()[103] operation: 0, command: /cps/wsc_product_conflict
+28.03.2020 08:31:37.049405 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler() finished. Elapsed 178 microseconds.
+28.03.2020 08:31:37.049413 [0x00001f8b] [0x00007f50a7c278c0] [debug] [AVManager] : Initialize() finished. Elapsed 826 microseconds.
+28.03.2020 08:31:37.049420 [0x00001f8b] [0x00007f50a7c278c0] [debug] [QuarantineManager] : Initialize() started.
+28.03.2020 08:31:37.049531 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : Subscribe()[67] QuarantineManager subscribes to SrcType 4, EventType 28, subscribeId: 9, hashCell: 262172
+28.03.2020 08:31:37.049545 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : Subscribe()[67] QuarantineManager subscribes to SrcType 15, EventType 31, subscribeId: 10, hashCell: 983071
+28.03.2020 08:31:37.049556 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : Subscribe()[67] QuarantineManager subscribes to SrcType 4, EventType 59, subscribeId: 11, hashCell: 262203
+28.03.2020 08:31:37.049565 [0x00001f8b] [0x00007f50a7c278c0] [debug] [QuarantineManager] : RegisterRestApi() started.
+28.03.2020 08:31:37.049572 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler() started.
+28.03.2020 08:31:37.049577 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler()[103] operation: 0, command: /quarantine
+28.03.2020 08:31:37.049747 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler() finished. Elapsed 174 microseconds.
+28.03.2020 08:31:37.049758 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler() started.
+28.03.2020 08:31:37.049763 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler()[103] operation: 2, command: /quarantine
+28.03.2020 08:31:37.049932 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler() finished. Elapsed 173 microseconds.
+28.03.2020 08:31:37.049940 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler() started.
+28.03.2020 08:31:37.049945 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler()[103] operation: 3, command: /quarantine
+28.03.2020 08:31:37.050109 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler() finished. Elapsed 168 microseconds.
+28.03.2020 08:31:37.050117 [0x00001f8b] [0x00007f50a7c278c0] [debug] [QuarantineManager] : RegisterRestApi() finished. Elapsed 551 microseconds.
+28.03.2020 08:31:37.050126 [0x00001f8b] [0x00007f50a7c278c0] [debug] [QuarantineManager] : Initialize() finished. Elapsed 705 microseconds.
+28.03.2020 08:31:37.050135 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler() started.
+28.03.2020 08:31:37.050140 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler()[103] operation: 0, command: /hash
+28.03.2020 08:31:37.050315 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler() finished. Elapsed 180 microseconds.
+28.03.2020 08:31:37.050326 [0x00001f8b] [0x00007f50a7c278c0] [debug] [ResourceStatistics] : Initialize() started.
+28.03.2020 08:31:37.050376 [0x00001f8b] [0x00007f50a7c278c0] [trace] [TaskManager] : RegisterTaskHandler() started.
+28.03.2020 08:31:37.050384 [0x00001f8b] [0x00007f50a7c278c0] [debug] [TaskManager] : RegisterTaskHandler()[417] queue: ATP_DataProtectionMapPolicy, qos:1, schema: 
+28.03.2020 08:31:37.050393 [0x00001f8b] [0x00007f50a7c278c0] [trace] [TaskManager] : RegisterTaskHandler() finished. Elapsed 17 microseconds.
+28.03.2020 08:31:37.050399 [0x00001f8b] [0x00007f50a7c278c0] [debug] [ResourceStatistics] : Initialize() finished. Elapsed 73 microseconds.
+28.03.2020 08:31:37.050406 [0x00001f8b] [0x00007f50a7c278c0] [debug] [LinuxVA] : Initialize() started.
+28.03.2020 08:31:37.050416 [0x00001f8b] [0x00007f50a7c278c0] [trace] [TaskManager] : RegisterTaskHandler() started.
+28.03.2020 08:31:37.050421 [0x00001f8b] [0x00007f50a7c278c0] [debug] [TaskManager] : RegisterTaskHandler()[417] queue: ATP_VulnerabilityAssessment, qos:1, schema: 
+28.03.2020 08:31:37.050429 [0x00001f8b] [0x00007f50a7c278c0] [trace] [TaskManager] : RegisterTaskHandler() finished. Elapsed 13 microseconds.
+28.03.2020 08:31:37.050441 [0x00001f8b] [0x00007f50a7c278c0] [debug] [LinuxVA] : Initialize() finished. Elapsed 35 microseconds.
+28.03.2020 08:31:37.050448 [0x00001f8b] [0x00007f50a7c278c0] [info] [agent] : operator()()[59] StartAllModules()
+28.03.2020 08:31:37.050455 [0x00001f8b] [0x00007f50a7c278c0] [debug] [AakoreProxy] : Start() started.
+28.03.2020 08:31:37.050508 [0x00001f8b] [0x00007f50a7c278c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+28.03.2020 08:31:37.053367 [0x00001f8b] [0x00007f50a7c278c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+28.03.2020 08:31:37.053420 [0x00001f8b] [0x00007f50a7c278c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: https://sg-cloud.acronis.com:443
+28.03.2020 08:31:37.053699 [0x00001f8b] [0x00007f50a7c278c0] [debug] [AakoreProxy] : UpdateKeys()[470] JWKS updated
+{
+"alg" : ""
+"e" : "AQAB"
+"kty" : "RSA"
+"n" : "yiJd-J6Egf7AKr8KqNQhYs4j0RHLNtnbfJSqJvC_iuDfSAKqockIsSkRDyzr0ufuB8Ga5awCpOcd03DwMdYYaUVrElAUc4oTfHO0C_Uz_pL8lsSFmlcQ_uCpi-n1SGdRdBMoKegZV7L_9GhZCiknfMTCz8Lt7gw69dk0kwEeMP53MnNI1O88XZCCFR1u-EMkZvKWSEzMAGTsXmZyLHNGe_8D_9WYUkoB8Jc_JXy4rVHwiapKo9pXwndSsqnGRY06iorZY2y3sHa0m-eThKlq16WqX8Vd0bpaO2dqwcGv-18EMhhc46JPmg6uHyTZfsdHvOfYyK9IRkB4PRyo7nT9-w"
+}
+28.03.2020 08:31:37.053729 [0x00001f8b] [0x00007f50a7c278c0] [debug] [AakoreProxy] : Start()[111] ResourceId: 0D50FFD8-5682-422A-89E2-F26FD42B4D8C
+28.03.2020 08:31:37.053738 [0x00001f8b] [0x00007f50a7c278c0] [debug] [AakoreProxy] : Start() finished. Elapsed 3282 microseconds.
+28.03.2020 08:31:37.053762 [0x00001f8b] [0x00007f50a7c278c0] [debug] [SettingsManager] : Start() started.
+28.03.2020 08:31:37.054130 [0x00001f8b] [0x00007f50a7c278c0] [debug] [SchedlueServiceProxy] : RunAsyncSchedule() started.
+28.03.2020 08:31:37.054145 [0x00001f8b] [0x00007f50a7c278c0] [debug] [SchedlueServiceProxy] : RunAsyncSchedule() finished. Elapsed 16 microseconds.
+28.03.2020 08:31:37.054158 [0x00001f8b] [0x00007f50a7c278c0] [debug] [SettingsManager] : Start() finished. Elapsed 395 microseconds.
+28.03.2020 08:31:37.054168 [0x00001f8b] [0x00007f50a7c278c0] [debug] [Connectivity] : Start() started.
+28.03.2020 08:31:37.055974 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventDelivery Manager] : EventDeliveryStorage()[35] 
+TABLE AcknowledgeEvents
+[
+    EventId  TEXT
+    EventType  INTEGER
+]
+28.03.2020 08:31:37.056057 [0x00001f8b] [0x00007f50a7c278c0] [debug] [Connectivity] : Start() finished. Elapsed 1887 microseconds.
+28.03.2020 08:31:37.056070 [0x00001f8b] [0x00007f50a7c278c0] [debug] [AlertManager] : Start() started.
+28.03.2020 08:31:37.056095 [0x00001f8b] [0x00007f50a7c278c0] [debug] [AlertManager] : Start() finished. Elapsed 25 microseconds.
+28.03.2020 08:31:37.056105 [0x00001f8b] [0x00007f50a7c278c0] [debug] [TaskManager] : Start() started.
+28.03.2020 08:31:37.056115 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler() started.
+28.03.2020 08:31:37.056121 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler()[103] operation: 0, command: /task/{taskType}/run/{policyId}
+28.03.2020 08:31:37.056462 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler() finished. Elapsed 346 microseconds.
+28.03.2020 08:31:37.056471 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler() started.
+28.03.2020 08:31:37.056493 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler()[103] operation: 0, command: /task/{taskId}/run
+28.03.2020 08:31:37.056738 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler() finished. Elapsed 266 microseconds.
+28.03.2020 08:31:37.056747 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler() started.
+28.03.2020 08:31:37.056752 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler()[103] operation: 2, command: /run
+28.03.2020 08:31:37.056916 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : RegisterHandler() finished. Elapsed 168 microseconds.
+28.03.2020 08:31:37.057228 [0x00001f8b] [0x00007f50a7c278c0] [debug] [TaskManager] : Start() finished. Elapsed 1122 microseconds.
+28.03.2020 08:31:37.057238 [0x00001f8b] [0x00007f50a7c278c0] [debug] [VaultManager] : Start() started.
+28.03.2020 08:31:37.057244 [0x00001f8b] [0x00007f50a7c278c0] [debug] [VaultManager] : Start() finished. Elapsed 6 microseconds.
+28.03.2020 08:31:37.057255 [0x00001f8b] [0x00007f50a7c278c0] [debug] [QuarantineManager] : Start() started.
+28.03.2020 08:31:37.057263 [0x00001f8b] [0x00007f50a7c278c0] [debug] [QuarantineManager] : DeleteOutdatedQuarantinedFiles() started.
+28.03.2020 08:31:37.057272 [0x00001f8b] [0x00007f50a7c278c0] [debug] [QuarantineManager] : DeleteOutdatedQuarantinedFiles() finished. Elapsed 8 microseconds.
+28.03.2020 08:31:37.057280 [0x00001f8b] [0x00007f50a7c278c0] [debug] [QuarantineManager] : SyncQuarantineList() started.
+28.03.2020 08:31:37.058836 [0x00001f8b] [0x00007f50a7c278c0] [debug] [Connectivity] : RunPlaybook() started.
+28.03.2020 08:31:37.058863 [0x00001f8b] [0x00007f50a7c278c0] [debug] [AakoreProxy] : SendRequest()[364] POST /api/monitoring/v1/playbook/call/quarantine_do_sync
+{"items":[]}
+28.03.2020 08:31:37.059865 [0x00001f8b] [0x00007f50a4274700] [debug] [SchedlueServiceProxy] : RunSchedule() started.
+28.03.2020 08:31:37.059894 [0x00001f8b] [0x00007f50a4274700] [debug] [SchedlueServiceProxy] : ScheduleTask() started.
+28.03.2020 08:31:37.060187 [0x00001f8b] [0x00007f50a4274700] [debug] [SchedlueServiceProxy] : ScheduleTask() started.
+28.03.2020 08:31:37.060244 [0x00001f8b] [0x00007f50a4274700] [debug] [SchedlueServiceProxy] : GetFullExecCmd()[359] Cmd: LD_LIBRARY_PATH=/usr/lib/Acronis/system_libs/8.2.1:/usr/lib/Acronis/BackupAndRecovery/Common:/opt/acronis/lib/atp-agent:/opt/acronis/lib /opt/acronis/bin/./adp-rest-util post /av/update
+28.03.2020 08:31:37.060268 [0x00001f8b] [0x00007f50a4274700] [debug] [SchedlueServiceProxy] : ScheduleTask()[430] Cmd: 'post /av/update', hash: 8942726154025577955
+28.03.2020 08:31:37.060279 [0x00001f8b] [0x00007f50a4274700] [debug] [ScheduleProxy] : GetScheduleId()[61] get schedule id from schedule storage using key: 8942726154025577955
+28.03.2020 08:31:37.060336 [0x00001f8b] [0x00007f50a4274700] [info] [SchedlueServiceProxy] : ScheduleTask()[441] Re-scheduling existing task with schedule id: 29EA01B8-67C1-47BB-B973-0F7920204E68
+28.03.2020 08:31:37.060790 [0x00001f8b] [0x00007f50a4274700] [debug] [SchedlueServiceProxy] : ScheduleTask() finished. Elapsed 603 microseconds.
+28.03.2020 08:31:37.060811 [0x00001f8b] [0x00007f50a4274700] [debug] [SchedlueServiceProxy] : ScheduleTask() finished. Elapsed 917 microseconds.
+28.03.2020 08:31:37.060821 [0x00001f8b] [0x00007f50a4274700] [warning] [SchedlueServiceProxy] : RunSchedule()[167] couldn't schedule task 'post /av/update', error: 589964: Failed to read the next task: An error occurred in the scheduler API.[606829: Failed to connect to the socket.]
+28.03.2020 08:31:37.060831 [0x00001f8b] [0x00007f50a4274700] [info] [SchedlueServiceProxy] : RunSchedule()[170] retrying after 3 sec(s)
+28.03.2020 08:31:37.072520 [0x00001f8b] [0x00007f50a125c700] [debug] [AakoreProxy] : SendRequest()[364] GET /api/task_manager/v2/tasks?state=started&lod=full&queue=ATP_DataProtectionMapPolicy
+28.03.2020 08:31:37.072774 [0x00001f8b] [0x00007f50a0053700] [debug] [AakoreProxy] : SendRequest()[364] GET /api/task_manager/v2/tasks?state=started&lod=full&queue=ATP_NGMalwareProtection_NextGenerationMalwareProtectionPolicy
+28.03.2020 08:31:37.072953 [0x00001f8b] [0x00007f50a0e5a700] [debug] [AakoreProxy] : SendRequest()[364] GET /api/task_manager/v2/tasks?state=started&lod=full&queue=ATP_SmartPlan
+28.03.2020 08:31:37.073310 [0x00001f8b] [0x00007f50a2867700] [debug] [AakoreProxy] : SendRequest()[364] GET /api/task_manager/v2/tasks?state=started&lod=full&queue=ATP_SmartPlanAVScan
+28.03.2020 08:31:37.073499 [0x00001f8b] [0x00007f50a2465700] [debug] [AakoreProxy] : SendRequest()[364] GET /api/task_manager/v2/tasks?state=started&lod=full&queue=ATP_SmartPlanRunBackup
+28.03.2020 08:31:37.073669 [0x00001f8b] [0x00007f50a185f700] [debug] [AakoreProxy] : SendRequest()[364] GET /api/task_manager/v2/tasks?state=started&lod=full&queue=ATP_VulnerabilityAssessment
+28.03.2020 08:31:37.077150 [0x00001f8b] [0x00007f50a2465700] [debug] [AakoreProxy] : SendRequest()[413] GET /api/task_manager/v2/tasks?state=started&lod=full&queue=ATP_SmartPlanRunBackup : 502
+28.03.2020 08:31:37.077278 [0x00001f8b] [0x00007f50a0053700] [debug] [AakoreProxy] : SendRequest()[413] GET /api/task_manager/v2/tasks?state=started&lod=full&queue=ATP_NGMalwareProtection_NextGenerationMalwareProtectionPolicy : 502
+28.03.2020 08:31:37.077364 [0x00001f8b] [0x00007f50a2867700] [debug] [AakoreProxy] : SendRequest()[413] GET /api/task_manager/v2/tasks?state=started&lod=full&queue=ATP_SmartPlanAVScan : 502
+28.03.2020 08:31:37.077455 [0x00001f8b] [0x00007f50a0e5a700] [debug] [AakoreProxy] : SendRequest()[413] GET /api/task_manager/v2/tasks?state=started&lod=full&queue=ATP_SmartPlan : 502
+28.03.2020 08:31:37.077571 [0x00001f8b] [0x00007f50a185f700] [debug] [AakoreProxy] : SendRequest()[413] GET /api/task_manager/v2/tasks?state=started&lod=full&queue=ATP_VulnerabilityAssessment : 502
+28.03.2020 08:31:37.077671 [0x00001f8b] [0x00007f50a125c700] [debug] [AakoreProxy] : SendRequest()[413] GET /api/task_manager/v2/tasks?state=started&lod=full&queue=ATP_DataProtectionMapPolicy : 502
+28.03.2020 08:31:37.090458 [0x00001f8b] [0x00007f50a4676700] [debug] [HTTPController] : HandleRequest()[163] GET /api/atp-agent/v1/update_config
+28.03.2020 08:31:37.090875 [0x00001f8b] [0x00007f50a4676700] [debug] [HTTPController] : operator()()[202] GET /api/atp-agent/v1/update_config : 404 Not Found
+Handler for '/api/atp-agent/v1/update_config' not found.
+28.03.2020 08:31:37.326642 [0x00001f8b] [0x00007f50a7c278c0] [debug] [AakoreProxy] : SendRequest()[413] POST /api/monitoring/v1/playbook/call/quarantine_do_sync : 403
+28.03.2020 08:31:37.326707 [0x00001f8b] [0x00007f50a7c278c0] [error] [AakoreProxy] : SendRequest()[440] POST /api/monitoring/v1/playbook/call/quarantine_do_sync : 403
+HTTP/1.1 403 Forbidden
+Cache-Control: max-age=0,must-revalidate
+Content-Type: application/json; charset="utf-8"
+Date: Sat, 28 Mar 2020 08:31:37 GMT
+Expires: -1
+Server: nginx
+Vary: Accept-Encoding
+Via: 1.1 aakore
+Content-Length: 197
+
+{"error": {"debug": {"msg": "No resource 0d50ffd8-5682-422a-89e2-f26fd42b4d8c found for current user"}, "code": "InvalidResource", "domain": "quarantine_management"}, "server_datetime": 1585384297}
+28.03.2020 08:31:37.326737 [0x00001f8b] [0x00007f50a7c278c0] [warning] [Connectivity] : RunPlaybook()[136] << 403: {"error": {"debug": {"msg": "No resource 0d50ffd8-5682-422a-89e2-f26fd42b4d8c found for current user"}, "code": "InvalidResource", "domain": "quarantine_management"}, "server_datetime": 1585384297}
+28.03.2020 08:31:37.326786 [0x00001f8b] [0x00007f50a7c278c0] [debug] [Connectivity] : RunPlaybook() finished. Elapsed 267947 microseconds.
+28.03.2020 08:31:37.326801 [0x00001f8b] [0x00007f50a7c278c0] [error] [QuarantineManager] : SyncQuarantineList()[977] Forbidden
+28.03.2020 08:31:37.326987 [0x00001f8b] [0x00007f50a7c278c0] [debug] [QuarantineManager] : SyncQuarantineList() finished. Elapsed 269703 microseconds.
+28.03.2020 08:31:37.327002 [0x00001f8b] [0x00007f50a7c278c0] [debug] [QuarantineManager] : Start() finished. Elapsed 269747 microseconds.
+28.03.2020 08:31:37.327018 [0x00001f8b] [0x00007f50a7c278c0] [debug] [LinuxVA] : Start() started.
+28.03.2020 08:31:37.327024 [0x00001f8b] [0x00007f50a7c278c0] [debug] [LinuxVA] : Start() finished. Elapsed 8 microseconds.
+28.03.2020 08:31:37.327030 [0x00001f8b] [0x00007f50a7c278c0] [info] [agent] : operator()()[68] Wait for stop signal ...
+28.03.2020 08:31:38.077300 [0x00001f8b] [0x00007f50a2465700] [trace] [AakoreProxy] : SendRequest()[432] Retrying GET /api/task_manager/v2/tasks?state=started&lod=full&queue=ATP_SmartPlanRunBackup (attempt 1)
+28.03.2020 08:31:38.077454 [0x00001f8b] [0x00007f50a0053700] [trace] [AakoreProxy] : SendRequest()[432] Retrying GET /api/task_manager/v2/tasks?state=started&lod=full&queue=ATP_NGMalwareProtection_NextGenerationMalwareProtectionPolicy (attempt 1)
+28.03.2020 08:31:38.077676 [0x00001f8b] [0x00007f50a2867700] [trace] [AakoreProxy] : SendRequest()[432] Retrying GET /api/task_manager/v2/tasks?state=started&lod=full&queue=ATP_SmartPlanAVScan (attempt 1)
+28.03.2020 08:31:38.077780 [0x00001f8b] [0x00007f50a0e5a700] [trace] [AakoreProxy] : SendRequest()[432] Retrying GET /api/task_manager/v2/tasks?state=started&lod=full&queue=ATP_SmartPlan (attempt 1)
+28.03.2020 08:31:38.077856 [0x00001f8b] [0x00007f50a185f700] [trace] [AakoreProxy] : SendRequest()[432] Retrying GET /api/task_manager/v2/tasks?state=started&lod=full&queue=ATP_VulnerabilityAssessment (attempt 1)
+28.03.2020 08:31:38.077901 [0x00001f8b] [0x00007f50a125c700] [trace] [AakoreProxy] : SendRequest()[432] Retrying GET /api/task_manager/v2/tasks?state=started&lod=full&queue=ATP_DataProtectionMapPolicy (attempt 1)
+28.03.2020 08:31:38.093064 [0x00001f8b] [0x00007f50a0053700] [debug] [AakoreProxy] : SendRequest()[437] GET /api/task_manager/v2/tasks?state=started&lod=full&queue=ATP_NGMalwareProtection_NextGenerationMalwareProtectionPolicy : 200
+28.03.2020 08:31:38.093146 [0x00001f8b] [0x00007f50a0053700] [trace] [TaskManager] : ConsumeTasks()[620] Consuming tasks from ATP_NGMalwareProtection_NextGenerationMalwareProtectionPolicy
+28.03.2020 08:31:38.093189 [0x00001f8b] [0x00007f50a0053700] [debug] [AakoreProxy] : SendRequest()[364] POST /api/task_manager/v2/consumers
+{"queues":["ATP_NGMalwareProtection_NextGenerationMalwareProtectionPolicy"],"qos":1,"timeout":"25s"}
+28.03.2020 08:31:38.093277 [0x00001f8b] [0x00007f50a185f700] [debug] [AakoreProxy] : SendRequest()[437] GET /api/task_manager/v2/tasks?state=started&lod=full&queue=ATP_VulnerabilityAssessment : 200
+28.03.2020 08:31:38.093297 [0x00001f8b] [0x00007f50a185f700] [trace] [TaskManager] : ConsumeTasks()[620] Consuming tasks from ATP_VulnerabilityAssessment
+28.03.2020 08:31:38.093317 [0x00001f8b] [0x00007f50a185f700] [debug] [AakoreProxy] : SendRequest()[364] POST /api/task_manager/v2/consumers
+{"queues":["ATP_VulnerabilityAssessment"],"qos":1,"timeout":"25s"}
+28.03.2020 08:31:38.093385 [0x00001f8b] [0x00007f50a0e5a700] [debug] [AakoreProxy] : SendRequest()[437] GET /api/task_manager/v2/tasks?state=started&lod=full&queue=ATP_SmartPlan : 200
+28.03.2020 08:31:38.093402 [0x00001f8b] [0x00007f50a0e5a700] [trace] [TaskManager] : ConsumeTasks()[620] Consuming tasks from ATP_SmartPlan
+28.03.2020 08:31:38.093427 [0x00001f8b] [0x00007f50a0e5a700] [debug] [AakoreProxy] : SendRequest()[364] POST /api/task_manager/v2/consumers
+{"queues":["ATP_SmartPlan"],"qos":1,"timeout":"25s"}
+28.03.2020 08:31:38.093512 [0x00001f8b] [0x00007f50a2867700] [debug] [AakoreProxy] : SendRequest()[437] GET /api/task_manager/v2/tasks?state=started&lod=full&queue=ATP_SmartPlanAVScan : 200
+28.03.2020 08:31:38.093534 [0x00001f8b] [0x00007f50a2867700] [trace] [TaskManager] : ConsumeTasks()[620] Consuming tasks from ATP_SmartPlanAVScan
+28.03.2020 08:31:38.093552 [0x00001f8b] [0x00007f50a2867700] [debug] [AakoreProxy] : SendRequest()[364] POST /api/task_manager/v2/consumers
+{"queues":["ATP_SmartPlanAVScan"],"qos":1,"timeout":"25s"}
+28.03.2020 08:31:38.093619 [0x00001f8b] [0x00007f50a125c700] [debug] [AakoreProxy] : SendRequest()[437] GET /api/task_manager/v2/tasks?state=started&lod=full&queue=ATP_DataProtectionMapPolicy : 200
+28.03.2020 08:31:38.093637 [0x00001f8b] [0x00007f50a125c700] [trace] [TaskManager] : ConsumeTasks()[620] Consuming tasks from ATP_DataProtectionMapPolicy
+28.03.2020 08:31:38.093654 [0x00001f8b] [0x00007f50a125c700] [debug] [AakoreProxy] : SendRequest()[364] POST /api/task_manager/v2/consumers
+{"queues":["ATP_DataProtectionMapPolicy"],"qos":1,"timeout":"25s"}
+28.03.2020 08:31:38.097040 [0x00001f8b] [0x00007f50a2465700] [debug] [AakoreProxy] : SendRequest()[437] GET /api/task_manager/v2/tasks?state=started&lod=full&queue=ATP_SmartPlanRunBackup : 200
+28.03.2020 08:31:38.097092 [0x00001f8b] [0x00007f50a2465700] [trace] [TaskManager] : ConsumeTasks()[620] Consuming tasks from ATP_SmartPlanRunBackup
+28.03.2020 08:31:38.097119 [0x00001f8b] [0x00007f50a2465700] [debug] [AakoreProxy] : SendRequest()[364] POST /api/task_manager/v2/consumers
+{"queues":["ATP_SmartPlanRunBackup"],"qos":10,"timeout":"25s"}
+28.03.2020 08:31:40.060956 [0x00001f8b] [0x00007f50a4274700] [debug] [SchedlueServiceProxy] : ScheduleTask() started.
+28.03.2020 08:31:42.088276 [0x00001f8b] [0x00007f50a4274700] [debug] [SchedlueServiceProxy] : ScheduleTask() started.
+28.03.2020 08:31:42.088321 [0x00001f8b] [0x00007f50a4274700] [debug] [SchedlueServiceProxy] : GetFullExecCmd()[359] Cmd: LD_LIBRARY_PATH=/usr/lib/Acronis/system_libs/8.2.1:/usr/lib/Acronis/BackupAndRecovery/Common:/opt/acronis/lib/atp-agent:/opt/acronis/lib /opt/acronis/bin/./adp-rest-util post /av/update
+28.03.2020 08:31:42.088335 [0x00001f8b] [0x00007f50a4274700] [debug] [SchedlueServiceProxy] : ScheduleTask()[430] Cmd: 'post /av/update', hash: 8942726154025577955
+28.03.2020 08:31:42.088343 [0x00001f8b] [0x00007f50a4274700] [debug] [ScheduleProxy] : GetScheduleId()[61] get schedule id from schedule storage using key: 8942726154025577955
+28.03.2020 08:31:42.088410 [0x00001f8b] [0x00007f50a4274700] [info] [SchedlueServiceProxy] : ScheduleTask()[441] Re-scheduling existing task with schedule id: 29EA01B8-67C1-47BB-B973-0F7920204E68
+28.03.2020 08:31:42.088530 [0x00001f8b] [0x00007f50a4274700] [debug] [SchedlueServiceProxy] : ScheduleTask() finished. Elapsed 260 microseconds.
+28.03.2020 08:31:42.088548 [0x00001f8b] [0x00007f50a4274700] [debug] [SchedlueServiceProxy] : ScheduleTask() finished. Elapsed 2027603 microseconds.
+28.03.2020 08:31:42.088556 [0x00001f8b] [0x00007f50a4274700] [warning] [SchedlueServiceProxy] : RunSchedule()[167] couldn't schedule task 'post /av/update', error: 589964: Failed to read the next task: An error occurred in the scheduler API.[606829: Failed to connect to the socket.]
+28.03.2020 08:31:42.088564 [0x00001f8b] [0x00007f50a4274700] [info] [SchedlueServiceProxy] : RunSchedule()[170] retrying after 3 sec(s)
+28.03.2020 08:31:45.088691 [0x00001f8b] [0x00007f50a4274700] [debug] [SchedlueServiceProxy] : ScheduleTask() started.
+28.03.2020 08:31:45.088997 [0x00001f8b] [0x00007f50a4274700] [debug] [SchedlueServiceProxy] : ScheduleTask() started.
+28.03.2020 08:31:45.089032 [0x00001f8b] [0x00007f50a4274700] [debug] [SchedlueServiceProxy] : GetFullExecCmd()[359] Cmd: LD_LIBRARY_PATH=/usr/lib/Acronis/system_libs/8.2.1:/usr/lib/Acronis/BackupAndRecovery/Common:/opt/acronis/lib/atp-agent:/opt/acronis/lib /opt/acronis/bin/./adp-rest-util post /av/update
+28.03.2020 08:31:45.089060 [0x00001f8b] [0x00007f50a4274700] [debug] [SchedlueServiceProxy] : ScheduleTask()[430] Cmd: 'post /av/update', hash: 8942726154025577955
+28.03.2020 08:31:45.089068 [0x00001f8b] [0x00007f50a4274700] [debug] [ScheduleProxy] : GetScheduleId()[61] get schedule id from schedule storage using key: 8942726154025577955
+28.03.2020 08:31:45.089143 [0x00001f8b] [0x00007f50a4274700] [info] [SchedlueServiceProxy] : ScheduleTask()[441] Re-scheduling existing task with schedule id: 29EA01B8-67C1-47BB-B973-0F7920204E68
+28.03.2020 08:31:45.115728 [0x00001f8b] [0x00007f50a4274700] [debug] [ScheduleProxy] : Insert()[33] insert or replace row in schedule storage with key: 8942726154025577955 and schedule id: 29EA01B8-67C1-47BB-B973-0F7920204E68
+28.03.2020 08:31:45.121781 [0x00001f8b] [0x00007f50a4274700] [debug] [SchedlueServiceProxy] : ScheduleTask()[467] Task scheduled. ID: 29EA01B8-67C1-47BB-B973-0F7920204E68
+28.03.2020 08:31:45.121818 [0x00001f8b] [0x00007f50a4274700] [debug] [SchedlueServiceProxy] : ScheduleTask() finished. Elapsed 32822 microseconds.
+28.03.2020 08:31:45.121828 [0x00001f8b] [0x00007f50a4274700] [debug] [SchedlueServiceProxy] : ScheduleTask() finished. Elapsed 33147 microseconds.
+28.03.2020 08:31:45.121835 [0x00001f8b] [0x00007f50a4274700] [debug] [SchedlueServiceProxy] : RunSchedule() finished. Elapsed 8061979 microseconds.
+28.03.2020 08:32:03.098260 [0x00001f8b] [0x00007f50a185f700] [debug] [AakoreProxy] : SendRequest()[437] POST /api/task_manager/v2/consumers : 204
+28.03.2020 08:32:03.098326 [0x00001f8b] [0x00007f50a185f700] [trace] [TaskManager] : ConsumeTasks()[620] Consuming tasks from ATP_VulnerabilityAssessment
+28.03.2020 08:32:03.098362 [0x00001f8b] [0x00007f50a185f700] [debug] [AakoreProxy] : SendRequest()[364] POST /api/task_manager/v2/consumers
+{"queues":["ATP_VulnerabilityAssessment"],"qos":1,"timeout":"25s"}
+28.03.2020 08:32:03.103156 [0x00001f8b] [0x00007f50a0e5a700] [debug] [AakoreProxy] : SendRequest()[437] POST /api/task_manager/v2/consumers : 204
+28.03.2020 08:32:03.103196 [0x00001f8b] [0x00007f50a0e5a700] [trace] [TaskManager] : ConsumeTasks()[620] Consuming tasks from ATP_SmartPlan
+28.03.2020 08:32:03.103225 [0x00001f8b] [0x00007f50a0e5a700] [debug] [AakoreProxy] : SendRequest()[364] POST /api/task_manager/v2/consumers
+{"queues":["ATP_SmartPlan"],"qos":1,"timeout":"25s"}
+28.03.2020 08:32:03.103315 [0x00001f8b] [0x00007f50a2867700] [debug] [AakoreProxy] : SendRequest()[437] POST /api/task_manager/v2/consumers : 204
+28.03.2020 08:32:03.103328 [0x00001f8b] [0x00007f50a2867700] [trace] [TaskManager] : ConsumeTasks()[620] Consuming tasks from ATP_SmartPlanAVScan
+28.03.2020 08:32:03.103347 [0x00001f8b] [0x00007f50a2867700] [debug] [AakoreProxy] : SendRequest()[364] POST /api/task_manager/v2/consumers
+{"queues":["ATP_SmartPlanAVScan"],"qos":1,"timeout":"25s"}
+28.03.2020 08:32:03.103416 [0x00001f8b] [0x00007f50a0053700] [debug] [AakoreProxy] : SendRequest()[437] POST /api/task_manager/v2/consumers : 204
+28.03.2020 08:32:03.103428 [0x00001f8b] [0x00007f50a0053700] [trace] [TaskManager] : ConsumeTasks()[620] Consuming tasks from ATP_NGMalwareProtection_NextGenerationMalwareProtectionPolicy
+28.03.2020 08:32:03.103455 [0x00001f8b] [0x00007f50a0053700] [debug] [AakoreProxy] : SendRequest()[364] POST /api/task_manager/v2/consumers
+{"queues":["ATP_NGMalwareProtection_NextGenerationMalwareProtectionPolicy"],"qos":1,"timeout":"25s"}
+28.03.2020 08:32:03.105397 [0x00001f8b] [0x00007f50a125c700] [debug] [AakoreProxy] : SendRequest()[437] POST /api/task_manager/v2/consumers : 204
+28.03.2020 08:32:03.105442 [0x00001f8b] [0x00007f50a125c700] [trace] [TaskManager] : ConsumeTasks()[620] Consuming tasks from ATP_DataProtectionMapPolicy
+28.03.2020 08:32:03.105489 [0x00001f8b] [0x00007f50a125c700] [debug] [AakoreProxy] : SendRequest()[364] POST /api/task_manager/v2/consumers
+{"queues":["ATP_DataProtectionMapPolicy"],"qos":1,"timeout":"25s"}
+28.03.2020 08:32:03.105579 [0x00001f8b] [0x00007f50a2465700] [debug] [AakoreProxy] : SendRequest()[437] POST /api/task_manager/v2/consumers : 204
+28.03.2020 08:32:03.105596 [0x00001f8b] [0x00007f50a2465700] [trace] [TaskManager] : ConsumeTasks()[620] Consuming tasks from ATP_SmartPlanRunBackup
+28.03.2020 08:32:03.105617 [0x00001f8b] [0x00007f50a2465700] [debug] [AakoreProxy] : SendRequest()[364] POST /api/task_manager/v2/consumers
+{"queues":["ATP_SmartPlanRunBackup"],"qos":10,"timeout":"25s"}
+28.03.2020 08:32:07.046417 [0x00001f8b] [0x00007f50a4676700] [debug] [HTTPController] : HandleRequest()[163] GET /api/atp-agent/v1/healthcheck
+28.03.2020 08:32:07.046502 [0x00001f8b] [0x00007f50a4676700] [debug] [HTTPController] : operator()()[202] GET /api/atp-agent/v1/healthcheck : 200 OK
+28.03.2020 08:32:28.100126 [0x00001f8b] [0x00007f50a185f700] [debug] [AakoreProxy] : SendRequest()[437] POST /api/task_manager/v2/consumers : 204
+28.03.2020 08:32:28.100192 [0x00001f8b] [0x00007f50a185f700] [trace] [TaskManager] : ConsumeTasks()[620] Consuming tasks from ATP_VulnerabilityAssessment
+28.03.2020 08:32:28.100228 [0x00001f8b] [0x00007f50a185f700] [debug] [AakoreProxy] : SendRequest()[364] POST /api/task_manager/v2/consumers
+{"queues":["ATP_VulnerabilityAssessment"],"qos":1,"timeout":"25s"}
+28.03.2020 08:32:28.106590 [0x00001f8b] [0x00007f50a2867700] [debug] [AakoreProxy] : SendRequest()[437] POST /api/task_manager/v2/consumers : 204
+28.03.2020 08:32:28.106643 [0x00001f8b] [0x00007f50a2867700] [trace] [TaskManager] : ConsumeTasks()[620] Consuming tasks from ATP_SmartPlanAVScan
+28.03.2020 08:32:28.106673 [0x00001f8b] [0x00007f50a2867700] [debug] [AakoreProxy] : SendRequest()[364] POST /api/task_manager/v2/consumers
+{"queues":["ATP_SmartPlanAVScan"],"qos":1,"timeout":"25s"}
+28.03.2020 08:32:28.108537 [0x00001f8b] [0x00007f50a0053700] [debug] [AakoreProxy] : SendRequest()[437] POST /api/task_manager/v2/consumers : 204
+28.03.2020 08:32:28.108571 [0x00001f8b] [0x00007f50a0053700] [trace] [TaskManager] : ConsumeTasks()[620] Consuming tasks from ATP_NGMalwareProtection_NextGenerationMalwareProtectionPolicy
+28.03.2020 08:32:28.108600 [0x00001f8b] [0x00007f50a0053700] [debug] [AakoreProxy] : SendRequest()[364] POST /api/task_manager/v2/consumers
+{"queues":["ATP_NGMalwareProtection_NextGenerationMalwareProtectionPolicy"],"qos":1,"timeout":"25s"}
+28.03.2020 08:32:28.108686 [0x00001f8b] [0x00007f50a0e5a700] [debug] [AakoreProxy] : SendRequest()[437] POST /api/task_manager/v2/consumers : 204
+28.03.2020 08:32:28.108700 [0x00001f8b] [0x00007f50a0e5a700] [trace] [TaskManager] : ConsumeTasks()[620] Consuming tasks from ATP_SmartPlan
+28.03.2020 08:32:28.108719 [0x00001f8b] [0x00007f50a0e5a700] [debug] [AakoreProxy] : SendRequest()[364] POST /api/task_manager/v2/consumers
+{"queues":["ATP_SmartPlan"],"qos":1,"timeout":"25s"}
+28.03.2020 08:32:28.111416 [0x00001f8b] [0x00007f50a2465700] [debug] [AakoreProxy] : SendRequest()[437] POST /api/task_manager/v2/consumers : 204
+28.03.2020 08:32:28.111448 [0x00001f8b] [0x00007f50a2465700] [trace] [TaskManager] : ConsumeTasks()[620] Consuming tasks from ATP_SmartPlanRunBackup
+28.03.2020 08:32:28.111474 [0x00001f8b] [0x00007f50a2465700] [debug] [AakoreProxy] : SendRequest()[364] POST /api/task_manager/v2/consumers
+{"queues":["ATP_SmartPlanRunBackup"],"qos":10,"timeout":"25s"}
+28.03.2020 08:32:28.111580 [0x00001f8b] [0x00007f50a125c700] [debug] [AakoreProxy] : SendRequest()[437] POST /api/task_manager/v2/consumers : 204
+28.03.2020 08:32:28.111595 [0x00001f8b] [0x00007f50a125c700] [trace] [TaskManager] : ConsumeTasks()[620] Consuming tasks from ATP_DataProtectionMapPolicy
+28.03.2020 08:32:28.111615 [0x00001f8b] [0x00007f50a125c700] [debug] [AakoreProxy] : SendRequest()[364] POST /api/task_manager/v2/consumers
+{"queues":["ATP_DataProtectionMapPolicy"],"qos":1,"timeout":"25s"}
+28.03.2020 08:32:37.046157 [0x00001f8b] [0x00007f50a4676700] [debug] [HTTPController] : HandleRequest()[163] GET /api/atp-agent/v1/healthcheck
+28.03.2020 08:32:37.046217 [0x00001f8b] [0x00007f50a4676700] [debug] [HTTPController] : operator()()[202] GET /api/atp-agent/v1/healthcheck : 200 OK
+28.03.2020 08:32:37.076857 [0x00001f8b] [0x00007f50a4676700] [debug] [HTTPController] : HandleRequest()[163] GET /api/atp-agent/v1/update_config
+28.03.2020 08:32:37.077120 [0x00001f8b] [0x00007f50a4676700] [debug] [HTTPController] : operator()()[202] GET /api/atp-agent/v1/update_config : 404 Not Found
+Handler for '/api/atp-agent/v1/update_config' not found.
+28.03.2020 08:32:53.101927 [0x00001f8b] [0x00007f50a185f700] [debug] [AakoreProxy] : SendRequest()[437] POST /api/task_manager/v2/consumers : 204
+28.03.2020 08:32:53.101990 [0x00001f8b] [0x00007f50a185f700] [trace] [TaskManager] : ConsumeTasks()[620] Consuming tasks from ATP_VulnerabilityAssessment
+28.03.2020 08:32:53.102027 [0x00001f8b] [0x00007f50a185f700] [debug] [AakoreProxy] : SendRequest()[364] POST /api/task_manager/v2/consumers
+{"queues":["ATP_VulnerabilityAssessment"],"qos":1,"timeout":"25s"}
+28.03.2020 08:32:53.110651 [0x00001f8b] [0x00007f50a2867700] [debug] [AakoreProxy] : SendRequest()[437] POST /api/task_manager/v2/consumers : 204
+28.03.2020 08:32:53.110700 [0x00001f8b] [0x00007f50a2867700] [trace] [TaskManager] : ConsumeTasks()[620] Consuming tasks from ATP_SmartPlanAVScan
+28.03.2020 08:32:53.110735 [0x00001f8b] [0x00007f50a2867700] [debug] [AakoreProxy] : SendRequest()[364] POST /api/task_manager/v2/consumers
+{"queues":["ATP_SmartPlanAVScan"],"qos":1,"timeout":"25s"}
+28.03.2020 08:32:53.111712 [0x00001f8b] [0x00007f50a0053700] [debug] [AakoreProxy] : SendRequest()[437] POST /api/task_manager/v2/consumers : 204
+28.03.2020 08:32:53.111756 [0x00001f8b] [0x00007f50a0053700] [trace] [TaskManager] : ConsumeTasks()[620] Consuming tasks from ATP_NGMalwareProtection_NextGenerationMalwareProtectionPolicy
+28.03.2020 08:32:53.111785 [0x00001f8b] [0x00007f50a0053700] [debug] [AakoreProxy] : SendRequest()[364] POST /api/task_manager/v2/consumers
+{"queues":["ATP_NGMalwareProtection_NextGenerationMalwareProtectionPolicy"],"qos":1,"timeout":"25s"}
+28.03.2020 08:32:53.111870 [0x00001f8b] [0x00007f50a0e5a700] [debug] [AakoreProxy] : SendRequest()[437] POST /api/task_manager/v2/consumers : 204
+28.03.2020 08:32:53.111883 [0x00001f8b] [0x00007f50a0e5a700] [trace] [TaskManager] : ConsumeTasks()[620] Consuming tasks from ATP_SmartPlan
+28.03.2020 08:32:53.111903 [0x00001f8b] [0x00007f50a0e5a700] [debug] [AakoreProxy] : SendRequest()[364] POST /api/task_manager/v2/consumers
+{"queues":["ATP_SmartPlan"],"qos":1,"timeout":"25s"}
+28.03.2020 08:32:53.115972 [0x00001f8b] [0x00007f50a125c700] [debug] [AakoreProxy] : SendRequest()[437] POST /api/task_manager/v2/consumers : 204
+28.03.2020 08:32:53.116016 [0x00001f8b] [0x00007f50a125c700] [trace] [TaskManager] : ConsumeTasks()[620] Consuming tasks from ATP_DataProtectionMapPolicy
+28.03.2020 08:32:53.116045 [0x00001f8b] [0x00007f50a125c700] [debug] [AakoreProxy] : SendRequest()[364] POST /api/task_manager/v2/consumers
+{"queues":["ATP_DataProtectionMapPolicy"],"qos":1,"timeout":"25s"}
+28.03.2020 08:32:53.116127 [0x00001f8b] [0x00007f50a2465700] [debug] [AakoreProxy] : SendRequest()[437] POST /api/task_manager/v2/consumers : 204
+28.03.2020 08:32:53.116140 [0x00001f8b] [0x00007f50a2465700] [trace] [TaskManager] : ConsumeTasks()[620] Consuming tasks from ATP_SmartPlanRunBackup
+28.03.2020 08:32:53.116160 [0x00001f8b] [0x00007f50a2465700] [debug] [AakoreProxy] : SendRequest()[364] POST /api/task_manager/v2/consumers
+{"queues":["ATP_SmartPlanRunBackup"],"qos":10,"timeout":"25s"}
+28.03.2020 08:33:07.046167 [0x00001f8b] [0x00007f50a4676700] [debug] [HTTPController] : HandleRequest()[163] GET /api/atp-agent/v1/healthcheck
+28.03.2020 08:33:07.046229 [0x00001f8b] [0x00007f50a4676700] [debug] [HTTPController] : operator()()[202] GET /api/atp-agent/v1/healthcheck : 200 OK
+28.03.2020 08:33:07.339677 [0x00001f8b] [0x00007f50a6284700] [info] [agent] : stop()[131] Received STOP signal from user.
+28.03.2020 08:33:07.342446 [0x00001f8b] [0x00007f50a0053700] [debug] [AakoreProxy] : SendRequest()[413] POST /api/task_manager/v2/consumers : 502
+28.03.2020 08:33:07.342529 [0x00001f8b] [0x00007f50a2465700] [debug] [AakoreProxy] : SendRequest()[413] POST /api/task_manager/v2/consumers : 502
+28.03.2020 08:33:07.342593 [0x00001f8b] [0x00007f50a0e5a700] [debug] [AakoreProxy] : SendRequest()[413] POST /api/task_manager/v2/consumers : 502
+28.03.2020 08:33:07.342639 [0x00001f8b] [0x00007f50a185f700] [debug] [AakoreProxy] : SendRequest()[413] POST /api/task_manager/v2/consumers : 502
+28.03.2020 08:33:07.342679 [0x00001f8b] [0x00007f50a2867700] [debug] [AakoreProxy] : SendRequest()[413] POST /api/task_manager/v2/consumers : 502
+28.03.2020 08:33:07.342722 [0x00001f8b] [0x00007f50a125c700] [debug] [AakoreProxy] : SendRequest()[413] POST /api/task_manager/v2/consumers : 502
+28.03.2020 08:33:07.342939 [0x00001f8b] [0x00007f50a6284700] [info] [agent] : stop()[131] Received STOP signal from user.
+28.03.2020 08:33:07.361764 [0x00001f8b] [0x00007f50a7c278c0] [debug] [agent] : operator()()[73] The STOP signal was received
+28.03.2020 08:33:07.361820 [0x00001f8b] [0x00007f50a7c278c0] [debug] [LinuxVA] : Finish() started.
+28.03.2020 08:33:07.361833 [0x00001f8b] [0x00007f50a7c278c0] [debug] [LinuxVA] : Finish() finished. Elapsed 14 microseconds.
+28.03.2020 08:33:07.361853 [0x00001f8b] [0x00007f50a7c278c0] [debug] [SchedlueServiceProxy] : Finish() started.
+28.03.2020 08:33:07.361859 [0x00001f8b] [0x00007f50a7c278c0] [debug] [SchedlueServiceProxy] : Stop() started.
+28.03.2020 08:33:07.361866 [0x00001f8b] [0x00007f50a7c278c0] [debug] [SchedlueServiceProxy] : Stop() finished. Elapsed 6 microseconds.
+28.03.2020 08:33:07.361872 [0x00001f8b] [0x00007f50a7c278c0] [debug] [SchedlueServiceProxy] : Finish() finished. Elapsed 20 microseconds.
+28.03.2020 08:33:07.361883 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler() started.
+28.03.2020 08:33:07.361889 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler()[138] operation: 2, command: /configuration
+28.03.2020 08:33:07.361914 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler() finished. Elapsed 31 microseconds.
+28.03.2020 08:33:08.098774 [0x00001f8b] [0x00007f50a7c278c0] [debug] [LinuxVA] : Finalize() started.
+28.03.2020 08:33:08.098839 [0x00001f8b] [0x00007f50a7c278c0] [debug] [LinuxVA] : Finalize() finished. Elapsed 76 microseconds.
+28.03.2020 08:33:08.098851 [0x00001f8b] [0x00007f50a7c278c0] [debug] [ResourceStatistics] : Finalize() started.
+28.03.2020 08:33:08.098863 [0x00001f8b] [0x00007f50a7c278c0] [debug] [ResourceStatistics] : Finalize() finished. Elapsed 12 microseconds.
+28.03.2020 08:33:08.098872 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler() started.
+28.03.2020 08:33:08.098878 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler()[138] operation: 0, command: /hash
+28.03.2020 08:33:08.098890 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler() finished. Elapsed 17 microseconds.
+28.03.2020 08:33:08.098897 [0x00001f8b] [0x00007f50a7c278c0] [debug] [QuarantineManager] : Finalize() started.
+28.03.2020 08:33:08.098903 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler() started.
+28.03.2020 08:33:08.098908 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler()[138] operation: 0, command: /quarantine
+28.03.2020 08:33:08.098917 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler() finished. Elapsed 13 microseconds.
+28.03.2020 08:33:08.098923 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler() started.
+28.03.2020 08:33:08.098927 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler()[138] operation: 2, command: /quarantine
+28.03.2020 08:33:08.098935 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler() finished. Elapsed 12 microseconds.
+28.03.2020 08:33:08.098941 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler() started.
+28.03.2020 08:33:08.098945 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler()[138] operation: 3, command: /quarantine
+28.03.2020 08:33:08.098963 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler() finished. Elapsed 22 microseconds.
+28.03.2020 08:33:08.098973 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[380]  SrcType:0, EventType:0, hashCell: 0
+28.03.2020 08:33:08.098986 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[522] QuarantineManager subscriberId: 9, SrcType:0, EventType:0, hashCell: 0, strong refs in event map: 0
+28.03.2020 08:33:08.098995 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[543] QuarantineManager subscriberId: 9, SrcType:0, EventType:0, hashCell: 0 DELETED
+28.03.2020 08:33:08.099004 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : Unsubscribe()[297] 9 unsubscribed from SrcType:0 EventType:0
+28.03.2020 08:33:08.099010 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[380]  SrcType:0, EventType:0, hashCell: 0
+28.03.2020 08:33:08.099017 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[522] QuarantineManager subscriberId: 10, SrcType:0, EventType:0, hashCell: 0, strong refs in event map: 0
+28.03.2020 08:33:08.099024 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[543] QuarantineManager subscriberId: 10, SrcType:0, EventType:0, hashCell: 0 DELETED
+28.03.2020 08:33:08.099030 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : Unsubscribe()[297] 10 unsubscribed from SrcType:0 EventType:0
+28.03.2020 08:33:08.099036 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[380]  SrcType:0, EventType:0, hashCell: 0
+28.03.2020 08:33:08.099043 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[522] QuarantineManager subscriberId: 11, SrcType:0, EventType:0, hashCell: 0, strong refs in event map: 0
+28.03.2020 08:33:08.099049 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[543] QuarantineManager subscriberId: 11, SrcType:0, EventType:0, hashCell: 0 DELETED
+28.03.2020 08:33:08.099055 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : Unsubscribe()[297] 11 unsubscribed from SrcType:0 EventType:0
+28.03.2020 08:33:08.099097 [0x00001f8b] [0x00007f50a7c278c0] [debug] [QuarantineManager] : Finalize() finished. Elapsed 198 microseconds.
+28.03.2020 08:33:08.099108 [0x00001f8b] [0x00007f50a7c278c0] [debug] [AVManager] : Finalize() started.
+28.03.2020 08:33:08.099114 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[380]  SrcType:0, EventType:0, hashCell: 0
+28.03.2020 08:33:08.099121 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[522] AVManager subscriberId: 8, SrcType:0, EventType:0, hashCell: 0, strong refs in event map: 0
+28.03.2020 08:33:08.099128 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[543] AVManager subscriberId: 8, SrcType:0, EventType:0, hashCell: 0 DELETED
+28.03.2020 08:33:08.099134 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : Unsubscribe()[297] 8 unsubscribed from SrcType:0 EventType:0
+28.03.2020 08:33:08.099140 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[380]  SrcType:0, EventType:0, hashCell: 0
+28.03.2020 08:33:08.099146 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[522] AVManager subscriberId: 7, SrcType:0, EventType:0, hashCell: 0, strong refs in event map: 0
+28.03.2020 08:33:08.099158 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[543] AVManager subscriberId: 7, SrcType:0, EventType:0, hashCell: 0 DELETED
+28.03.2020 08:33:08.099164 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : Unsubscribe()[297] 7 unsubscribed from SrcType:0 EventType:0
+28.03.2020 08:33:08.099170 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler() started.
+28.03.2020 08:33:08.099175 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler()[138] operation: 0, command: /av/update
+28.03.2020 08:33:08.099187 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler() finished. Elapsed 16 microseconds.
+28.03.2020 08:33:08.099194 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler() started.
+28.03.2020 08:33:08.099198 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler()[138] operation: 0, command: /avc_connected
+28.03.2020 08:33:08.099206 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler() finished. Elapsed 11 microseconds.
+28.03.2020 08:33:08.099211 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler() started.
+28.03.2020 08:33:08.099216 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler()[138] operation: 0, command: /urlf_connected
+28.03.2020 08:33:08.099223 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler() finished. Elapsed 11 microseconds.
+28.03.2020 08:33:08.099229 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler() started.
+28.03.2020 08:33:08.099234 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler()[138] operation: 0, command: /cps/wsc_product_conflict
+28.03.2020 08:33:08.099241 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler() finished. Elapsed 12 microseconds.
+28.03.2020 08:33:08.099247 [0x00001f8b] [0x00007f50a7c278c0] [debug] [AVManager] : Finalize() finished. Elapsed 139 microseconds.
+28.03.2020 08:33:08.099254 [0x00001f8b] [0x00007f50a7c278c0] [trace] [CpsRestProxy] : Finalize() started.
+28.03.2020 08:33:08.099259 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[380]  SrcType:0, EventType:0, hashCell: 0
+28.03.2020 08:33:08.099266 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[522] CpsRestProxy subscriberId: 6, SrcType:0, EventType:0, hashCell: 0, strong refs in event map: 0
+28.03.2020 08:33:08.099272 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[543] CpsRestProxy subscriberId: 6, SrcType:0, EventType:0, hashCell: 0 DELETED
+28.03.2020 08:33:08.099278 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : Unsubscribe()[297] 6 unsubscribed from SrcType:0 EventType:0
+28.03.2020 08:33:08.099284 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[380]  SrcType:0, EventType:0, hashCell: 0
+28.03.2020 08:33:08.099290 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[522] CpsRestProxy subscriberId: 5, SrcType:0, EventType:0, hashCell: 0, strong refs in event map: 0
+28.03.2020 08:33:08.099296 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[543] CpsRestProxy subscriberId: 5, SrcType:0, EventType:0, hashCell: 0 DELETED
+28.03.2020 08:33:08.099302 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : Unsubscribe()[297] 5 unsubscribed from SrcType:0 EventType:0
+28.03.2020 08:33:08.099307 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[380]  SrcType:0, EventType:0, hashCell: 0
+28.03.2020 08:33:08.099313 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[522] CpsRestProxy subscriberId: 4, SrcType:0, EventType:0, hashCell: 0, strong refs in event map: 0
+28.03.2020 08:33:08.099319 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[543] CpsRestProxy subscriberId: 4, SrcType:0, EventType:0, hashCell: 0 DELETED
+28.03.2020 08:33:08.099329 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : Unsubscribe()[297] 4 unsubscribed from SrcType:0 EventType:0
+28.03.2020 08:33:08.099335 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[380]  SrcType:0, EventType:0, hashCell: 0
+28.03.2020 08:33:08.099341 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[522] CpsRestProxy subscriberId: 3, SrcType:0, EventType:0, hashCell: 0, strong refs in event map: 0
+28.03.2020 08:33:08.099347 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[543] CpsRestProxy subscriberId: 3, SrcType:0, EventType:0, hashCell: 0 DELETED
+28.03.2020 08:33:08.099358 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : Unsubscribe()[297] 3 unsubscribed from SrcType:0 EventType:0
+28.03.2020 08:33:08.099363 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[380]  SrcType:0, EventType:0, hashCell: 0
+28.03.2020 08:33:08.099370 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[522] CpsRestProxy subscriberId: 2, SrcType:0, EventType:0, hashCell: 0, strong refs in event map: 0
+28.03.2020 08:33:08.099376 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[543] CpsRestProxy subscriberId: 2, SrcType:0, EventType:0, hashCell: 0 DELETED
+28.03.2020 08:33:08.099382 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : Unsubscribe()[297] 2 unsubscribed from SrcType:0 EventType:0
+28.03.2020 08:33:08.099388 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler() started.
+28.03.2020 08:33:08.099393 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler()[138] operation: 0, command: /cps/{event}
+28.03.2020 08:33:08.099400 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler() finished. Elapsed 12 microseconds.
+28.03.2020 08:33:08.099406 [0x00001f8b] [0x00007f50a7c278c0] [trace] [CpsRestProxy] : Finalize() finished. Elapsed 152 microseconds.
+28.03.2020 08:33:08.099415 [0x00001f8b] [0x00007f50a7c278c0] [debug] [Orchestrator] : Finalize() started.
+28.03.2020 08:33:08.099421 [0x00001f8b] [0x00007f50a7c278c0] [debug] [Orchestrator] : Finalize() finished. Elapsed 6 microseconds.
+28.03.2020 08:33:08.099429 [0x00001f8b] [0x00007f50a7c278c0] [debug] [MMSProxy] : Finalize() started.
+28.03.2020 08:33:08.099435 [0x00001f8b] [0x00007f50a7c278c0] [info] [MMSClient] : Stop() started.
+28.03.2020 08:33:08.099441 [0x00001f8b] [0x00007f50a7c278c0] [info] [MMSClient] : Stop() finished. Elapsed 5 microseconds.
+28.03.2020 08:33:08.099447 [0x00001f8b] [0x00007f50a7c278c0] [debug] [MMSProxy] : Finalize() finished. Elapsed 17 microseconds.
+28.03.2020 08:33:08.099453 [0x00001f8b] [0x00007f50a7c278c0] [debug] [TaskManager] : Finalize() started.
+28.03.2020 08:33:08.099466 [0x00001f8b] [0x00007f50a7c278c0] [info] [TMSProxy] : Stop() started.
+28.03.2020 08:33:08.099498 [0x00001f8b] [0x00007f50a7c278c0] [info] [TMSProxy] : Stop() finished. Elapsed 7 microseconds.
+28.03.2020 08:33:08.099508 [0x00001f8b] [0x00007f50a7c278c0] [info] [TMSProxy] : Stop() started.
+28.03.2020 08:33:08.099514 [0x00001f8b] [0x00007f50a7c278c0] [info] [TMSProxy] : Stop() finished. Elapsed 5 microseconds.
+28.03.2020 08:33:08.342620 [0x00001f8b] [0x00007f50a2465700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 1)
+28.03.2020 08:33:08.342780 [0x00001f8b] [0x00007f50a2867700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 1)
+28.03.2020 08:33:08.342827 [0x00001f8b] [0x00007f50a125c700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 1)
+28.03.2020 08:33:08.342866 [0x00001f8b] [0x00007f50a185f700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 1)
+28.03.2020 08:33:08.342902 [0x00001f8b] [0x00007f50a0e5a700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 1)
+28.03.2020 08:33:08.343025 [0x00001f8b] [0x00007f50a185f700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 2)
+28.03.2020 08:33:08.343083 [0x00001f8b] [0x00007f50a125c700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 2)
+28.03.2020 08:33:08.343136 [0x00001f8b] [0x00007f50a2867700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 2)
+28.03.2020 08:33:08.343187 [0x00001f8b] [0x00007f50a0e5a700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 2)
+28.03.2020 08:33:08.343228 [0x00001f8b] [0x00007f50a0053700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 1)
+28.03.2020 08:33:08.343282 [0x00001f8b] [0x00007f50a125c700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 3)
+28.03.2020 08:33:08.343339 [0x00001f8b] [0x00007f50a2867700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 3)
+28.03.2020 08:33:08.343389 [0x00001f8b] [0x00007f50a0e5a700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 3)
+28.03.2020 08:33:08.343438 [0x00001f8b] [0x00007f50a0053700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 2)
+28.03.2020 08:33:08.343512 [0x00001f8b] [0x00007f50a2867700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 4)
+28.03.2020 08:33:08.343574 [0x00001f8b] [0x00007f50a125c700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 4)
+28.03.2020 08:33:08.343637 [0x00001f8b] [0x00007f50a0e5a700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 4)
+28.03.2020 08:33:08.343694 [0x00001f8b] [0x00007f50a185f700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 3)
+28.03.2020 08:33:08.343746 [0x00001f8b] [0x00007f50a0053700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 3)
+28.03.2020 08:33:08.343807 [0x00001f8b] [0x00007f50a0e5a700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 5)
+28.03.2020 08:33:08.343858 [0x00001f8b] [0x00007f50a125c700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 5)
+28.03.2020 08:33:08.343906 [0x00001f8b] [0x00007f50a185f700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 4)
+28.03.2020 08:33:08.343959 [0x00001f8b] [0x00007f50a2465700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 2)
+28.03.2020 08:33:08.344012 [0x00001f8b] [0x00007f50a2867700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 5)
+28.03.2020 08:33:08.344060 [0x00001f8b] [0x00007f50a0053700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 4)
+28.03.2020 08:33:08.344108 [0x00001f8b] [0x00007f50a125c700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 6)
+28.03.2020 08:33:08.344155 [0x00001f8b] [0x00007f50a0e5a700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 6)
+28.03.2020 08:33:08.344202 [0x00001f8b] [0x00007f50a185f700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 5)
+28.03.2020 08:33:08.344249 [0x00001f8b] [0x00007f50a2867700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 6)
+28.03.2020 08:33:08.344295 [0x00001f8b] [0x00007f50a2465700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 3)
+28.03.2020 08:33:08.344344 [0x00001f8b] [0x00007f50a0053700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 5)
+28.03.2020 08:33:08.344451 [0x00001f8b] [0x00007f50a125c700] [error] [TaskManager] : ConsumeTasks()[664] Connection refused
+28.03.2020 08:33:08.344571 [0x00001f8b] [0x00007f50a0e5a700] [error] [TaskManager] : ConsumeTasks()[664] Connection refused
+28.03.2020 08:33:08.344639 [0x00001f8b] [0x00007f50a185f700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 6)
+28.03.2020 08:33:08.344730 [0x00001f8b] [0x00007f50a2867700] [error] [TaskManager] : ConsumeTasks()[664] Connection refused
+28.03.2020 08:33:08.344794 [0x00001f8b] [0x00007f50a2465700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 4)
+28.03.2020 08:33:08.344861 [0x00001f8b] [0x00007f50a0053700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 6)
+28.03.2020 08:33:08.344928 [0x00001f8b] [0x00007f50a185f700] [error] [TaskManager] : ConsumeTasks()[664] Connection refused
+28.03.2020 08:33:08.344994 [0x00001f8b] [0x00007f50a0053700] [error] [TaskManager] : ConsumeTasks()[664] Connection refused
+28.03.2020 08:33:08.345050 [0x00001f8b] [0x00007f50a2465700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 5)
+28.03.2020 08:33:08.345105 [0x00001f8b] [0x00007f50a2465700] [trace] [AakoreProxy] : SendRequest()[432] Retrying POST /api/task_manager/v2/consumers (attempt 6)
+28.03.2020 08:33:08.345169 [0x00001f8b] [0x00007f50a2465700] [error] [TaskManager] : ConsumeTasks()[664] Connection refused
+28.03.2020 08:33:08.345250 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[380]  SrcType:0, EventType:0, hashCell: 0
+28.03.2020 08:33:08.345267 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[522] TaskManager subscriberId: 1, SrcType:0, EventType:0, hashCell: 0, strong refs in event map: 0
+28.03.2020 08:33:08.345277 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : UnsubscribeHelper()[543] TaskManager subscriberId: 1, SrcType:0, EventType:0, hashCell: 0 DELETED
+28.03.2020 08:33:08.345286 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : Unsubscribe()[297] 1 unsubscribed from SrcType:0 EventType:0
+28.03.2020 08:33:08.345296 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler() started.
+28.03.2020 08:33:08.345302 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler()[138] operation: 0, command: /task/{taskType}/run/{policyId}
+28.03.2020 08:33:08.345313 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler() finished. Elapsed 17 microseconds.
+28.03.2020 08:33:08.345320 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler() started.
+28.03.2020 08:33:08.345325 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler()[138] operation: 0, command: /task/{taskId}/run
+28.03.2020 08:33:08.345333 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler() finished. Elapsed 13 microseconds.
+28.03.2020 08:33:08.345339 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler() started.
+28.03.2020 08:33:08.345344 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler()[138] operation: 2, command: /run
+28.03.2020 08:33:08.345351 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler() finished. Elapsed 12 microseconds.
+28.03.2020 08:33:08.345356 [0x00001f8b] [0x00007f50a7c278c0] [debug] [TaskManager] : Finalize() finished. Elapsed 245903 microseconds.
+28.03.2020 08:33:08.345365 [0x00001f8b] [0x00007f50a7c278c0] [debug] [Policy Manager] : Finalize() started.
+28.03.2020 08:33:08.345372 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler() started.
+28.03.2020 08:33:08.345376 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler()[138] operation: 2, command: /deployment
+28.03.2020 08:33:08.345383 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : UnregisterHandler() finished. Elapsed 11 microseconds.
+28.03.2020 08:33:08.345389 [0x00001f8b] [0x00007f50a7c278c0] [debug] [Policy Manager] : Finalize() finished. Elapsed 23 microseconds.
+28.03.2020 08:33:08.345397 [0x00001f8b] [0x00007f50a7c278c0] [debug] [Connectivity] : Finalize() started.
+28.03.2020 08:33:08.345439 [0x00001f8b] [0x00007f50a7c278c0] [debug] [Connectivity] : Finalize() finished. Elapsed 41 microseconds.
+28.03.2020 08:33:08.345450 [0x00001f8b] [0x00007f50a7c278c0] [debug] [SettingsManager] : Finalize() started.
+28.03.2020 08:33:08.345460 [0x00001f8b] [0x00007f50a7c278c0] [debug] [SettingsManager] : Finalize() finished. Elapsed 9 microseconds.
+28.03.2020 08:33:08.345467 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : Finalize() started.
+28.03.2020 08:33:08.345708 [0x00001f8b] [0x00007f50a7c278c0] [info] [HTTPController] : Finalize()[85] Stop accepting TCP connections
+28.03.2020 08:33:08.345726 [0x00001f8b] [0x00007f50a7c278c0] [debug] [HTTPController] : Finalize() finished. Elapsed 258 microseconds.
+28.03.2020 08:33:08.345734 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : Finalize() started.
+28.03.2020 08:33:08.345870 [0x00001f8b] [0x00007f50a7c278c0] [debug] [EventMachine] : Finalize() finished. Elapsed 134 microseconds.
+28.03.2020 08:33:08.346410 [0x00001f8b] [0x00007f50a7c278c0] [debug] [SchedlueServiceProxy] : Stop() started.
+28.03.2020 08:33:08.346431 [0x00001f8b] [0x00007f50a7c278c0] [debug] [SchedlueServiceProxy] : Stop() finished. Elapsed 27 microseconds.
+28.03.2020 08:33:08.346906 [0x00001f8b] [0x00007f50a7c278c0] [debug] [LinuxVA] : ~LinuxVA() started.
+28.03.2020 08:33:08.346928 [0x00001f8b] [0x00007f50a7c278c0] [debug] [LinuxVA] : ~LinuxVA() finished. Elapsed 26 microseconds.
+28.03.2020 08:33:08.346940 [0x00001f8b] [0x00007f50a7c278c0] [debug] [agent] : operator()() finished. Elapsed 92099704 microseconds.

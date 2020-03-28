@@ -1,0 +1,737 @@
+roles:
+  backup_admin:
+  - backup_agent_admin
+  - tenant_viewer
+  - task_manager::viewer
+  - task_manager::issuer
+  - credentials_store::owner
+  - resource_manager::admin
+  - policy_manager::admin
+  - vault_manager::admin
+  - alert_manager::admin
+  - storage::readwrite
+  - agent_manager::agent_unregistrator
+  - agent_manager::agent_unregistrar
+  - agent_manager::agent_viewer
+  - apn::requestor
+  - scan_service::admin
+  - agent_manager::host_manager
+  - agent_manager::unit_configuration_updater
+  - agent_manager::unit_configuration_viewer
+  - index_manager::admin
+  - '!backup_admin'
+  backup_agent_admin:
+  - oauth2_client_admin(backup_agent)
+  - resource_manager::admin
+  - agent_manager::agent_registrator
+  - agent_manager::agent_registrar
+  backup_storage_admin:
+  - oauth2_client_admin(backup_storage)
+  - infra_admin
+  backup_storage_engine:
+  - usage_reporter
+  backup_user:
+  - backup_admin
+  - '!backup_user'
+  company_admin:
+  - tenant_admin
+  - user_admin
+  - backup_admin
+  - access_policy_admin
+  - '!company_admin'
+  - dr_admin
+  - backup_storage_admin
+  - agent_manager::admin
+  dr_admin:
+  - oauth2_client_admin(dr)
+  - dr_service::admin
+  dr_infra_admin:
+  - oauth2_client_admin(dr_infra_admin)
+  - '!dr_infra_admin'
+  hci_admin:
+  - backup_storage_admin
+  infra_admin: []
+  oauth2_client_admin: []
+  partner_admin:
+  - tenant_admin
+  - user_admin
+  - '!partner_admin'
+  - backup_admin
+  - dr_infra_admin
+  - dr_admin
+  - backup_storage_admin
+  - agent_manager::admin
+  - storage_migration::admin
+  root_admin:
+  - tenant_admin
+  - user_admin
+  - '!root_admin'
+  - backup_admin
+  - dr_infra_admin
+  - dr_admin
+  - backup_storage_admin
+  - agent_manager::admin
+  - storage_migration::root
+  storage_readonly:
+  - storage::readonly
+  storage_readwrite:
+  - storage::readwrite
+  storage_replication_master:
+  - storage::replication_master
+  tenant_admin:
+  - tenant_viewer
+  - '!tenant_admin'
+  tenant_viewer: []
+  unit_admin:
+  - tenant_admin
+  - user_admin
+  - backup_admin
+  - '!unit_admin'
+  usage_reporter: []
+  user_admin: []
+resource_servers:
+  agent_gateway:
+    implied_access_policies_for_registered_entity:
+    - agent_manager::agent_conn_state_reporter
+    - tenant_viewer
+    roles: {}
+  agent_manager:
+    implied_access_policies_for_registered_entity:
+    - agent_manager::admin
+    - policy_manager::admin
+    - tenant_viewer
+    - task_manager:ATP_ResourceDiscovery:issuer
+    - task_manager:x#ATP_RemoteInstall:issuer
+    - task_manager:ATP_CheckCreds:issuer
+    - task_manager:x#ATP_RegisterHost:issuer
+    - apn::requestor
+    roles:
+      admin: []
+      agent_conn_state_reporter: []
+      agent_registrar: []
+      agent_registrator: []
+      agent_unit_metadata_updater: []
+      agent_unregistrar: []
+      agent_unregistrator: []
+      agent_viewer: []
+      host_manager: []
+      host_uploader: []
+      ou_uploader: []
+      unit_configuration_updater: []
+  alert_inspector:
+    implied_access_policies_for_registered_entity:
+    - task_manager::issuer
+    - policy_manager::admin
+    - resource_manager::admin
+    - alert_manager::admin
+    - tenant_viewer
+    roles: {}
+  alert_manager:
+    implied_access_policies_for_registered_entity:
+    - hierarchy_resolver::consumer
+    - tenant_viewer
+    roles:
+      admin: []
+  alerts_feed_manager:
+    implied_access_policies_for_registered_entity:
+    - resource_manager::admin
+    - policy_manager::admin
+    - alert_manager::admin
+    - task_manager::issuer
+    - tenant_viewer
+    roles: {}
+  am_eventproc_service:
+    implied_access_policies_for_registered_entity:
+    - task_manager::viewer
+    - vault_manager::admin
+    - resource_manager::admin
+    - policy_manager::admin
+    - alert_manager::admin
+    - tenant_viewer
+    roles: {}
+  am_playbook_service:
+    implied_access_policies_for_registered_entity:
+    - agent_manager::host_manager
+    - task_manager::viewer
+    - vault_manager::admin
+    - resource_manager::admin
+    - policy_manager::admin
+    - alert_manager::admin
+    - task_manager:ATP_FixNow:issuer
+    - agent_manager::agent_viewer
+    - tenant_viewer
+    - scan_service::viewer
+    - apn::requestor
+    roles: {}
+  ams:
+    implied_access_policies_for_registered_entity:
+    - credentials_store::consumer
+    - vault_manager::admin
+    - resource_manager::admin
+    - policy_manager::admin
+    - task_manager::issuer
+    - task_manager::viewer
+    - tenant_admin
+    roles:
+      admin: []
+  api_gateway:
+    implied_access_policies_for_registered_entity:
+    - tenant_viewer
+    roles: {}
+  apn:
+    implied_access_policies_for_registered_entity: []
+    roles:
+      node: []
+      requestor: []
+  archive_browse_service:
+    implied_access_policies_for_registered_entity:
+    - storage::readonly
+    - notary::admin
+    - tenant_viewer
+    roles: {}
+  archive_policy_manager:
+    implied_access_policies_for_registered_entity:
+    - task_manager::issuer
+    - scheduler::admin
+    - vault_manager::admin
+    - tenant_viewer
+    roles: {}
+  atp_grpm_addon:
+    implied_access_policies_for_registered_entity:
+    - scan_service::admin
+    - policy_manager::admin
+    - vault_manager::admin
+    - tenant_viewer
+    roles: {}
+  backup_notification_service:
+    implied_access_policies_for_registered_entity:
+    - tenant_viewer
+    roles:
+      admin: []
+  backup_policy_manager:
+    implied_access_policies_for_registered_entity:
+    - task_manager:dr_backup_queue:issuer
+    - task_manager:cleanup:issuer
+    - scheduler::admin
+    - vault_manager::admin
+    - resource_manager::admin
+    - policy_manager::admin
+    - tenant_viewer
+    roles: {}
+  bitdefender-cleanset:
+    implied_access_policies_for_registered_entity: []
+    roles:
+      admin: []
+  c2c_archmgmt_agent:
+    implied_access_policies_for_registered_entity:
+    - storage::readwrite
+    - task_manager:queue_c2c_retention:consumer
+    - task_manager:queue_c2c_migration:consumer
+    - task_manager::trusted_viewer
+    - c2c_backup_manager::admin
+    - vault_manager::admin
+    - tenant_viewer
+    roles: {}
+  c2c_backup_manager:
+    implied_access_policies_for_registered_entity:
+    - task_manager::issuer
+    - task_manager:queue_c2c_acc_registration:consumer
+    - task_manager:queue_c2c_protection:consumer
+    - task_manager:queue_c2c_upgrade:consumer
+    - task_manager::trusted_viewer
+    - scheduler::admin
+    - vault_manager::admin
+    - policy_manager::admin
+    - tenant_viewer
+    - credentials_store::owner
+    - credentials_store::consumer
+    roles: {}
+  catalog_browser:
+    implied_access_policies_for_registered_entity:
+    - task_manager:queue_catalog_browser_tasks:consumer
+    - catalog_manager::admin
+    - index_manager::index_operator
+    - tenant_viewer
+    roles: {}
+  catalog_indexer:
+    implied_access_policies_for_registered_entity:
+    - task_manager:queue_catalog_indexer_tasks:consumer
+    - task_manager:queue_catalog_indexer_hpriority_tasks:consumer
+    - credentials_store::consumer
+    - storage::readwrite
+    - tenant_viewer
+    - index_manager::index_operator
+    - index_manager::task_executor
+    roles: {}
+  catalog_manager:
+    implied_access_policies_for_registered_entity:
+    - task_manager:queue_catalog_browser_tasks:issuer
+    - catalog_browser::admin
+    - tenant_viewer
+    roles:
+      admin: []
+  corp-wl:
+    implied_access_policies_for_registered_entity: []
+    roles:
+      admin: []
+  credentials_store:
+    implied_access_policies_for_registered_entity:
+    - hierarchy_resolver::consumer
+    - task_manager:credentials_decommission:consumer
+    - tenant_viewer
+    roles:
+      admin: []
+      consumer: []
+      owner: []
+  dr_service:
+    implied_access_policies_for_registered_entity:
+    - apn::requestor
+    - credentials_store::owner
+    - oauth2_client_admin(dr)
+    - policy_manager::admin
+    - resource_manager::admin
+    - scheduler::admin
+    - task_manager::trusted_viewer
+    - task_manager:dr-service:consumer
+    - task_manager:dr-service:issuer
+    - task_manager:dr-vpn-service:issuer
+    - task_manager:runvm_delta_create:issuer
+    - task_manager:runvm_delta_delete:issuer
+    - task_manager:runvm_gateway:issuer
+    - task_manager:runvm_vm_create:issuer
+    - task_manager:runvm_vm_delete:issuer
+    - task_manager:runvm_vm_finalize:issuer
+    - vault_manager::admin
+    - tenant_viewer
+    roles:
+      admin: []
+      vpn_appliance: []
+      vpn_server: []
+  email_archiver:
+    implied_access_policies_for_registered_entity:
+    - storage::readwrite
+    - task_manager:queue_email_archiver_restore:consumer
+    - task_manager::trusted_viewer
+    - c2c_backup_manager::admin
+    - vault_manager::admin
+    - tenant_viewer
+    roles: {}
+  endpoint_protection_manager:
+    implied_access_policies_for_registered_entity:
+    - task_manager:dr_backup_queue:issuer
+    - task_manager:cleanup:issuer
+    - task_manager::trusted_viewer
+    - task_manager::importer
+    - task_manager::issuer
+    - task_manager::consumer
+    - scheduler::admin
+    - vault_manager::admin
+    - resource_manager::admin
+    - policy_manager::admin
+    - alert_manager::admin
+    - oauth2_client_admin(backup_agent)
+    - tenant_viewer
+    - apn::requestor
+    roles: {}
+  files_protect_service:
+    implied_access_policies_for_registered_entity:
+    - notary::user
+    - tenant_viewer
+    roles: {}
+  frs:
+    implied_access_policies_for_registered_entity: []
+    roles:
+      admin: []
+  gsuite_c2c_backup_agent:
+    implied_access_policies_for_registered_entity:
+    - storage::readwrite
+    - task_manager:queue_gsuite_backup:consumer
+    - task_manager:queue_gsuite_backup_inc:consumer
+    - task_manager:queue_gsuite_restore:consumer
+    - task_manager:queue_gsuite_discovery:consumer
+    - task_manager::trusted_viewer
+    - c2c_backup_manager::admin
+    - vault_manager::admin
+    - notary::admin
+    - tenant_viewer
+    roles: {}
+  hierarchy_resolver:
+    implied_access_policies_for_registered_entity: []
+    roles:
+      consumer: []
+  index_manager:
+    implied_access_policies_for_registered_entity:
+    - task_manager:queue_catalog_indexer_tasks:issuer
+    - task_manager:queue_catalog_indexer_tasks:viewer
+    - task_manager:queue_catalog_indexer_hpriority_tasks:issuer
+    - task_manager:queue_catalog_indexer_hpriority_tasks:viewer
+    - task_manager:queue_catalog_index_tasks:consumer
+    - task_manager:queue_catalog_decommission_tasks:consumer
+    - vault_manager::admin
+    - index_manager_agent::admin
+    - tenant_viewer
+    roles: {}
+  index_manager_agent:
+    implied_access_policies_for_registered_entity:
+    - index_manager::registration
+    - tenant_viewer
+    roles: {}
+  monitoring:
+    implied_access_policies_for_registered_entity: []
+    roles:
+      admin: []
+      provider: []
+      viewer: []
+  o365_c2c_backup_agent:
+    implied_access_policies_for_registered_entity:
+    - storage::readwrite
+    - task_manager:queue_o365_backup:consumer
+    - task_manager:queue_o365_backup_inc:consumer
+    - task_manager:queue_o365_restore:consumer
+    - task_manager:queue_o365_discovery:consumer
+    - task_manager::trusted_viewer
+    - c2c_backup_manager::admin
+    - vault_manager::admin
+    - notary::admin
+    - tenant_viewer
+    roles: {}
+  policy_manager:
+    implied_access_policies_for_registered_entity: []
+    roles:
+      admin: []
+  policy_migration:
+    implied_access_policies_for_registered_entity:
+    - policy_manager::admin
+    - resource_manager::admin
+    roles:
+      admin: []
+  protection_status_service:
+    implied_access_policies_for_registered_entity:
+    - policy_manager::admin
+    - resource_manager::admin
+    - alert_manager::admin
+    - tenant_viewer
+    roles: {}
+  provision_manager:
+    implied_access_policies_for_registered_entity:
+    - task_manager:dr-service:issuer
+    - task_manager:queue_catalog_decommission_tasks:issuer
+    - task_manager:queue_catalog_decommission_tasks:viewer
+    - tenant_viewer
+    roles:
+      admin: []
+  resource_manager:
+    implied_access_policies_for_registered_entity:
+    - hierarchy_resolver::consumer
+    - task_manager:rm_decommission:consumer
+    - tenant_viewer
+    roles:
+      admin: []
+  runbook_manager:
+    implied_access_policies_for_registered_entity:
+    - task_manager:queue_runbooks:issuer
+    - task_manager:queue_runbooks:consumer
+    - dr_service::admin
+    - task_manager::trusted_viewer
+    - tenant_viewer
+    roles:
+      admin: []
+  scan_service:
+    implied_access_policies_for_registered_entity:
+    - task_manager::admin
+    - vault_manager::admin
+    - hierarchy_resolver::consumer
+    - tenant_viewer
+    - ams::admin
+    - policy_manager::admin
+    - alert_manager::admin
+    roles:
+      admin: []
+      agent: []
+      viewer: []
+  scheduler:
+    implied_access_policies_for_registered_entity:
+    - policy_manager::admin
+    - vault_manager::admin
+    - tenant_viewer
+    roles:
+      admin: []
+  simple_backup_manager:
+    implied_access_policies_for_registered_entity:
+    - task_manager::issuer
+    - scheduler::admin
+    - vault_manager::admin
+    - tenant_viewer
+    roles: {}
+  stats_server:
+    implied_access_policies_for_registered_entity:
+    - vault_manager::admin
+    - tenant_viewer
+    roles: {}
+  storage:
+    implied_access_policies_for_registered_entity: []
+    roles:
+      readonly: []
+      readwrite: []
+      replication_master: []
+  storage_migration:
+    implied_access_policies_for_registered_entity: []
+    roles:
+      admin: []
+      root: []
+  task_manager:
+    implied_access_policies_for_registered_entity:
+    - task_manager::cluster_sync
+    - hierarchy_resolver::consumer
+    - tenant_viewer
+    - apn::requestor
+    roles:
+      admin: []
+      cluster_sync: []
+      consumer: []
+      delegate: []
+      downstream_sync: []
+      issuer: []
+      viewer: []
+  vault_manager:
+    implied_access_policies_for_registered_entity:
+    - task_manager::issuer
+    - task_manager:vm_decommission:consumer
+    - scheduler::admin
+    - tenant_viewer
+    roles:
+      admin: []
+  wb_migration:
+    implied_access_policies_for_registered_entity:
+    - credentials_store::owner
+    - website_backup_manager::admin
+    - tenant_viewer
+    roles:
+      admin: []
+  website_backup_manager:
+    implied_access_policies_for_registered_entity:
+    - task_manager::issuer
+    - task_manager:queue_website_protection:consumer
+    - task_manager::trusted_viewer
+    - scheduler::admin
+    - vault_manager::admin
+    - tenant_viewer
+    roles: {}
+  website_c2c_backup_agent:
+    implied_access_policies_for_registered_entity:
+    - storage::readwrite
+    - task_manager:queue_website:consumer
+    - task_manager::trusted_viewer
+    - website_backup_manager::admin
+    - vault_manager::admin
+    - credentials_store::consumer
+    - tenant_viewer
+    roles: {}
+  zmqgw:
+    implied_access_policies_for_registered_entity:
+    - credentials_store::consumer
+    - vault_manager::admin
+    - resource_manager::admin
+    - policy_manager::admin
+    - task_manager::importer
+    - task_manager::viewer
+    - tenant_viewer
+    roles:
+      admin: []
+clients:
+  active_protection:
+    public_client_id: ""
+    implied_access_policies_for_registered_entity:
+    - alert_manager::admin
+    allowed_registrators:
+    - oauth2_client_admin(backup_agent)
+  agent_core:
+    public_client_id: ""
+    implied_access_policies_for_registered_entity:
+    - agent_manager::agent_registrator
+    - agent_manager::agent_registrar
+    - agent_manager::agent_unregistrator
+    - agent_manager::agent_unregistrar
+    - agent_manager::agent_viewer
+    - agent_manager::unit_configuration_viewer
+    - apn::node
+    allowed_registrators:
+    - oauth2_client_admin
+  alert-manager:
+    public_client_id: ""
+    implied_access_policies_for_registered_entity: []
+    allowed_registrators:
+    - oauth2_client_admin(backup_agent)
+  atp-agent:
+    public_client_id: ""
+    implied_access_policies_for_registered_entity:
+    - task_manager:ATP_*:consumer
+    - task_manager:ATP_*:issuer
+    - task_manager:x#ATP_*:consumer
+    - task_manager::viewer
+    - agent_manager::host_uploader
+    - agent_manager::ou_uploader
+    - agent_manager::agent_unit_metadata_updater
+    - monitoring::provider
+    - scan_service::agent
+    - storage::readwrite
+    - policy_manager::admin
+    - vault_manager::admin
+    - tenant_viewer
+    - credentials_store::consumer
+    - resource_manager::admin
+    allowed_registrators:
+    - oauth2_client_admin(backup_agent)
+  atp-downloader:
+    public_client_id: ""
+    implied_access_policies_for_registered_entity: []
+    allowed_registrators:
+    - oauth2_client_admin(backup_agent)
+  backup_storage_engine:
+    public_client_id: cf55fae2-02c0-11e8-ba89-0ed5f89f718b
+    implied_access_policies_for_registered_entity:
+    - backup_storage_engine
+    allowed_registrators:
+    - oauth2_client_admin(backup_storage)
+  backupAgent:
+    public_client_id: ""
+    implied_access_policies_for_registered_entity:
+    - task_manager::consumer
+    - storage::readwrite
+    - policy_manager::admin
+    - resource_manager::admin
+    - agent_manager::agent_registrar
+    - oauth2_client_admin(backup_agent)
+    - tenant_viewer
+    allowed_registrators:
+    - oauth2_client_admin(backup_agent)
+  bootmedia:
+    public_client_id: ""
+    implied_access_policies_for_registered_entity:
+    - task_manager::consumer
+    - storage::readwrite
+    - policy_manager::admin
+    - resource_manager::admin
+    - tenant_viewer
+    allowed_registrators:
+    - oauth2_client_admin(backup_agent)
+  cgw:
+    public_client_id: ""
+    implied_access_policies_for_registered_entity:
+    - frs::admin
+    - corp-wl::admin
+    - bitdefender-cleanset::admin
+    allowed_registrators:
+    - oauth2_client_admin(backup_agent)
+  computer_backup_agent:
+    public_client_id: cf55edc2-02c0-11e8-ba89-0ed5f89f718b
+    implied_access_policies_for_registered_entity:
+    - task_manager::consumer
+    - credentials_store::consumer
+    - storage::readwrite
+    - policy_manager::admin
+    - resource_manager::admin
+    allowed_registrators:
+    - oauth2_client_admin(backup_agent)
+  cyber-protect-service:
+    public_client_id: ""
+    implied_access_policies_for_registered_entity:
+    - frs::admin
+    - corp-wl::admin
+    - bitdefender-cleanset::admin
+    allowed_registrators:
+    - oauth2_client_admin(backup_agent)
+  dr_backup_agent:
+    public_client_id: ""
+    implied_access_policies_for_registered_entity:
+    - task_manager:dr_backup_queue:consumer
+    - task_manager:cleanup:consumer
+    - storage::readwrite
+    allowed_registrators:
+    - oauth2_client_admin(dr_infra_admin)
+  grpm-mini:
+    public_client_id: ""
+    implied_access_policies_for_registered_entity: []
+    allowed_registrators:
+    - oauth2_client_admin(backup_agent)
+  managed-unit:
+    public_client_id: ""
+    implied_access_policies_for_registered_entity: []
+    allowed_registrators:
+    - oauth2_client_admin(backup_agent)
+  mms:
+    public_client_id: ""
+    implied_access_policies_for_registered_entity:
+    - task_manager::consumer
+    - storage::readwrite
+    - policy_manager::admin
+    - resource_manager::admin
+    - tenant_viewer
+    allowed_registrators:
+    - oauth2_client_admin(backup_agent)
+  monitoring-mini:
+    public_client_id: ""
+    implied_access_policies_for_registered_entity: []
+    allowed_registrators:
+    - oauth2_client_admin(backup_agent)
+  run_vm_agent:
+    public_client_id: ""
+    implied_access_policies_for_registered_entity:
+    - task_manager:runvm_delta_create:consumer
+    - task_manager:runvm_delta_delete:consumer
+    - task_manager:runvm_gateway:consumer
+    - task_manager:runvm_vm_create:consumer
+    - task_manager:runvm_vm_delete:consumer
+    - task_manager:runvm_vm_finalize:consumer
+    - task_manager:dr_backup_queue:consumer
+    - task_manager:cleanup:consumer
+    - credentials_store::consumer
+    - vault_manager::admin
+    - storage::readwrite
+    allowed_registrators:
+    - oauth2_client_admin(dr_infra_admin)
+  run_vm_controller:
+    public_client_id: ""
+    implied_access_policies_for_registered_entity:
+    - credentials_store::consumer
+    - storage::readonly
+    allowed_registrators:
+    - oauth2_client_admin(dr_infra_admin)
+  run_vm_gateway:
+    public_client_id: ""
+    implied_access_policies_for_registered_entity: []
+    allowed_registrators:
+    - oauth2_client_admin(dr_infra_admin)
+  storageNode:
+    public_client_id: ""
+    implied_access_policies_for_registered_entity: []
+    allowed_registrators: []
+  sync-unit:
+    public_client_id: ""
+    implied_access_policies_for_registered_entity:
+    - policy_manager::admin
+    allowed_registrators:
+    - oauth2_client_admin(backup_agent)
+  task-manager:
+    public_client_id: ""
+    implied_access_policies_for_registered_entity:
+    - task_manager::delegate
+    allowed_registrators:
+    - oauth2_client_admin(backup_agent)
+  vpn-appliance:
+    public_client_id: cf55fd62-02c0-11e8-ba89-0ed5f89f718b
+    implied_access_policies_for_registered_entity:
+    - '!company_admin'
+    - task_manager:dr-vpn-service:consumer
+    - dr_service::vpn_appliance
+    allowed_registrators:
+    - oauth2_client_admin(dr)
+  vpn-server:
+    public_client_id: cf560398-02c0-11e8-ba89-0ed5f89f718b
+    implied_access_policies_for_registered_entity:
+    - '!company_admin'
+    - task_manager:dr-vpn-service:consumer
+    - dr_service::vpn_server
+    allowed_registrators:
+    - oauth2_client_admin(dr)
+access_policy_register: access_policy_admin

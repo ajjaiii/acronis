@@ -1,0 +1,1 @@
+{"Alarms":[{"AT_type":"TimeAlarm","AT":{"StartTime":{"Second":0,"Minute":0,"Hour":0},"Calendar_type":"WeeklyCalendar","Calendar":{"Days":0,"WeekInterval":0},"RunLater":true,"RepeatAtDay":{"TimeInterval":10800,"EndTime":{"Second":0,"Minute":55,"Hour":23}}}}],"Conditions":[],"MaxDelayPeriod":3600}

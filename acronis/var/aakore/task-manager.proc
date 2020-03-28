@@ -1,0 +1,6 @@
+name: task-manager
+location: http://localhost:40730
+pid: 9151
+disabled: false
+state: 2
+startTime: 2020-03-28T08:33:46.801184302Z

@@ -1,0 +1,3 @@
+location: http://127.0.0.1:9999
+ipcPath: /opt/acronis/var/run/aakore/aakore.sock
+pid: 8907

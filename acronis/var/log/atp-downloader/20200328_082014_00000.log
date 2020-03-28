@@ -1,0 +1,209 @@
+OS Version:         28.03.2020 08:20:14.486596 [0x000007a2] [0x00007f3c3b101b00] [debug] [Configurator] : Initialize()[212] initializing...28.03.2020 08:20:14.509051 [0x000007a2] [0x00007f3c3b101b00] [fatal] [UnixUtils] : Init()[74] A command 'lsb_release -a' failed
+28.03.2020 08:20:14.510997 [0x000007a2] [0x00007f3c3b101b00] [fatal] [UnixUtils] : operator()()[84] A command 'uname -s' failed
+28.03.2020 08:20:14.512872 [0x000007a2] [0x00007f3c3b101b00] [fatal] [UnixUtils] : operator()()[84] A command 'uname -r' failed
+28.03.2020 08:20:14.514718 [0x000007a2] [0x00007f3c3b101b00] [fatal] [UnixUtils] : operator()()[84] A command 'uname -v' failed
+Linux 3.10.0-1062.18.1.el7.x86_64 (#1 SMP Tue Mar 17 23:49:17 UTC 2020)
+Architecture:       x86_64
+User Name:          root
+Updater version:  0.0.1.489
+
+
+28.03.2020 08:20:14.515052 [0x000007a2] [0x00007f3c3b101b00] [debug] [Configurator] : Initialize()[226] Host: 'wp'
+28.03.2020 08:20:14.515212 [0x000007a2] [0x00007f3c3b101b00] [debug] [Configurator] : Initialize()[232] Network interfaces: 
+    10.128.0.20
+28.03.2020 08:20:14.515234 [0x000007a2] [0x00007f3c3b101b00] [debug] [Configurator] : Initialize()[239] initialized: 
+    Working directory: '/opt/acronis/var/atp-downloader'
+    Cache directory: '/opt/acronis/var/atp-downloader/Cache'
+28.03.2020 08:20:19.523347 [0x000007a2] [0x00007f3c3b101b00] [debug] [AakoreProxy] : GetAuthorizationToken()[117] Token updated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdHAtZG93bmxvYWRlciIsImV4cCI6MTU4NTQ3MDAxNCwianRpIjoiZjM0NDNjMjYtNzBjYy0xMWVhLWFiZWItNDIwMTM4MmYyMjI5IiwiaWF0IjoxNTg1MzgzNjE5LCJpc3MiOiJhYWtvcmUiLCJzdWIiOiJhdHAtZG93bmxvYWRlciIsInNjb3BlIjpbeyJ0aWQiOiIyMDE1MTYwIiwicnMiOiJ0ZW5hbnQtaWQiLCJyb2xlIjoibG9jYWxfdW5pdCJ9XSwidmVyIjoxMH0.gglFTeqBUQzSTekq_m4qC5qPA-M_Q0FS37cHkjmoOtMlFlxj4Hs_7QPRIOMcukyLmY88P3KNIXBdpxJ8iExyawYFW01FXcWsPog9exkXdkgA6aB-YH5FY6Gv1OVG3LuFG3Qw5y_6sfztbdj_VC7BxfPNdnrChd5gIoB30gp7SPdSxpHAgOPVb2e_GcRmUNoprdVLRo3Httdkr__Tz-LQDBYaNdYi3wmuyjZVjZaLs4qCOtGUSbyZR7ieNr9nhJ2Lb2pSFVtXCTmdHsEEVDhaut2U-G-x2VaWIGgJHyJhD3OU4b9W8BIYOaxOM8C2zuok_bd3Qy-IvvMliU6ldl-z5w
+28.03.2020 08:20:19.523887 [0x000007a2] [0x00007f3c3b101b00] [debug] [AakoreProxy] : UpdateKeys()[147] JWKS updated
+{
+"alg" : ""
+"e" : "AQAB"
+"kty" : "RSA"
+"n" : "xObpRZwCrya-_Z_yYi6vx2XhT9yR0TKU_wGt3TWDc_R1_wpS4mPsfWa4xM1ILvTj3QaO04I1yFllNHC45fJk5JC-Q75wSZ4UMsoOWYJkk50R-kBvOqlBzeLH_lsRweF0WFn-6oh0mMv4tICQ4ZYUTh78I9B8efWjts98N6y45vCZhXcPWAX4T-EisThiekIPRIqQ0xLbSiRwnH9kdilF9VkEadZhnYRts0t_svm3I9SLV8djxJW-jFr_EjGeIiCY1-Az8NB7stB5749OZVND0i6d8bO2rP_4F7FIEz_uOS56H6XKhHxiOPFj0vW-mkZzBMNYSZHGKhyphs7jguvXxw"
+}
+28.03.2020 08:20:19.523935 [0x000007a2] [0x00007f3c3b101b00] [debug] [StorageRepository] : Initialize()[221] Initialize()[221] Opening database at '"/opt/acronis/var/atp-downloader/index.db"'
+28.03.2020 08:20:19.537637 [0x000007a2] [0x00007f3c3b101b00] [debug] [StorageRepository] : Initialize()[264] Initialize()[264] Done
+28.03.2020 08:20:19.559568 [0x000007a2] [0x00007f3c3b101b00] [debug] [LocalAPI] : SendPortToAakore()[135] Sending '{"location":"http://127.0.0.1:18019"}' to 'http://127.0.0.1:9999/api/agent/v1/units/atp-downloader'
+28.03.2020 08:20:19.560981 [0x000007a2] [0x00007f3c3b101b00] [debug] [LocalAPI] : SendPortToAakore()[150] successfully update location for aakore
+28.03.2020 08:20:19.561092 [0x000007a2] [0x00007f3c3b101b00] [debug] [BTEngine] : ReloadSettings()[605] ReloadSettings()[605] Called
+28.03.2020 08:20:19.561119 [0x000007a2] [0x00007f3c3b101b00] [debug] [Configurator] : GetEffectiveUpdaterMode()[443] Updater without updater agents.
+28.03.2020 08:20:19.561131 [0x000007a2] [0x00007f3c3b101b00] [debug] [Configurator] : GetEffectiveUpdaterMode()[447] UpdaterAgent
+28.03.2020 08:20:19.561152 [0x000007a2] [0x00007f3c3b101b00] [info] [BTEngine] : SetMode()[75] SetMode()[75] mode is UpdaterAgent
+28.03.2020 08:20:19.561170 [0x000007a2] [0x00007f3c3b101b00] [info] [BTEngine] : SetMode()[99] SetMode()[99] dht bootstrap nodes set to 
+28.03.2020 08:20:19.561184 [0x000007a2] [0x00007f3c3b101b00] [debug] [BTEngine] : SetString()[592] SetString()[592] outgoing interface is 
+28.03.2020 08:20:19.561205 [0x000007a2] [0x00007f3c3b101b00] [debug] [BTEngine] : SetInt()[337] SetInt()[337] listen port is 6888
+28.03.2020 08:20:19.561216 [0x000007a2] [0x00007f3c3b101b00] [debug] [BTEngine] : SetString()[526] SetString()[526] bind interface is 0.0.0.0
+28.03.2020 08:20:19.561230 [0x000007a2] [0x00007f3c3b101b00] [debug] [BTEngine] : SetBool()[440] SetBool()[440] force encryption is enabled
+28.03.2020 08:20:19.561244 [0x000007a2] [0x00007f3c3b101b00] [debug] [BTEngine] : SetInt()[341] SetInt()[341] peer timeout is 10
+28.03.2020 08:20:19.561256 [0x000007a2] [0x00007f3c3b101b00] [debug] [BTEngine] : SetString()[522] SetString()[522] save path is /opt/acronis/var/atp-downloader/Cache
+28.03.2020 08:20:19.561266 [0x000007a2] [0x00007f3c3b101b00] [debug] [BTEngine] : SetString()[596] SetString()[596] session state is saving to /opt/acronis/var/atp-downloader/Cache
+28.03.2020 08:20:19.561277 [0x000007a2] [0x00007f3c3b101b00] [debug] [BTEngine] : SetString()[600] SetString()[600] resume data is saving to /opt/acronis/var/atp-downloader
+28.03.2020 08:20:19.561552 [0x000007a2] [0x00007f3c329bf700] [info] [BTEngine] : RunningThread()[240] RunningThread()[240] Started
+28.03.2020 08:20:19.562117 [0x000007a2] [0x00007f3c329bf700] [info] [BTEngine] : LoadSession()[273] LoadSession()[273] Session is loaded
+28.03.2020 08:20:19.562137 [0x000007a2] [0x00007f3c329bf700] [info] [BTEngine] : LoadSession()[274] LoadSession()[274] DHT is running
+28.03.2020 08:20:19.563275 [0x000007a2] [0x00007f3c329bf700] [info] [BTEngine] : LoadSession()[277] LoadSession()[277] DHT bootstrap nodes: 
+28.03.2020 08:20:19.571528 [0x000007a2] [0x00007f3c3b101b00] [debug] [UpdaterBrain] : DeleteExpiredCache()[948] DeleteExpiredCache()[948] Start
+28.03.2020 08:20:19.571600 [0x000007a2] [0x00007f3c3b101b00] [debug] [UpdaterBrain] : DeleteExpiredCache()[950] DeleteExpiredCache()[950] 0 expired packages
+28.03.2020 08:20:19.571617 [0x000007a2] [0x00007f3c3b101b00] [debug] [UpdaterBrain] : DeleteExpiredCache()[952] DeleteExpiredCache()[952] Done
+28.03.2020 08:20:19.571681 [0x000007a2] [0x00007f3c3b101b00] [debug] [UpdaterBrain] : CacheCleanup()[835] CacheCleanup()[835] Current cache_size: 0, cache_size_limit: 1048576000
+28.03.2020 08:20:19.571695 [0x000007a2] [0x00007f3c3b101b00] [debug] [UpdaterBrain] : UpdateIndices()[698] UpdateIndices()[698] [++++++++ Update Indexes]: start
+28.03.2020 08:20:19.571716 [0x000007a2] [0x00007f3c3b101b00] [debug] [UpdaterBrain] : UpdateIndices()[710] UpdateIndices()[710] [>>> Update Indexes]: http://127.0.0.1:9772/api/atp-agent/v1/update_config is Downloaded
+28.03.2020 08:20:19.571762 [0x000007a2] [0x00007f3c3b101b00] [debug] [UpdaterBrain] : UpdateIndices()[710] UpdateIndices()[710] [>>> Update Indexes]: https://dl.acronis.com/u/vapm/update-index.json is Downloaded
+28.03.2020 08:20:19.571793 [0x000007a2] [0x00007f3c3b101b00] [debug] [UpdaterBrain] : UpdateIndices()[710] UpdateIndices()[710] [>>> Update Indexes]: https://dl.acronis.com/u/am/ngmp/update-index.json is Downloaded
+28.03.2020 08:20:19.571823 [0x000007a2] [0x00007f3c3b101b00] [debug] [UpdaterBrain] : UpdateIndices()[731] UpdateIndices()[731] [-------- Update Indexes]: finish
+28.03.2020 08:20:19.571878 [0x000007a2] [0x00007f3c3b101b00] [debug] [Configurator] : GetEffectiveUpdaterMode()[443] Updater without updater agents.
+28.03.2020 08:20:19.571891 [0x000007a2] [0x00007f3c3b101b00] [debug] [Configurator] : GetEffectiveUpdaterMode()[447] UpdaterAgent
+28.03.2020 08:20:19.571999 [0x000007a2] [0x00007f3c321bb700] [debug] [ServerProxy] : DownloadNewUpdateIndex()[312] DownloadNewUpdateIndex()[312] REQUEST: https://dl.acronis.com/u/am/ngmp/update-index.json
+28.03.2020 08:20:19.572022 [0x000007a2] [0x00007f3c321bb700] [debug] [ServerProxy] : DownloadPackage()[98] Url:https://dl.acronis.com/u/am/ngmp/update-index.json path:/opt/acronis/var/atp-downloader/11312411456083412295
+28.03.2020 08:20:19.572087 [0x000007a2] [0x00007f3c321bb700] [debug] [ServerProxy] : DownloadPackage()[121] DownloadPackage()[121] url to escape: https://dl.acronis.com/u/am/ngmp/update-index.json
+28.03.2020 08:20:19.572114 [0x000007a2] [0x00007f3c321bb700] [debug] [ServerProxy] : DownloadPackage()[140] DownloadPackage()[140] escaped url: https://dl.acronis.com/u/am/ngmp/update-index.json
+28.03.2020 08:20:19.572266 [0x000007a2] [0x00007f3c31db9700] [info] [InternalAPI] : RunningThread()[167] RunningThread()[167] Starting internal API on '0.0.0.0:18018'
+28.03.2020 08:20:19.572308 [0x000007a2] [0x00007f3c31db9700] [info] [InternalAPI] : LoadUpdaterAgentApi()[153] LoadUpdaterAgentApi()[153] Loaded
+28.03.2020 08:20:19.572465 [0x000007a2] [0x00007f3c325bd700] [debug] [ServerProxy] : DownloadNewUpdateIndex()[312] DownloadNewUpdateIndex()[312] REQUEST: http://127.0.0.1:9772/api/atp-agent/v1/update_config
+28.03.2020 08:20:19.572492 [0x000007a2] [0x00007f3c325bd700] [debug] [ServerProxy] : DownloadPackage()[98] Url:http://127.0.0.1:9772/api/atp-agent/v1/update_config path:/opt/acronis/var/atp-downloader/13051554772182520008
+28.03.2020 08:20:19.572549 [0x000007a2] [0x00007f3c325bd700] [debug] [ServerProxy] : DownloadPackage()[121] DownloadPackage()[121] url to escape: http://127.0.0.1:9772/api/atp-agent/v1/update_config
+28.03.2020 08:20:19.572567 [0x000007a2] [0x00007f3c325bd700] [debug] [ServerProxy] : DownloadPackage()[140] DownloadPackage()[140] escaped url: http://127.0.0.1:9772/api/atp-agent/v1/update_config
+28.03.2020 08:20:19.572720 [0x000007a2] [0x00007f3c325bd700] [error] [ServerProxy] : DownloadPackage()[215] DownloadPackage()[215] Couldn't connect to server
+28.03.2020 08:20:19.572754 [0x000007a2] [0x00007f3c325bd700] [warning] [ServerProxy] : DownloadNewUpdateIndex()[342] DownloadNewUpdateIndex()[342] update service is not available
+28.03.2020 08:20:19.572766 [0x000007a2] [0x00007f3c325bd700] [debug] [ServerProxy] : DownloadNewUpdateIndex()[352] DownloadNewUpdateIndex()[352] req: 'http://127.0.0.1:9772/api/atp-agent/v1/update_config' status: -1
+28.03.2020 08:20:19.572778 [0x000007a2] [0x00007f3c325bd700] [error] [UpdaterBrain] : ProcessNewUpdateIndex()[752] ProcessNewUpdateIndex()[752] Update service is not available
+28.03.2020 08:20:19.572921 [0x000007a2] [0x00007f3c31bb8700] [info] [LocalAPI] : RunningThread()[90] Starting local API on 127.0.0.1:18019
+28.03.2020 08:20:19.573062 [0x000007a2] [0x00007f3c323bc700] [debug] [ServerProxy] : DownloadNewUpdateIndex()[312] DownloadNewUpdateIndex()[312] REQUEST: https://dl.acronis.com/u/vapm/update-index.json
+28.03.2020 08:20:19.573088 [0x000007a2] [0x00007f3c323bc700] [debug] [ServerProxy] : DownloadPackage()[98] Url:https://dl.acronis.com/u/vapm/update-index.json path:/opt/acronis/var/atp-downloader/1794806987735130767
+28.03.2020 08:20:19.573145 [0x000007a2] [0x00007f3c323bc700] [debug] [ServerProxy] : DownloadPackage()[121] DownloadPackage()[121] url to escape: https://dl.acronis.com/u/vapm/update-index.json
+28.03.2020 08:20:19.573163 [0x000007a2] [0x00007f3c323bc700] [debug] [ServerProxy] : DownloadPackage()[140] DownloadPackage()[140] escaped url: https://dl.acronis.com/u/vapm/update-index.json
+28.03.2020 08:20:22.836463 [0x000007a2] [0x00007f3c321bb700] [debug] [ServerProxy] : xferinfo()[72] Downloading (https://dl.acronis.com/u/am/ngmp/update-index.json) - 0 of 0 bytes
+28.03.2020 08:20:22.909457 [0x000007a2] [0x00007f3c323bc700] [debug] [ServerProxy] : xferinfo()[72] Downloading (https://dl.acronis.com/u/vapm/update-index.json) - 0 of 0 bytes
+28.03.2020 08:20:25.839540 [0x000007a2] [0x00007f3c321bb700] [debug] [ServerProxy] : xferinfo()[72] Downloading (https://dl.acronis.com/u/am/ngmp/update-index.json) - 0 of 0 bytes
+28.03.2020 08:20:25.912718 [0x000007a2] [0x00007f3c323bc700] [debug] [ServerProxy] : xferinfo()[72] Downloading (https://dl.acronis.com/u/vapm/update-index.json) - 0 of 0 bytes
+28.03.2020 08:20:28.842776 [0x000007a2] [0x00007f3c321bb700] [debug] [ServerProxy] : xferinfo()[72] Downloading (https://dl.acronis.com/u/am/ngmp/update-index.json) - 0 of 0 bytes
+28.03.2020 08:20:28.915971 [0x000007a2] [0x00007f3c323bc700] [debug] [ServerProxy] : xferinfo()[72] Downloading (https://dl.acronis.com/u/vapm/update-index.json) - 0 of 0 bytes
+28.03.2020 08:20:31.846019 [0x000007a2] [0x00007f3c321bb700] [debug] [ServerProxy] : xferinfo()[72] Downloading (https://dl.acronis.com/u/am/ngmp/update-index.json) - 0 of 0 bytes
+28.03.2020 08:20:31.919241 [0x000007a2] [0x00007f3c323bc700] [debug] [ServerProxy] : xferinfo()[72] Downloading (https://dl.acronis.com/u/vapm/update-index.json) - 0 of 0 bytes
+28.03.2020 08:20:34.849380 [0x000007a2] [0x00007f3c321bb700] [debug] [ServerProxy] : xferinfo()[72] Downloading (https://dl.acronis.com/u/am/ngmp/update-index.json) - 0 of 0 bytes
+28.03.2020 08:20:34.922601 [0x000007a2] [0x00007f3c323bc700] [debug] [ServerProxy] : xferinfo()[72] Downloading (https://dl.acronis.com/u/vapm/update-index.json) - 0 of 0 bytes
+28.03.2020 08:20:37.852687 [0x000007a2] [0x00007f3c321bb700] [debug] [ServerProxy] : xferinfo()[72] Downloading (https://dl.acronis.com/u/am/ngmp/update-index.json) - 0 of 0 bytes
+28.03.2020 08:20:37.925914 [0x000007a2] [0x00007f3c323bc700] [debug] [ServerProxy] : xferinfo()[72] Downloading (https://dl.acronis.com/u/vapm/update-index.json) - 0 of 0 bytes
+28.03.2020 08:20:40.855994 [0x000007a2] [0x00007f3c321bb700] [debug] [ServerProxy] : xferinfo()[72] Downloading (https://dl.acronis.com/u/am/ngmp/update-index.json) - 0 of 0 bytes
+28.03.2020 08:20:40.929235 [0x000007a2] [0x00007f3c323bc700] [debug] [ServerProxy] : xferinfo()[72] Downloading (https://dl.acronis.com/u/vapm/update-index.json) - 0 of 0 bytes
+28.03.2020 08:20:43.859294 [0x000007a2] [0x00007f3c321bb700] [debug] [ServerProxy] : xferinfo()[72] Downloading (https://dl.acronis.com/u/am/ngmp/update-index.json) - 0 of 0 bytes
+28.03.2020 08:20:43.932416 [0x000007a2] [0x00007f3c323bc700] [debug] [ServerProxy] : xferinfo()[72] Downloading (https://dl.acronis.com/u/vapm/update-index.json) - 0 of 0 bytes
+28.03.2020 08:20:46.862587 [0x000007a2] [0x00007f3c321bb700] [debug] [ServerProxy] : xferinfo()[72] Downloading (https://dl.acronis.com/u/am/ngmp/update-index.json) - 0 of 0 bytes
+28.03.2020 08:20:46.935119 [0x000007a2] [0x00007f3c323bc700] [debug] [ServerProxy] : xferinfo()[72] Downloading (https://dl.acronis.com/u/vapm/update-index.json) - 0 of 0 bytes
+28.03.2020 08:20:49.561397 [0x000007a2] [0x00007f3c315b5700] [debug] [LocalAPI] : operator()()[568] [ >>>>>>>>> REST ]: /healthcheck
+28.03.2020 08:20:49.561466 [0x000007a2] [0x00007f3c315b5700] [debug] [LocalAPI] : operator()()[569] [ REST <<<<<<<<<< ]: respond with HTTP 200
+28.03.2020 08:20:50.604760 [0x000007a2] [0x00007f3c321bb700] [debug] [ServerProxy] : xferinfo()[72] Downloading (https://dl.acronis.com/u/am/ngmp/update-index.json) - 0 of 0 bytes
+28.03.2020 08:20:50.637414 [0x000007a2] [0x00007f3c323bc700] [debug] [ServerProxy] : xferinfo()[72] Downloading (https://dl.acronis.com/u/vapm/update-index.json) - 0 of 0 bytes
+28.03.2020 08:20:53.608010 [0x000007a2] [0x00007f3c321bb700] [debug] [ServerProxy] : xferinfo()[72] Downloading (https://dl.acronis.com/u/am/ngmp/update-index.json) - 0 of 0 bytes
+28.03.2020 08:20:53.639934 [0x000007a2] [0x00007f3c323bc700] [debug] [ServerProxy] : xferinfo()[72] Downloading (https://dl.acronis.com/u/vapm/update-index.json) - 0 of 0 bytes
+28.03.2020 08:20:56.611274 [0x000007a2] [0x00007f3c321bb700] [debug] [ServerProxy] : xferinfo()[72] Downloading (https://dl.acronis.com/u/am/ngmp/update-index.json) - 0 of 0 bytes
+28.03.2020 08:20:56.641981 [0x000007a2] [0x00007f3c323bc700] [debug] [ServerProxy] : xferinfo()[72] Downloading (https://dl.acronis.com/u/vapm/update-index.json) - 0 of 0 bytes
+28.03.2020 08:20:59.614534 [0x000007a2] [0x00007f3c321bb700] [debug] [ServerProxy] : xferinfo()[72] Downloading (https://dl.acronis.com/u/am/ngmp/update-index.json) - 0 of 0 bytes
+28.03.2020 08:20:59.645167 [0x000007a2] [0x00007f3c323bc700] [debug] [ServerProxy] : xferinfo()[72] Downloading (https://dl.acronis.com/u/vapm/update-index.json) - 0 of 0 bytes
+28.03.2020 08:21:02.621558 [0x000007a2] [0x00007f3c321bb700] [debug] [ServerProxy] : xferinfo()[72] Downloading (https://dl.acronis.com/u/am/ngmp/update-index.json) - 0 of 0 bytes
+28.03.2020 08:21:02.648307 [0x000007a2] [0x00007f3c323bc700] [debug] [ServerProxy] : xferinfo()[72] Downloading (https://dl.acronis.com/u/vapm/update-index.json) - 0 of 0 bytes
+28.03.2020 08:21:04.588788 [0x000007a2] [0x00007f3c321bb700] [error] [ServerProxy] : DownloadPackage()[215] DownloadPackage()[215] Couldn't connect to server
+28.03.2020 08:21:04.588902 [0x000007a2] [0x00007f3c321bb700] [warning] [ServerProxy] : DownloadNewUpdateIndex()[342] DownloadNewUpdateIndex()[342] update service is not available
+28.03.2020 08:21:04.588918 [0x000007a2] [0x00007f3c321bb700] [debug] [ServerProxy] : DownloadNewUpdateIndex()[352] DownloadNewUpdateIndex()[352] req: 'https://dl.acronis.com/u/am/ngmp/update-index.json' status: -1
+28.03.2020 08:21:04.588933 [0x000007a2] [0x00007f3c321bb700] [error] [UpdaterBrain] : ProcessNewUpdateIndex()[752] ProcessNewUpdateIndex()[752] Update service is not available
+28.03.2020 08:21:04.606425 [0x000007a2] [0x00007f3c323bc700] [error] [ServerProxy] : DownloadPackage()[215] DownloadPackage()[215] Couldn't connect to server
+28.03.2020 08:21:04.606504 [0x000007a2] [0x00007f3c323bc700] [warning] [ServerProxy] : DownloadNewUpdateIndex()[342] DownloadNewUpdateIndex()[342] update service is not available
+28.03.2020 08:21:04.606518 [0x000007a2] [0x00007f3c323bc700] [debug] [ServerProxy] : DownloadNewUpdateIndex()[352] DownloadNewUpdateIndex()[352] req: 'https://dl.acronis.com/u/vapm/update-index.json' status: -1
+28.03.2020 08:21:04.606532 [0x000007a2] [0x00007f3c323bc700] [error] [UpdaterBrain] : ProcessNewUpdateIndex()[752] ProcessNewUpdateIndex()[752] Update service is not available
+28.03.2020 08:21:19.561284 [0x000007a2] [0x00007f3c315b5700] [debug] [LocalAPI] : operator()()[568] [ >>>>>>>>> REST ]: /healthcheck
+28.03.2020 08:21:19.561343 [0x000007a2] [0x00007f3c315b5700] [debug] [LocalAPI] : operator()()[569] [ REST <<<<<<<<<< ]: respond with HTTP 200
+28.03.2020 08:21:19.571963 [0x000007a2] [0x00007f3c31fba700] [debug] [UpdaterBrain] : UpdateIndices()[698] UpdateIndices()[698] [++++++++ Update Indexes]: start
+28.03.2020 08:21:19.572065 [0x000007a2] [0x00007f3c31fba700] [debug] [UpdaterBrain] : UpdateIndices()[710] UpdateIndices()[710] [>>> Update Indexes]: http://127.0.0.1:9772/api/atp-agent/v1/update_config is Failure
+28.03.2020 08:21:19.572113 [0x000007a2] [0x00007f3c31fba700] [debug] [UpdaterBrain] : UpdateIndices()[710] UpdateIndices()[710] [>>> Update Indexes]: https://dl.acronis.com/u/vapm/update-index.json is Failure
+28.03.2020 08:21:19.572135 [0x000007a2] [0x00007f3c31fba700] [debug] [UpdaterBrain] : UpdateIndices()[710] UpdateIndices()[710] [>>> Update Indexes]: https://dl.acronis.com/u/am/ngmp/update-index.json is Failure
+28.03.2020 08:21:19.572155 [0x000007a2] [0x00007f3c31fba700] [debug] [UpdaterBrain] : UpdateIndices()[731] UpdateIndices()[731] [-------- Update Indexes]: finish
+28.03.2020 08:21:19.572196 [0x000007a2] [0x00007f3c321bb700] [debug] [ServerProxy] : DownloadNewUpdateIndex()[312] DownloadNewUpdateIndex()[312] REQUEST: https://dl.acronis.com/u/am/ngmp/update-index.json
+28.03.2020 08:21:19.572214 [0x000007a2] [0x00007f3c321bb700] [debug] [ServerProxy] : DownloadPackage()[98] Url:https://dl.acronis.com/u/am/ngmp/update-index.json path:/opt/acronis/var/atp-downloader/11312411456083412295
+28.03.2020 08:21:19.572279 [0x000007a2] [0x00007f3c321bb700] [debug] [ServerProxy] : DownloadPackage()[121] DownloadPackage()[121] url to escape: https://dl.acronis.com/u/am/ngmp/update-index.json
+28.03.2020 08:21:19.572298 [0x000007a2] [0x00007f3c321bb700] [debug] [ServerProxy] : DownloadPackage()[140] DownloadPackage()[140] escaped url: https://dl.acronis.com/u/am/ngmp/update-index.json
+28.03.2020 08:21:19.572435 [0x000007a2] [0x00007f3c325bd700] [debug] [ServerProxy] : DownloadNewUpdateIndex()[312] DownloadNewUpdateIndex()[312] REQUEST: http://127.0.0.1:9772/api/atp-agent/v1/update_config
+28.03.2020 08:21:19.572461 [0x000007a2] [0x00007f3c325bd700] [debug] [ServerProxy] : DownloadPackage()[98] Url:http://127.0.0.1:9772/api/atp-agent/v1/update_config path:/opt/acronis/var/atp-downloader/13051554772182520008
+28.03.2020 08:21:19.572553 [0x000007a2] [0x00007f3c325bd700] [debug] [ServerProxy] : DownloadPackage()[121] DownloadPackage()[121] url to escape: http://127.0.0.1:9772/api/atp-agent/v1/update_config
+28.03.2020 08:21:19.572581 [0x000007a2] [0x00007f3c325bd700] [debug] [ServerProxy] : DownloadPackage()[140] DownloadPackage()[140] escaped url: http://127.0.0.1:9772/api/atp-agent/v1/update_config
+28.03.2020 08:21:19.573423 [0x000007a2] [0x00007f3c323bc700] [debug] [ServerProxy] : DownloadNewUpdateIndex()[312] DownloadNewUpdateIndex()[312] REQUEST: https://dl.acronis.com/u/vapm/update-index.json
+28.03.2020 08:21:19.573465 [0x000007a2] [0x00007f3c323bc700] [debug] [ServerProxy] : DownloadPackage()[98] Url:https://dl.acronis.com/u/vapm/update-index.json path:/opt/acronis/var/atp-downloader/1794806987735130767
+28.03.2020 08:21:19.573538 [0x000007a2] [0x00007f3c323bc700] [debug] [ServerProxy] : DownloadPackage()[121] DownloadPackage()[121] url to escape: https://dl.acronis.com/u/vapm/update-index.json
+28.03.2020 08:21:19.573556 [0x000007a2] [0x00007f3c323bc700] [debug] [ServerProxy] : DownloadPackage()[140] DownloadPackage()[140] escaped url: https://dl.acronis.com/u/vapm/update-index.json
+28.03.2020 08:21:19.573673 [0x000007a2] [0x00007f3c325bd700] [error] [ServerProxy] : DownloadPackage()[188] DownloadPackage()[188] HTTP download error 404
+28.03.2020 08:21:19.573758 [0x000007a2] [0x00007f3c325bd700] [error] [ServerProxy] : DownloadNewUpdateIndex()[348] DownloadNewUpdateIndex()[348] error while downloading update index
+28.03.2020 08:21:19.573773 [0x000007a2] [0x00007f3c325bd700] [debug] [ServerProxy] : DownloadNewUpdateIndex()[352] DownloadNewUpdateIndex()[352] req: 'http://127.0.0.1:9772/api/atp-agent/v1/update_config' status: 404
+28.03.2020 08:21:19.573789 [0x000007a2] [0x00007f3c325bd700] [error] [UpdaterBrain] : ProcessNewUpdateIndex()[760] ProcessNewUpdateIndex()[760] update index error
+28.03.2020 08:21:19.695456 [0x000007a2] [0x00007f3c323bc700] [info] [ServerProxy] : DownloadPackage()[183] DownloadPackage()[183] successfully downloaded to /opt/acronis/var/atp-downloader/1794806987735130767, took 0.12184s
+28.03.2020 08:21:19.695681 [0x000007a2] [0x00007f3c323bc700] [debug] [ServerProxy] : DownloadNewUpdateIndex()[329] DownloadNewUpdateIndex()[329] success!
+28.03.2020 08:21:19.695700 [0x000007a2] [0x00007f3c323bc700] [debug] [ServerProxy] : DownloadNewUpdateIndex()[352] DownloadNewUpdateIndex()[352] req: 'https://dl.acronis.com/u/vapm/update-index.json' status: 200
+28.03.2020 08:21:19.695714 [0x000007a2] [0x00007f3c323bc700] [debug] [UpdaterBrain] : ProcessNewUpdateIndex()[740] ProcessNewUpdateIndex()[740] update index has been dowloaded
+28.03.2020 08:21:19.695726 [0x000007a2] [0x00007f3c323bc700] [debug] [UpdaterBrain] : ProcessNewUpdateIndex()[769] ProcessNewUpdateIndex()[769] processing new index file /opt/acronis/var/atp-downloader/1794806987735130767
+28.03.2020 08:21:19.695887 [0x000007a2] [0x00007f3c323bc700] [info] [UpdaterBrain] : UpdateIndexParser()[27] index parsed in 0 ms.
+28.03.2020 08:21:19.695906 [0x000007a2] [0x00007f3c323bc700] [debug] [UpdaterBrain] : ProcessNewUpdateIndex()[779] ProcessNewUpdateIndex()[779] new index ver is 0.0.906 (current is ), rebuilding index.
+28.03.2020 08:21:19.696100 [0x000007a2] [0x00007f3c323bc700] [debug] [UpdaterBrain] : RebuildIndex()[860] RebuildIndex()[860] Rebuild repository
+28.03.2020 08:21:19.696230 [0x000007a2] [0x00007f3c323bc700] [info] [UpdaterBrain] : RebuildIndex()[884] storage repopulated in 0 ms.
+28.03.2020 08:21:19.696548 [0x000007a2] [0x00007f3c321bb700] [info] [ServerProxy] : DownloadPackage()[183] DownloadPackage()[183] successfully downloaded to /opt/acronis/var/atp-downloader/11312411456083412295, took 0.124183s
+28.03.2020 08:21:19.696681 [0x000007a2] [0x00007f3c321bb700] [debug] [ServerProxy] : DownloadNewUpdateIndex()[329] DownloadNewUpdateIndex()[329] success!
+28.03.2020 08:21:19.696698 [0x000007a2] [0x00007f3c321bb700] [debug] [ServerProxy] : DownloadNewUpdateIndex()[352] DownloadNewUpdateIndex()[352] req: 'https://dl.acronis.com/u/am/ngmp/update-index.json' status: 200
+28.03.2020 08:21:19.696711 [0x000007a2] [0x00007f3c321bb700] [debug] [UpdaterBrain] : ProcessNewUpdateIndex()[740] ProcessNewUpdateIndex()[740] update index has been dowloaded
+28.03.2020 08:21:19.701832 [0x000007a2] [0x00007f3c323bc700] [debug] [UpdaterBrain] : ProcessNewUpdateIndex()[795] ProcessNewUpdateIndex()[795] Completed
+28.03.2020 08:21:19.701958 [0x000007a2] [0x00007f3c321bb700] [debug] [UpdaterBrain] : ProcessNewUpdateIndex()[769] ProcessNewUpdateIndex()[769] processing new index file /opt/acronis/var/atp-downloader/11312411456083412295
+28.03.2020 08:21:19.702113 [0x000007a2] [0x00007f3c321bb700] [info] [UpdaterBrain] : UpdateIndexParser()[27] index parsed in 0 ms.
+28.03.2020 08:21:19.702130 [0x000007a2] [0x00007f3c321bb700] [debug] [UpdaterBrain] : ProcessNewUpdateIndex()[779] ProcessNewUpdateIndex()[779] new index ver is 1.0.0.369 (current is ), rebuilding index.
+28.03.2020 08:21:19.702281 [0x000007a2] [0x00007f3c321bb700] [debug] [UpdaterBrain] : RebuildIndex()[860] RebuildIndex()[860] Rebuild repository
+28.03.2020 08:21:19.702315 [0x000007a2] [0x00007f3c321bb700] [debug] [UpdaterBrain] : RebuildIndex()[870] RebuildIndex()[870] Product:atpwinx861-0-0-0 already exist in repository. Skipt it.
+28.03.2020 08:21:19.702335 [0x000007a2] [0x00007f3c321bb700] [debug] [UpdaterBrain] : RebuildIndex()[870] RebuildIndex()[870] Product:atpwinx641-0-0-0 already exist in repository. Skipt it.
+28.03.2020 08:21:19.702446 [0x000007a2] [0x00007f3c321bb700] [info] [UpdaterBrain] : RebuildIndex()[884] storage repopulated in 0 ms.
+28.03.2020 08:21:19.705855 [0x000007a2] [0x00007f3c321bb700] [debug] [UpdaterBrain] : ProcessNewUpdateIndex()[795] ProcessNewUpdateIndex()[795] Completed
+28.03.2020 08:21:49.561449 [0x000007a2] [0x00007f3c315b5700] [debug] [LocalAPI] : operator()()[568] [ >>>>>>>>> REST ]: /healthcheck
+28.03.2020 08:21:49.561513 [0x000007a2] [0x00007f3c315b5700] [debug] [LocalAPI] : operator()()[569] [ REST <<<<<<<<<< ]: respond with HTTP 200
+28.03.2020 08:22:19.561404 [0x000007a2] [0x00007f3c315b5700] [debug] [LocalAPI] : operator()()[568] [ >>>>>>>>> REST ]: /healthcheck
+28.03.2020 08:22:19.561463 [0x000007a2] [0x00007f3c315b5700] [debug] [LocalAPI] : operator()()[569] [ REST <<<<<<<<<< ]: respond with HTTP 200
+28.03.2020 08:22:19.572269 [0x000007a2] [0x00007f3c31fba700] [debug] [UpdaterBrain] : UpdateIndices()[698] UpdateIndices()[698] [++++++++ Update Indexes]: start
+28.03.2020 08:22:19.572342 [0x000007a2] [0x00007f3c31fba700] [debug] [UpdaterBrain] : UpdateIndices()[710] UpdateIndices()[710] [>>> Update Indexes]: http://127.0.0.1:9772/api/atp-agent/v1/update_config is Failure
+28.03.2020 08:22:19.572392 [0x000007a2] [0x00007f3c31fba700] [debug] [UpdaterBrain] : UpdateIndices()[710] UpdateIndices()[710] [>>> Update Indexes]: https://dl.acronis.com/u/vapm/update-index.json is Downloaded
+28.03.2020 08:22:19.572417 [0x000007a2] [0x00007f3c31fba700] [debug] [UpdaterBrain] : UpdateIndices()[710] UpdateIndices()[710] [>>> Update Indexes]: https://dl.acronis.com/u/am/ngmp/update-index.json is Downloaded
+28.03.2020 08:22:19.572438 [0x000007a2] [0x00007f3c31fba700] [debug] [UpdaterBrain] : UpdateIndices()[731] UpdateIndices()[731] [-------- Update Indexes]: finish
+28.03.2020 08:22:19.572516 [0x000007a2] [0x00007f3c323bc700] [debug] [ServerProxy] : DownloadNewUpdateIndex()[312] DownloadNewUpdateIndex()[312] REQUEST: https://dl.acronis.com/u/vapm/update-index.json?agent_version=0.0.906
+28.03.2020 08:22:19.572539 [0x000007a2] [0x00007f3c323bc700] [debug] [ServerProxy] : DownloadPackage()[98] Url:https://dl.acronis.com/u/vapm/update-index.json?agent_version=0.0.906 path:/opt/acronis/var/atp-downloader/1794806987735130767
+28.03.2020 08:22:19.572608 [0x000007a2] [0x00007f3c323bc700] [debug] [ServerProxy] : DownloadPackage()[121] DownloadPackage()[121] url to escape: https://dl.acronis.com/u/vapm/update-index.json?agent_version=0.0.906
+28.03.2020 08:22:19.572628 [0x000007a2] [0x00007f3c323bc700] [debug] [ServerProxy] : DownloadPackage()[140] DownloadPackage()[140] escaped url: https://dl.acronis.com/u/vapm/update-index.json?agent_version=0.0.906
+28.03.2020 08:22:19.572735 [0x000007a2] [0x00007f3c321bb700] [debug] [ServerProxy] : DownloadNewUpdateIndex()[312] DownloadNewUpdateIndex()[312] REQUEST: https://dl.acronis.com/u/am/ngmp/update-index.json?agent_version=1.0.0.369
+28.03.2020 08:22:19.572767 [0x000007a2] [0x00007f3c321bb700] [debug] [ServerProxy] : DownloadPackage()[98] Url:https://dl.acronis.com/u/am/ngmp/update-index.json?agent_version=1.0.0.369 path:/opt/acronis/var/atp-downloader/11312411456083412295
+28.03.2020 08:22:19.572820 [0x000007a2] [0x00007f3c321bb700] [debug] [ServerProxy] : DownloadPackage()[121] DownloadPackage()[121] url to escape: https://dl.acronis.com/u/am/ngmp/update-index.json?agent_version=1.0.0.369
+28.03.2020 08:22:19.572837 [0x000007a2] [0x00007f3c321bb700] [debug] [ServerProxy] : DownloadPackage()[140] DownloadPackage()[140] escaped url: https://dl.acronis.com/u/am/ngmp/update-index.json?agent_version=1.0.0.369
+28.03.2020 08:22:19.572923 [0x000007a2] [0x00007f3c325bd700] [debug] [ServerProxy] : DownloadNewUpdateIndex()[312] DownloadNewUpdateIndex()[312] REQUEST: http://127.0.0.1:9772/api/atp-agent/v1/update_config
+28.03.2020 08:22:19.572946 [0x000007a2] [0x00007f3c325bd700] [debug] [ServerProxy] : DownloadPackage()[98] Url:http://127.0.0.1:9772/api/atp-agent/v1/update_config path:/opt/acronis/var/atp-downloader/13051554772182520008
+28.03.2020 08:22:19.572995 [0x000007a2] [0x00007f3c325bd700] [debug] [ServerProxy] : DownloadPackage()[121] DownloadPackage()[121] url to escape: http://127.0.0.1:9772/api/atp-agent/v1/update_config
+28.03.2020 08:22:19.573012 [0x000007a2] [0x00007f3c325bd700] [debug] [ServerProxy] : DownloadPackage()[140] DownloadPackage()[140] escaped url: http://127.0.0.1:9772/api/atp-agent/v1/update_config
+28.03.2020 08:22:19.574488 [0x000007a2] [0x00007f3c325bd700] [error] [ServerProxy] : DownloadPackage()[188] DownloadPackage()[188] HTTP download error 404
+28.03.2020 08:22:19.574599 [0x000007a2] [0x00007f3c325bd700] [error] [ServerProxy] : DownloadNewUpdateIndex()[348] DownloadNewUpdateIndex()[348] error while downloading update index
+28.03.2020 08:22:19.574615 [0x000007a2] [0x00007f3c325bd700] [debug] [ServerProxy] : DownloadNewUpdateIndex()[352] DownloadNewUpdateIndex()[352] req: 'http://127.0.0.1:9772/api/atp-agent/v1/update_config' status: 404
+28.03.2020 08:22:19.574628 [0x000007a2] [0x00007f3c325bd700] [error] [UpdaterBrain] : ProcessNewUpdateIndex()[760] ProcessNewUpdateIndex()[760] update index error
+28.03.2020 08:22:19.694781 [0x000007a2] [0x00007f3c321bb700] [info] [ServerProxy] : DownloadPackage()[183] DownloadPackage()[183] successfully downloaded to /opt/acronis/var/atp-downloader/11312411456083412295, took 0.121882s
+28.03.2020 08:22:19.694947 [0x000007a2] [0x00007f3c321bb700] [debug] [ServerProxy] : DownloadNewUpdateIndex()[329] DownloadNewUpdateIndex()[329] success!
+28.03.2020 08:22:19.694965 [0x000007a2] [0x00007f3c321bb700] [debug] [ServerProxy] : DownloadNewUpdateIndex()[352] DownloadNewUpdateIndex()[352] req: 'https://dl.acronis.com/u/am/ngmp/update-index.json?agent_version=1.0.0.369' status: 200
+28.03.2020 08:22:19.694981 [0x000007a2] [0x00007f3c321bb700] [debug] [UpdaterBrain] : ProcessNewUpdateIndex()[740] ProcessNewUpdateIndex()[740] update index has been dowloaded
+28.03.2020 08:22:19.694993 [0x000007a2] [0x00007f3c321bb700] [debug] [UpdaterBrain] : ProcessNewUpdateIndex()[769] ProcessNewUpdateIndex()[769] processing new index file /opt/acronis/var/atp-downloader/11312411456083412295
+28.03.2020 08:22:19.695187 [0x000007a2] [0x00007f3c321bb700] [info] [UpdaterBrain] : UpdateIndexParser()[27] index parsed in 0 ms.
+28.03.2020 08:22:19.695206 [0x000007a2] [0x00007f3c321bb700] [debug] [UpdaterBrain] : ProcessNewUpdateIndex()[785] ProcessNewUpdateIndex()[785] new index ver is 1.0.0.369 (current is 1.0.0.369), no need to rebuild index.
+28.03.2020 08:22:19.695231 [0x000007a2] [0x00007f3c321bb700] [debug] [UpdaterBrain] : ProcessNewUpdateIndex()[795] ProcessNewUpdateIndex()[795] Completed
+28.03.2020 08:22:19.756376 [0x000007a2] [0x00007f3c323bc700] [info] [ServerProxy] : DownloadPackage()[183] DownloadPackage()[183] successfully downloaded to /opt/acronis/var/atp-downloader/1794806987735130767, took 0.18367s
+28.03.2020 08:22:19.756604 [0x000007a2] [0x00007f3c323bc700] [debug] [ServerProxy] : DownloadNewUpdateIndex()[329] DownloadNewUpdateIndex()[329] success!
+28.03.2020 08:22:19.756631 [0x000007a2] [0x00007f3c323bc700] [debug] [ServerProxy] : DownloadNewUpdateIndex()[352] DownloadNewUpdateIndex()[352] req: 'https://dl.acronis.com/u/vapm/update-index.json?agent_version=0.0.906' status: 200
+28.03.2020 08:22:19.756646 [0x000007a2] [0x00007f3c323bc700] [debug] [UpdaterBrain] : ProcessNewUpdateIndex()[740] ProcessNewUpdateIndex()[740] update index has been dowloaded
+28.03.2020 08:22:19.756659 [0x000007a2] [0x00007f3c323bc700] [debug] [UpdaterBrain] : ProcessNewUpdateIndex()[769] ProcessNewUpdateIndex()[769] processing new index file /opt/acronis/var/atp-downloader/1794806987735130767
+28.03.2020 08:22:19.756796 [0x000007a2] [0x00007f3c323bc700] [info] [UpdaterBrain] : UpdateIndexParser()[27] index parsed in 0 ms.
+28.03.2020 08:22:19.756813 [0x000007a2] [0x00007f3c323bc700] [debug] [UpdaterBrain] : ProcessNewUpdateIndex()[785] ProcessNewUpdateIndex()[785] new index ver is 0.0.906 (current is 0.0.906), no need to rebuild index.
+28.03.2020 08:22:19.756835 [0x000007a2] [0x00007f3c323bc700] [debug] [UpdaterBrain] : ProcessNewUpdateIndex()[795] ProcessNewUpdateIndex()[795] Completed
+28.03.2020 08:22:24.565649 [0x000007a2] [0x00007f3c339d9700] [info] [UpdaterService] : stop()[49] Received STOP signal from user.
+28.03.2020 08:22:24.567697 [0x000007a2] [0x00007f3c31bb8700] [info] [LocalAPI] : RunningThread()[99] Finished
+28.03.2020 08:22:24.567911 [0x000007a2] [0x00007f3c31db9700] [info] [InternalAPI] : RunningThread()[178] RunningThread()[178] Finished
+28.03.2020 08:22:24.590831 [0x000007a2] [0x00007f3c339d9700] [info] [UpdaterService] : stop()[49] Received STOP signal from user.
+28.03.2020 08:22:25.579637 [0x000007a2] [0x00007f3c3b101b00] [debug] [UpdaterService] : operator()()[33] STOP signal was received!
+28.03.2020 08:22:25.579774 [0x000007a2] [0x00007f3c3b101b00] [debug] [InternalAPI] : Shutdown()[219] Shutdown()[219] Stopping internal api.
+28.03.2020 08:22:25.579957 [0x000007a2] [0x00007f3c3b101b00] [info] [BTEngine] : Shutdown()[77] Shutdown()[77] exit requested...
+28.03.2020 08:22:26.580002 [0x000007a2] [0x00007f3c329bf700] [info] [BTEngine] : SaveSession()[330] SaveSession()[330] Start
+28.03.2020 08:22:26.580161 [0x000007a2] [0x00007f3c329bf700] [info] [BTEngine] : SaveSession()[358] SaveSession()[358] waiting for resume data 0
+28.03.2020 08:22:26.580225 [0x000007a2] [0x00007f3c329bf700] [info] [BTEngine] : RunningThread()[248] RunningThread()[248] Done

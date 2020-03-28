@@ -1,0 +1,25 @@
+log:
+  format: "json"
+  verbose: false
+  file: task-manager.log
+  max-size-mb: 100
+  days-to-keep: 90
+  compress: true
+
+database:
+  connection-string: sqlite://task-manager.sqlite
+  days-to-keep: 90
+  run-cleanup-at: "23:59"
+  cleanup-batch-size: 10
+  max-cleanup-retries: 10
+  max-transaction-retries: 10
+
+authz:
+  default-tenant: "1"
+
+http:
+  listen-address: 127.0.0.1:0
+  idle-timeout: 10m
+
+agent-log:
+  persistent: true

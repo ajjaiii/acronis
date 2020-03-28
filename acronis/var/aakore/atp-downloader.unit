@@ -1,0 +1,22 @@
+name: atp-downloader
+external: false
+cmd: updater
+args: ["-e"]
+routes:
+  - /atp_downloader/api_version
+  - /atp_downloader/version
+  - /atp_downloader/api/1/update
+  - /atp_downloader/api/1/third_party
+  - /atp_downloader/api/1/status
+  - /atp_downloader/api/1/settings_pack
+  - /atp_downloader/api/1/drop_cache
+location: http://127.0.0.1:18019
+restart-policy: # optional
+  max-attempts: 10 # how many times we would try to restart a unit that is failing on start
+  delay: 1s # delay between restart attempts
+  kill-timeout: 10s # how long would Core Agent wait for Agent Unit graceful shutdown (stop) before killing it
+healthcheck: # optional
+  timeout: 20s # health-check request timeout (including connection time)
+  interval: 30s # how often Core Agent would send health-check requests to Agent Unit
+  max-failures: 5 # how many times health-check should fail before Core Agent would confirm the death
+  endpoint: /healthcheck  # endpoint for healtcheck REST call from Core Agent to Agent Unit

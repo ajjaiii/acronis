@@ -1,0 +1,22 @@
+registration:
+  iscloud: true
+  server: https://sg-cloud.acronis.com:443
+  clusterid: ""
+  tenantid: "2015160"
+  zeromqgateway:
+    addresses:
+    - sg-cloud.acronis.com:7791
+    publickey: 42&zK6YLZ$@^d^<zL98<IMCB9H#.=BaTmn^:[7A(
+  zeromqclient:
+    publickey: waIrK[HJv[iGpHQe)be#sNiUjf+I=[i7>8CSgo!>
+  deploymenttag: ""
+  apn: apns://agents-sg-cloud.acronis.com/.apn
+oauth:
+  idp:
+    addr: https://sg-cloud.acronis.com/bc
+    name: https://sg-cloud.acronis.com/bc
+  client:
+    id: b0c44c46-f077-40fe-b149-6e18df899fbe
+    secret: d2brv67hy4psyhafdrou7w34ni4m5i7aakkyasy3qay4ri6xbtyq
+id: b0c44c46-f077-40fe-b149-6e18df899fbe
+resource: 92d8d91c-6309-42ff-b889-0183103350bc

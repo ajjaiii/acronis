@@ -1,0 +1,23 @@
+name: vault-manager
+external: true
+cmd: ""
+args: []
+routes:
+- /api/vault_manager
+location: https://sg-cloud.acronis.com:443
+on-demand-start: false
+configuration-endpoint: ""
+checksum:
+  alg: ""
+  sum: ""
+healthcheck:
+  timeout: 0s
+  interval: 0s
+  max-failures: 0
+  endpoint: ""
+restart-policy:
+  max-attempts: 0
+  attempt-delay: 0s
+  kill-timeout: 0s
+  startup-timeout: 0s
+throttling: []

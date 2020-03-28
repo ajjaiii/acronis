@@ -1,0 +1,19 @@
+log:
+  verbose: false
+  format: json
+  file: aakore.log
+  max-size-mb: 0
+  days-to-keep: 30
+  max-backups: 0
+  compress: true
+listen:
+  http: 127.0.0.1:9999
+  no-local: false
+tls:
+  certificate-file: ""
+  key-file: ""
+  insecure-skip-verify: true
+proxy:
+  timeout: 0
+  max-idle-conn-per-host: 0
+  idle-conn-timeout: 0

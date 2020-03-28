@@ -1,0 +1,9 @@
+name: task-manager
+cmd: task-manager
+args: ["--config", "task-manager.yaml"]
+routes:
+  - /api/task_manager
+restart-policy:
+  max-attempts: 10
+  attempt-delay: 1s
+  kill-timeout: 5s

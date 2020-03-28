@@ -1,0 +1,350 @@
+Host name:          wp
+OS version:         Linux 3.10.0-1062.18.1.el7.x86_64 (#1 SMP Tue Mar 17 23:49:17 UTC 2020)
+Architecture:       x86_64
+User name:          root
+Version:            0.0.1.1051
+Executable path:    "/opt/acronis/bin/adp-agent"
+Current dir:        "/opt/acronis/var/atp-agent"
+Command line:       "/opt/acronis/bin/adp-agent -e "
+
+27.03.2020 11:02:10.870726 [0x00001866] [0x00007feaba3e18c0] [debug] [agent] : operator()() started.
+27.03.2020 11:02:10.889018 [0x00001866] [0x00007feaba3e18c0] [info] [agent] : operator()()[52] RegModules()
+27.03.2020 11:02:10.889058 [0x00001866] [0x00007feaba3e18c0] [debug] [EventMachine] : CreateEventMachine() started.
+27.03.2020 11:02:10.919968 [0x00001866] [0x00007feaba3e18c0] [debug] [EventMachine] : CreateEventMachine() finished. Elapsed 30894 microseconds.
+27.03.2020 11:02:10.920042 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : CreateAakoreProxy() started.
+27.03.2020 11:02:10.920063 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : CreateAakoreProxy() finished. Elapsed 22 microseconds.
+27.03.2020 11:02:10.928867 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : CreateHTTPController() started.
+27.03.2020 11:02:10.928924 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : CreateHTTPController() finished. Elapsed 69 microseconds.
+27.03.2020 11:02:10.928951 [0x00001866] [0x00007feaba3e18c0] [debug] [SettingsManager] : CreateSettingsManager() started.
+27.03.2020 11:02:10.928972 [0x00001866] [0x00007feaba3e18c0] [debug] [SettingsManager] : CreateSettingsManager() finished. Elapsed 21 microseconds.
+27.03.2020 11:02:10.928993 [0x00001866] [0x00007feaba3e18c0] [debug] [EventStorage] : CreateEventStorage() started.
+27.03.2020 11:02:10.929013 [0x00001866] [0x00007feaba3e18c0] [debug] [EventStorage] : CreateEventStorage() finished. Elapsed 15 microseconds.
+27.03.2020 11:02:10.929049 [0x00001866] [0x00007feaba3e18c0] [debug] [SchedlueServiceProxy] : CreateScheduleProxy() started.
+27.03.2020 11:02:10.929067 [0x00001866] [0x00007feaba3e18c0] [debug] [SchedlueServiceProxy] : CreateScheduleProxy() finished. Elapsed 18 microseconds.
+27.03.2020 11:02:10.929094 [0x00001866] [0x00007feaba3e18c0] [debug] [Connectivity] : CreateConnectivity() started.
+27.03.2020 11:02:10.929111 [0x00001866] [0x00007feaba3e18c0] [debug] [Connectivity] : CreateConnectivity() finished. Elapsed 17 microseconds.
+27.03.2020 11:02:10.929136 [0x00001866] [0x00007feaba3e18c0] [debug] [AlertManager] : CreateAlertManager() started.
+27.03.2020 11:02:10.929153 [0x00001866] [0x00007feaba3e18c0] [debug] [AlertManager] : CreateAlertManager() finished. Elapsed 17 microseconds.
+27.03.2020 11:02:10.929173 [0x00001866] [0x00007feaba3e18c0] [debug] [Policy Manager] : CreatePolicyManager() started.
+27.03.2020 11:02:10.929191 [0x00001866] [0x00007feaba3e18c0] [debug] [Policy Manager] : CreatePolicyManager() finished. Elapsed 18 microseconds.
+27.03.2020 11:02:10.929210 [0x00001866] [0x00007feaba3e18c0] [debug] [TaskManager] : CreateTaskManager() started.
+27.03.2020 11:02:10.929235 [0x00001866] [0x00007feaba3e18c0] [debug] [TaskManager] : CreateTaskManager() finished. Elapsed 25 microseconds.
+27.03.2020 11:02:10.929254 [0x00001866] [0x00007feaba3e18c0] [debug] [MMSProxy] : CreateMMSProxy() started.
+27.03.2020 11:02:10.929271 [0x00001866] [0x00007feaba3e18c0] [debug] [MMSProxy] : CreateMMSProxy() finished. Elapsed 13 microseconds.
+27.03.2020 11:02:10.929307 [0x00001866] [0x00007feaba3e18c0] [debug] [VaultManager] : CreateVaultManager() started.
+27.03.2020 11:02:10.929338 [0x00001866] [0x00007feaba3e18c0] [debug] [VaultManager] : CreateVaultManager() finished. Elapsed 31 microseconds.
+27.03.2020 11:02:10.929359 [0x00001866] [0x00007feaba3e18c0] [debug] [Orchestrator] : CreateOrchestrator() started.
+27.03.2020 11:02:10.929376 [0x00001866] [0x00007feaba3e18c0] [debug] [Orchestrator] : CreateOrchestrator() finished. Elapsed 16 microseconds.
+27.03.2020 11:02:10.956717 [0x00001866] [0x00007feaba3e18c0] [debug] [AVManager] : CreateAVManager() started.
+27.03.2020 11:02:10.956783 [0x00001866] [0x00007feaba3e18c0] [debug] [AVManager] : CreateAVManager() finished. Elapsed 73 microseconds.
+27.03.2020 11:02:10.956813 [0x00001866] [0x00007feaba3e18c0] [debug] [QuarantineManager] : CreateQuarantineManager() started.
+27.03.2020 11:02:10.956834 [0x00001866] [0x00007feaba3e18c0] [debug] [QuarantineManager] : CreateQuarantineManager() finished. Elapsed 21 microseconds.
+27.03.2020 11:02:10.956859 [0x00001866] [0x00007feaba3e18c0] [debug] [ResourceStatistics] : CreateResourceStatistics() started.
+27.03.2020 11:02:10.956876 [0x00001866] [0x00007feaba3e18c0] [debug] [ResourceStatistics] : CreateResourceStatistics() finished. Elapsed 17 microseconds.
+27.03.2020 11:02:10.956901 [0x00001866] [0x00007feaba3e18c0] [debug] [LinuxVA] : CreateLinuxVA() started.
+27.03.2020 11:02:10.981824 [0x00001866] [0x00007feaba3e18c0] [debug] [LinuxVA] : LinuxVA() started.
+27.03.2020 11:02:10.981877 [0x00001866] [0x00007feaba3e18c0] [debug] [LinuxVA] : LinuxVA() finished. Elapsed 65 microseconds.
+27.03.2020 11:02:10.981894 [0x00001866] [0x00007feaba3e18c0] [debug] [LinuxVA] : CreateLinuxVA() finished. Elapsed 24993 microseconds.
+27.03.2020 11:02:10.981912 [0x00001866] [0x00007feaba3e18c0] [info] [agent] : operator()()[57] InitializeAllModules()
+27.03.2020 11:02:10.981953 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : Initialize() started.
+27.03.2020 11:02:11.016887 [0x00001866] [0x00007feaba3e18c0] [trace] [AakoreProxy] : GetAuthorizationToken()[171] Token updated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdHAtYWdlbnQiLCJleHAiOjE1ODUzOTMzMzEsImp0aSI6IjY4NTU3ZjQ1LTcwMWEtMTFlYS1iZmQzLTQyMDEzODJmMjIyNiIsImlhdCI6MTU4NTMwNjkzMSwiaXNzIjoiYWFrb3JlIiwic3ViIjoiYXRwLWFnZW50Iiwic2NvcGUiOlt7InRpZCI6ImIwYzQ0YzQ2LWYwNzctNDBmZS1iMTQ5LTZlMThkZjg5OWZiZSIsInJzIjoidGVuYW50LWlkIiwicm9sZSI6ImxvY2FsX3VuaXQifV0sInZlciI6MTB9.WUDtNJCmgJQ4LIJmVsxeEdeBc4N78OPyczU8-DsJxfwcUBxbuw4zTTe6hH_I9jkIYJexaakYuhcA3YR69xo6Tpr2ELyNBh_6uo1mdM0n0jrFHMzxWCKoVaOD2kxLhKS4cAoEENNTCiIZR5LjkrIxi7PIc-osvcs-ne3FZs5UUmIIyuhNVXl8cK-Qy4dNYVpkW4K75Klc6Df-YmIDaqhwYGpFKuYEKuEsIHso9-Dh_ryG-abIydlPlikCoGUXHg8t5H9-HIVEvi8sMHdPYY09v9YHhrAg8UPzWGKCIGwu_6kky7kv4_BR9-wDb_CnpZopIDGy5PdJ0jNqP1aOXsRiQQ
+27.03.2020 11:02:11.016935 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/id
+27.03.2020 11:02:11.069243 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/id : 200
+27.03.2020 11:02:11.069294 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : IdentifyAgent()[494] HTTP/1.1 200 OK
+Content-Length: 97
+Content-Type: application/json
+Date: Fri, 27 Mar 2020 11:02:11 GMT
+
+{"id":"b0c44c46-f077-40fe-b149-6e18df899fbe","resourceId":"92d8d91c-6309-42ff-b889-0183103350bc"}
+27.03.2020 11:02:11.069360 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : IdentifyAgent()[513] AgentId: b0c44c46-f077-40fe-b149-6e18df899fbe
+27.03.2020 11:02:11.069409 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] PUT /api/agent/v1/units/atp-agent
+{"location":"http://127.0.0.1:9772"}
+27.03.2020 11:02:11.070248 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] PUT /api/agent/v1/units/atp-agent : 200
+27.03.2020 11:02:11.070277 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : NotifyAakore()[596] HTTP/1.1 200 OK
+Date: Fri, 27 Mar 2020 11:02:11 GMT
+Content-Length: 0
+
+
+27.03.2020 11:02:11.070294 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : Initialize() finished. Elapsed 88341 microseconds.
+27.03.2020 11:02:11.070311 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : Initialize() started.
+27.03.2020 11:02:11.070576 [0x00001866] [0x00007feaba3e18c0] [info] [HTTPController] : Initialize()[76] Listening TCP at 127.0.0.1:9772
+27.03.2020 11:02:11.070601 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : Initialize() finished. Elapsed 289 microseconds.
+27.03.2020 11:02:11.070613 [0x00001866] [0x00007feaba3e18c0] [debug] [SettingsManager] : Initialize() started.
+27.03.2020 11:02:11.070628 [0x00001866] [0x00007feaba3e18c0] [debug] [SettingsManager] : RegisterRest() started.
+27.03.2020 11:02:11.070648 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler() started.
+27.03.2020 11:02:11.070656 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler()[103] operation: 2, command: /configuration
+27.03.2020 11:02:11.070984 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler() finished. Elapsed 332 microseconds.
+27.03.2020 11:02:11.071004 [0x00001866] [0x00007feaba3e18c0] [debug] [SettingsManager] : RegisterRest() finished. Elapsed 376 microseconds.
+27.03.2020 11:02:11.071047 [0x00001866] [0x00007feaba3e18c0] [debug] [SettingsManager] : Initialize() finished. Elapsed 433 microseconds.
+27.03.2020 11:02:11.071063 [0x00001866] [0x00007feaba3e18c0] [debug] [EventStorage] : Initialize() started.
+27.03.2020 11:02:11.098282 [0x00001866] [0x00007feab6a2d700] [debug] [HTTPController] : HandleRequest()[163] GET /api/atp-agent/v1/healthcheck
+27.03.2020 11:02:11.098397 [0x00001866] [0x00007feab6a2d700] [debug] [HTTPController] : operator()()[202] GET /api/atp-agent/v1/healthcheck : 200 OK
+27.03.2020 11:02:11.157890 [0x00001866] [0x00007feab6a2d700] [debug] [HTTPController] : HandleRequest()[163] GET /api/atp-agent/v1/update_config
+27.03.2020 11:02:11.157943 [0x00001866] [0x00007feab6a2d700] [debug] [HTTPController] : operator()()[202] GET /api/atp-agent/v1/update_config : 503 Service Unavailable
+Service Unavailable
+27.03.2020 11:02:11.158575 [0x00001866] [0x00007feaba3e18c0] [debug] [EventStorage] : Initialize()[99] 
+TABLE Events
+[
+    sourceType  INTEGER
+    srcId  TEXT
+    eventType  INTEGER
+    eventTime  DATETIME
+    eventId  TEXTTimestamp DATETIME
+    payload  BLOB
+]
+27.03.2020 11:02:11.158708 [0x00001866] [0x00007feaba3e18c0] [debug] [EventStorage] : Initialize() finished. Elapsed 87643 microseconds.
+27.03.2020 11:02:11.158732 [0x00001866] [0x00007feaba3e18c0] [debug] [SchedlueServiceProxy] : Initialize() started.
+27.03.2020 11:02:11.181956 [0x00001866] [0x00007feaba3e18c0] [debug] [ScheduleProxy] : ScheduleProxyStorage()[26] 
+TABLE ScheduledTasks
+[
+    CmdHash  INTEGER
+    ScheduleId  TEXT
+]
+27.03.2020 11:02:11.182043 [0x00001866] [0x00007feaba3e18c0] [debug] [SchedlueServiceProxy] : Initialize() finished. Elapsed 23308 microseconds.
+27.03.2020 11:02:11.182073 [0x00001866] [0x00007feaba3e18c0] [debug] [Policy Manager] : Initialize() started.
+27.03.2020 11:02:11.184118 [0x00001866] [0x00007feaba3e18c0] [debug] [PolciyStorage] : PolicyStorage()[22] 
+TABLE Policies
+[
+    SectionType  INTEGER
+    SectionHash  TEXT
+    Id  TEXT
+    Policy  BLOB
+]
+27.03.2020 11:02:11.184201 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler() started.
+27.03.2020 11:02:11.184218 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler()[103] operation: 2, command: /deployment
+27.03.2020 11:02:11.184548 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler() finished. Elapsed 345 microseconds.
+27.03.2020 11:02:11.184578 [0x00001866] [0x00007feaba3e18c0] [debug] [Policy Manager] : Initialize() finished. Elapsed 2504 microseconds.
+27.03.2020 11:02:11.184595 [0x00001866] [0x00007feaba3e18c0] [debug] [TaskManager] : Initialize() started.
+27.03.2020 11:02:11.184701 [0x00001866] [0x00007feaba3e18c0] [debug] [EventMachine] : Subscribe()[67] TaskManager subscribes to SrcType 2, EventType 3, subscribeId: 1, hashCell: 131075
+27.03.2020 11:02:11.184716 [0x00001866] [0x00007feaba3e18c0] [debug] [TaskManager] : Initialize() finished. Elapsed 121 microseconds.
+27.03.2020 11:02:11.184730 [0x00001866] [0x00007feaba3e18c0] [debug] [MMSProxy] : Initialize() started.
+27.03.2020 11:02:11.184771 [0x00001866] [0x00007feaba3e18c0] [trace] [TaskManager] : RegisterTaskHandler() started.
+27.03.2020 11:02:11.184781 [0x00001866] [0x00007feaba3e18c0] [debug] [TaskManager] : RegisterTaskHandler()[417] queue: ATP_SmartPlanRunBackup, qos:10, schema: tasks\run_backup_arguments.fbs
+27.03.2020 11:02:11.184809 [0x00001866] [0x00007feaba3e18c0] [trace] [TaskManager] : RegisterTaskHandler() finished. Elapsed 38 microseconds.
+27.03.2020 11:02:11.184827 [0x00001866] [0x00007feaba3e18c0] [debug] [MMSProxy] : Initialize() finished. Elapsed 97 microseconds.
+27.03.2020 11:02:11.184842 [0x00001866] [0x00007feaba3e18c0] [debug] [Orchestrator] : Initialize() started.
+27.03.2020 11:02:11.184853 [0x00001866] [0x00007feaba3e18c0] [trace] [TaskManager] : RegisterTaskHandler() started.
+27.03.2020 11:02:11.184861 [0x00001866] [0x00007feaba3e18c0] [debug] [TaskManager] : RegisterTaskHandler()[417] queue: ATP_SmartPlan, qos:1, schema: tasks\orchestrator_arguments.fbs
+27.03.2020 11:02:11.184876 [0x00001866] [0x00007feaba3e18c0] [trace] [TaskManager] : RegisterTaskHandler() finished. Elapsed 22 microseconds.
+27.03.2020 11:02:11.184889 [0x00001866] [0x00007feaba3e18c0] [debug] [Orchestrator] : Initialize() finished. Elapsed 46 microseconds.
+27.03.2020 11:02:11.184899 [0x00001866] [0x00007feaba3e18c0] [trace] [CpsRestProxy] : Initialize() started.
+27.03.2020 11:02:11.184916 [0x00001866] [0x00007feaba3e18c0] [debug] [EventMachine] : Subscribe()[67] CpsRestProxy subscribes to SrcType 0, EventType 2, subscribeId: 2, hashCell: 2
+27.03.2020 11:02:11.184928 [0x00001866] [0x00007feaba3e18c0] [debug] [EventMachine] : Subscribe()[67] CpsRestProxy subscribes to SrcType 3, EventType 6, subscribeId: 3, hashCell: 196614
+27.03.2020 11:02:11.184939 [0x00001866] [0x00007feaba3e18c0] [debug] [EventMachine] : Subscribe()[67] CpsRestProxy subscribes to SrcType 3, EventType 53, subscribeId: 4, hashCell: 196661
+27.03.2020 11:02:11.184951 [0x00001866] [0x00007feaba3e18c0] [debug] [EventMachine] : Subscribe()[67] CpsRestProxy subscribes to SrcType 3, EventType 56, subscribeId: 5, hashCell: 196664
+27.03.2020 11:02:11.184962 [0x00001866] [0x00007feaba3e18c0] [debug] [EventMachine] : Subscribe()[67] CpsRestProxy subscribes to SrcType 15, EventType 58, subscribeId: 6, hashCell: 983098
+27.03.2020 11:02:11.184974 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler() started.
+27.03.2020 11:02:11.184982 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler()[103] operation: 0, command: /cps/{event}
+27.03.2020 11:02:11.185430 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler() finished. Elapsed 452 microseconds.
+27.03.2020 11:02:11.185456 [0x00001866] [0x00007feaba3e18c0] [trace] [CpsRestProxy] : Initialize() finished. Elapsed 555 microseconds.
+27.03.2020 11:02:11.185472 [0x00001866] [0x00007feaba3e18c0] [debug] [AVManager] : Initialize() started.
+27.03.2020 11:02:11.185501 [0x00001866] [0x00007feaba3e18c0] [debug] [EventMachine] : Subscribe()[67] AVManager subscribes to SrcType 4, EventType 0, subscribeId: 7, hashCell: 262144
+27.03.2020 11:02:11.185516 [0x00001866] [0x00007feaba3e18c0] [debug] [EventMachine] : Subscribe()[67] AVManager subscribes to SrcType 1, EventType 2, subscribeId: 8, hashCell: 65538
+27.03.2020 11:02:11.185533 [0x00001866] [0x00007feaba3e18c0] [trace] [TaskManager] : RegisterTaskHandler() started.
+27.03.2020 11:02:11.185543 [0x00001866] [0x00007feaba3e18c0] [debug] [TaskManager] : RegisterTaskHandler()[417] queue: ATP_NGMalwareProtection_NextGenerationMalwareProtectionPolicy, qos:1, schema: 
+27.03.2020 11:02:11.185556 [0x00001866] [0x00007feaba3e18c0] [trace] [TaskManager] : RegisterTaskHandler() finished. Elapsed 23 microseconds.
+27.03.2020 11:02:11.185567 [0x00001866] [0x00007feaba3e18c0] [trace] [TaskManager] : RegisterTaskHandler() started.
+27.03.2020 11:02:11.185575 [0x00001866] [0x00007feaba3e18c0] [debug] [TaskManager] : RegisterTaskHandler()[417] queue: ATP_SmartPlanAVScan, qos:1, schema: tasks\av_scan_arguments.fbs
+27.03.2020 11:02:11.185592 [0x00001866] [0x00007feaba3e18c0] [trace] [TaskManager] : RegisterTaskHandler() finished. Elapsed 25 microseconds.
+27.03.2020 11:02:11.185613 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler() started.
+27.03.2020 11:02:11.185622 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler()[103] operation: 0, command: /av/update
+27.03.2020 11:02:11.185932 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler() finished. Elapsed 316 microseconds.
+27.03.2020 11:02:11.185957 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler() started.
+27.03.2020 11:02:11.185967 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler()[103] operation: 0, command: /avc_connected
+27.03.2020 11:02:11.186274 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler() finished. Elapsed 315 microseconds.
+27.03.2020 11:02:11.186290 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler() started.
+27.03.2020 11:02:11.186299 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler()[103] operation: 0, command: /urlf_connected
+27.03.2020 11:02:11.186615 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler() finished. Elapsed 323 microseconds.
+27.03.2020 11:02:11.186636 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler() started.
+27.03.2020 11:02:11.186646 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler()[103] operation: 0, command: /cps/wsc_product_conflict
+27.03.2020 11:02:11.186975 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler() finished. Elapsed 338 microseconds.
+27.03.2020 11:02:11.186990 [0x00001866] [0x00007feaba3e18c0] [debug] [AVManager] : Initialize() finished. Elapsed 1518 microseconds.
+27.03.2020 11:02:11.187003 [0x00001866] [0x00007feaba3e18c0] [debug] [QuarantineManager] : Initialize() started.
+27.03.2020 11:02:11.187139 [0x00001866] [0x00007feaba3e18c0] [debug] [EventMachine] : Subscribe()[67] QuarantineManager subscribes to SrcType 4, EventType 28, subscribeId: 9, hashCell: 262172
+27.03.2020 11:02:11.187155 [0x00001866] [0x00007feaba3e18c0] [debug] [EventMachine] : Subscribe()[67] QuarantineManager subscribes to SrcType 15, EventType 31, subscribeId: 10, hashCell: 983071
+27.03.2020 11:02:11.187168 [0x00001866] [0x00007feaba3e18c0] [debug] [EventMachine] : Subscribe()[67] QuarantineManager subscribes to SrcType 4, EventType 59, subscribeId: 11, hashCell: 262203
+27.03.2020 11:02:11.187181 [0x00001866] [0x00007feaba3e18c0] [debug] [QuarantineManager] : RegisterRestApi() started.
+27.03.2020 11:02:11.187192 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler() started.
+27.03.2020 11:02:11.187201 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler()[103] operation: 0, command: /quarantine
+27.03.2020 11:02:11.187506 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler() finished. Elapsed 312 microseconds.
+27.03.2020 11:02:11.187529 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler() started.
+27.03.2020 11:02:11.187539 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler()[103] operation: 2, command: /quarantine
+27.03.2020 11:02:11.187843 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler() finished. Elapsed 311 microseconds.
+27.03.2020 11:02:11.187861 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler() started.
+27.03.2020 11:02:11.187871 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler()[103] operation: 3, command: /quarantine
+27.03.2020 11:02:11.188155 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler() finished. Elapsed 292 microseconds.
+27.03.2020 11:02:11.188169 [0x00001866] [0x00007feaba3e18c0] [debug] [QuarantineManager] : RegisterRestApi() finished. Elapsed 987 microseconds.
+27.03.2020 11:02:11.188179 [0x00001866] [0x00007feaba3e18c0] [debug] [QuarantineManager] : Initialize() finished. Elapsed 1176 microseconds.
+27.03.2020 11:02:11.188193 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler() started.
+27.03.2020 11:02:11.188201 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler()[103] operation: 0, command: /hash
+27.03.2020 11:02:11.188504 [0x00001866] [0x00007feaba3e18c0] [debug] [HTTPController] : RegisterHandler() finished. Elapsed 308 microseconds.
+27.03.2020 11:02:11.188534 [0x00001866] [0x00007feaba3e18c0] [debug] [ResourceStatistics] : Initialize() started.
+27.03.2020 11:02:11.188605 [0x00001866] [0x00007feaba3e18c0] [trace] [TaskManager] : RegisterTaskHandler() started.
+27.03.2020 11:02:11.188617 [0x00001866] [0x00007feaba3e18c0] [debug] [TaskManager] : RegisterTaskHandler()[417] queue: ATP_DataProtectionMapPolicy, qos:1, schema: 
+27.03.2020 11:02:11.188631 [0x00001866] [0x00007feaba3e18c0] [trace] [TaskManager] : RegisterTaskHandler() finished. Elapsed 27 microseconds.
+27.03.2020 11:02:11.188642 [0x00001866] [0x00007feaba3e18c0] [debug] [ResourceStatistics] : Initialize() finished. Elapsed 108 microseconds.
+27.03.2020 11:02:11.188654 [0x00001866] [0x00007feaba3e18c0] [debug] [LinuxVA] : Initialize() started.
+27.03.2020 11:02:11.188668 [0x00001866] [0x00007feaba3e18c0] [trace] [TaskManager] : RegisterTaskHandler() started.
+27.03.2020 11:02:11.188676 [0x00001866] [0x00007feaba3e18c0] [debug] [TaskManager] : RegisterTaskHandler()[417] queue: ATP_VulnerabilityAssessment, qos:1, schema: 
+27.03.2020 11:02:11.188687 [0x00001866] [0x00007feaba3e18c0] [trace] [TaskManager] : RegisterTaskHandler() finished. Elapsed 19 microseconds.
+27.03.2020 11:02:11.191251 [0x00001866] [0x00007feaba3e18c0] [debug] [LinuxVA] : Initialize() finished. Elapsed 2590 microseconds.
+27.03.2020 11:02:11.191291 [0x00001866] [0x00007feaba3e18c0] [info] [agent] : operator()()[59] StartAllModules()
+27.03.2020 11:02:11.191309 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : Start() started.
+27.03.2020 11:02:11.198720 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:02:11.201809 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:02:11.201856 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:02:16.202001 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:02:16.203152 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:02:16.203204 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:02:21.203378 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:02:21.204371 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:02:21.204421 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:02:26.204548 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:02:26.205537 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:02:26.205589 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:02:31.205758 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:02:31.206919 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:02:31.206970 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:02:36.207150 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:02:36.208157 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:02:36.208209 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:02:41.070990 [0x00001866] [0x00007feab7633700] [debug] [HTTPController] : HandleRequest()[163] GET /api/atp-agent/v1/healthcheck
+27.03.2020 11:02:41.071074 [0x00001866] [0x00007feab7633700] [debug] [HTTPController] : operator()()[202] GET /api/atp-agent/v1/healthcheck : 200 OK
+27.03.2020 11:02:41.208357 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:02:41.209263 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:02:41.209306 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:02:46.209466 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:02:46.210495 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:02:46.210544 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:02:51.210680 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:02:51.211848 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:02:51.211931 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:02:56.212080 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:02:56.213046 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:02:56.213142 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:03:01.213273 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:03:01.214281 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:03:01.214344 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:03:06.214518 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:03:06.215541 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:03:06.215596 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:03:11.070909 [0x00001866] [0x00007feab6c2e700] [debug] [HTTPController] : HandleRequest()[163] GET /api/atp-agent/v1/healthcheck
+27.03.2020 11:03:11.071018 [0x00001866] [0x00007feab6c2e700] [debug] [HTTPController] : operator()()[202] GET /api/atp-agent/v1/healthcheck : 200 OK
+27.03.2020 11:03:11.153301 [0x00001866] [0x00007feab6a2d700] [debug] [HTTPController] : HandleRequest()[163] GET /api/atp-agent/v1/update_config
+27.03.2020 11:03:11.153378 [0x00001866] [0x00007feab6a2d700] [debug] [HTTPController] : operator()()[202] GET /api/atp-agent/v1/update_config : 503 Service Unavailable
+Service Unavailable
+27.03.2020 11:03:11.215746 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:03:11.216708 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:03:11.216757 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:03:16.216938 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:03:16.217887 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:03:16.217933 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:03:21.218079 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:03:21.219100 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:03:21.219144 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:03:26.219284 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:03:26.220225 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:03:26.220263 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:03:31.220415 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:03:31.221306 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:03:31.221382 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:03:36.221523 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:03:36.222548 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:03:36.222593 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:03:41.070895 [0x00001866] [0x00007feab7633700] [debug] [HTTPController] : HandleRequest()[163] GET /api/atp-agent/v1/healthcheck
+27.03.2020 11:03:41.070967 [0x00001866] [0x00007feab7633700] [debug] [HTTPController] : operator()()[202] GET /api/atp-agent/v1/healthcheck : 200 OK
+27.03.2020 11:03:41.222724 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:03:41.223591 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:03:41.223636 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:03:46.223777 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:03:46.224838 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:03:46.224888 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:03:51.225019 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:03:51.226103 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:03:51.226149 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:03:56.226285 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:03:56.227287 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:03:56.227355 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:04:01.227515 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:04:01.229943 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:04:01.229994 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:04:06.230145 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:04:06.231130 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:04:06.231177 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:04:11.070898 [0x00001866] [0x00007feab7432700] [debug] [HTTPController] : HandleRequest()[163] GET /api/atp-agent/v1/healthcheck
+27.03.2020 11:04:11.070979 [0x00001866] [0x00007feab7432700] [debug] [HTTPController] : operator()()[202] GET /api/atp-agent/v1/healthcheck : 200 OK
+27.03.2020 11:04:11.153653 [0x00001866] [0x00007feab6e2f700] [debug] [HTTPController] : HandleRequest()[163] GET /api/atp-agent/v1/update_config
+27.03.2020 11:04:11.153719 [0x00001866] [0x00007feab6e2f700] [debug] [HTTPController] : operator()()[202] GET /api/atp-agent/v1/update_config : 503 Service Unavailable
+Service Unavailable
+27.03.2020 11:04:11.231304 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:04:11.232178 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:04:11.232212 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:04:16.232445 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:04:16.233411 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:04:16.233455 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:04:21.233603 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:04:21.234539 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:04:21.234588 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:04:26.234743 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:04:26.235651 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:04:26.235694 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:04:31.235886 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:04:31.237029 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:04:31.237074 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:04:36.237267 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:04:36.238391 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:04:36.238442 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:04:41.070853 [0x00001866] [0x00007feab6c2e700] [debug] [HTTPController] : HandleRequest()[163] GET /api/atp-agent/v1/healthcheck
+27.03.2020 11:04:41.070925 [0x00001866] [0x00007feab6c2e700] [debug] [HTTPController] : operator()()[202] GET /api/atp-agent/v1/healthcheck : 200 OK
+27.03.2020 11:04:41.238610 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:04:41.239520 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:04:41.239563 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:04:46.239728 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:04:46.240663 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:04:46.240703 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:04:51.240904 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:04:51.241920 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:04:51.241974 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:04:56.242135 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:04:56.243071 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:04:56.243114 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:05:01.243306 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:05:01.244395 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:05:01.244450 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:05:06.244649 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:05:06.245566 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:05:06.245631 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:05:11.070899 [0x00001866] [0x00007feab7432700] [debug] [HTTPController] : HandleRequest()[163] GET /api/atp-agent/v1/healthcheck
+27.03.2020 11:05:11.070972 [0x00001866] [0x00007feab7432700] [debug] [HTTPController] : operator()()[202] GET /api/atp-agent/v1/healthcheck : 200 OK
+27.03.2020 11:05:11.154628 [0x00001866] [0x00007feab7633700] [debug] [HTTPController] : HandleRequest()[163] GET /api/atp-agent/v1/update_config
+27.03.2020 11:05:11.154680 [0x00001866] [0x00007feab7633700] [debug] [HTTPController] : operator()()[202] GET /api/atp-agent/v1/update_config : 503 Service Unavailable
+Service Unavailable
+27.03.2020 11:05:11.245771 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:05:11.246666 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:05:11.246716 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:05:16.246896 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:05:16.247803 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:05:16.247849 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:05:21.247990 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:05:21.248842 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:05:21.248877 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:05:26.249015 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:05:26.249953 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:05:26.250055 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:05:31.250198 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:05:31.251026 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:05:31.251074 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:05:36.251195 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:05:36.252055 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:05:36.252097 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:05:41.070845 [0x00001866] [0x00007feab7030700] [debug] [HTTPController] : HandleRequest()[163] GET /api/atp-agent/v1/healthcheck
+27.03.2020 11:05:41.070923 [0x00001866] [0x00007feab7030700] [debug] [HTTPController] : operator()()[202] GET /api/atp-agent/v1/healthcheck : 200 OK
+27.03.2020 11:05:41.252221 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:05:41.253020 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[437] GET /api/agent/v1/registration : 200
+27.03.2020 11:05:41.253062 [0x00001866] [0x00007feaba3e18c0] [info] [AakoreProxy] : GetBackendAddress()[244] Received backend URL: 
+27.03.2020 11:05:45.806303 [0x00001866] [0x00007feab8a3d700] [info] [agent] : stop()[131] Received STOP signal from user.
+27.03.2020 11:05:45.845907 [0x00001866] [0x00007feab8a3d700] [info] [agent] : stop()[131] Received STOP signal from user.
+27.03.2020 11:05:46.253373 [0x00001866] [0x00007feaba3e18c0] [debug] [AakoreProxy] : SendRequest()[364] GET /api/agent/v1/registration
+27.03.2020 11:05:47.253711 [0x00001866] [0x00007feaba3e18c0] [trace] [AakoreProxy] : SendRequest()[432] Retrying GET /api/agent/v1/registration (attempt 1)
+27.03.2020 11:05:49.254102 [0x00001866] [0x00007feaba3e18c0] [trace] [AakoreProxy] : SendRequest()[432] Retrying GET /api/agent/v1/registration (attempt 2)
+27.03.2020 11:05:53.254807 [0x00001866] [0x00007feaba3e18c0] [trace] [AakoreProxy] : SendRequest()[432] Retrying GET /api/agent/v1/registration (attempt 3)
